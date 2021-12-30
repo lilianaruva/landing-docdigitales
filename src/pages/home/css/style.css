@@ -6,7 +6,7 @@
 
 #backgroundAboutUs {
     background-image: url(../../../img/home/christin-hume-Hcfwew744z4-unsplash-3.svg), url(../../../img/home/christin-hume-Hcfwew744z4-unsplash.svg);
-    background-position: -400px 50%, 1000px 50%;
+    background-position: -200px 50%, 1000px 50%;
     background-repeat: no-repeat, no-repeat;
 }
 
@@ -31,3 +31,110 @@
     border-radius: 100px;
     font: normal normal medium 25px/50px Asap;
 }
+
+.title-platform {
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.title-platform p {
+    font-size: 40px;
+    font-weight: regular;
+    margin-bottom: 20px;
+}
+
+.image img {
+    width: 90%;
+}
+
+.simple-description {
+    width: 682px;
+}
+
+.simple-description .title {
+    font-size: 40px;
+    font-weight: regular;
+    margin-bottom: 33.92px;
+}
+
+.simple-description .description {
+    font-size: 28px;
+    font-weight: regular;
+    margin-bottom: 32.08px;
+}
+
+.simple-description button {
+    width: 379px;
+    height: 66px;
+    border: 2px solid #14BFC9;
+    border-radius: 100px;
+    opacity: 1;
+    background-color: transparent;
+    font-size: 30px;
+    color: #14BFC9;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/*----------------------------------------------------------------*/
+.mainHow-Container {
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem 10rem;
+    color: #000000;
+}
+
+.howTree {
+    display: flex;
+    width: 100%;
+}
+
+.howTree p{
+    font-size: 30px;
+    margin: 12px auto 43px auto;
+}
+
+.howLeft {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.howCenter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.howCenter img{
+     margin: 3rem;
+}
+
+.howRight {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.howItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 420px;
+    height: 52px;
+    background-color: #fff;
+    box-shadow: 0px 3px 30px #DDE6F699;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+

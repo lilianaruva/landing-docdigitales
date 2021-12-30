@@ -11,8 +11,8 @@ const AboutUs = () => {
                         <h3>Hacemos tu contabilidad y te ofrecemos el sistema mas facil de usar, ideal para Pymes y Emprendedores.</h3>
                     </div>
                 </div>
-                <div>
-                    <img src={im1} alt="im1" style={{ width: "90%" }}></img>
+                <div className="description-right">
+                    <img src={im1} alt="im1" style={{ width: "85%" }}></img>
                 </div>
             </div>
         </>

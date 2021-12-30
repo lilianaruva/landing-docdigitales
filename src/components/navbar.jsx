@@ -5,7 +5,7 @@ import logo from "../img/home/DD_Logo.svg"
 const Navbar = () => {
     return (
         <>
-            <div className="navbar-container">
+            <nav className="navbar-container">
                 <div className="navbar-left">
                     <Link to="/">
                         <img src={logo} style={{ width: "260px", height: "51px" }} alt="DD_Logo" />
@@ -42,7 +42,7 @@ const Navbar = () => {
                         </div>
                     </Link>
                 </div>
-            </div>
+            </nav>
         </>
     )
 }
