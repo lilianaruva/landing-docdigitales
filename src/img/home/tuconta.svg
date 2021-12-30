@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="809" height="494.817" viewBox="0 0 809 494.817">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.034" y1="0.077" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f8fbff"/>
+      <stop offset="1" stop-color="#dde6f6"/>
+    </linearGradient>
+  </defs>
+  <rect id="tuconta" width="809" height="494.817" rx="10" fill="url(#linear-gradient)"/>
+</svg>
