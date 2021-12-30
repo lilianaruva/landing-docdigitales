@@ -1,5 +1,33 @@
-.imageAboutUs{
+.imageAboutUs {
     height: 674px;
     width: 674px;
     opacity: 1;
+}
+
+#backgroundAboutUs {
+    background-image: url(../../../img/home/christin-hume-Hcfwew744z4-unsplash-3.svg), url(../../../img/home/christin-hume-Hcfwew744z4-unsplash.svg);
+    background-position: -400px 50%, 1000px 50%;
+    background-repeat: no-repeat, no-repeat;
+}
+
+.titleAboutUs h1 {
+    font-size: 40px;
+    font-weight: regular;
+}
+
+.titleAboutUs h3 {
+    margin-top: 1rem;
+}
+
+.titleAboutUs p {
+    font-size: 40px;
+    font-weight: regular;
+}
+
+.titleAboutUs button {
+    width: 473px;
+    height: 71px;
+    background: #2AEAA5 0% 0% no-repeat padding-box;
+    border-radius: 100px;
+    font: normal normal medium 25px/50px Asap;
 }
