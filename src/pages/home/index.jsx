@@ -1,5 +1,5 @@
 import React from "react";
-import im1 from "../../img/good-business-talk-2021-09-01-10-50-33-utc.png";
+import im1 from "../../img/home/good-business-talk-2021-09-01-10-50-33-utc.png";
 import "./css/style.css";
 
 const Home = () =>{

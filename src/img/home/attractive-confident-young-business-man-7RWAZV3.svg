@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="159" height="159" viewBox="0 0 159 159">
+  <defs>
+    <filter id="attractive-confident-young-business-man-7RWAZV3" x="0" y="0" width="159" height="159" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feFlood flood-color="#0d66ce" flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#attractive-confident-young-business-man-7RWAZV3)">
+    <rect id="attractive-confident-young-business-man-7RWAZV3-2" data-name="attractive-confident-young-business-man-7RWAZV3" width="99" height="99" rx="10" transform="translate(30 30)" fill="#fff"/>
+  </g>
+</svg>
