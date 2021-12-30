@@ -6,7 +6,7 @@ const Navbar = () => {
         <>
             <div>
                 <Link to="/">
-                    <p>Home</p>
+                    <p>Home -sera imagen-</p>
                 </Link>
                 <Link to="/compania">
                     <p>Compañía</p>
