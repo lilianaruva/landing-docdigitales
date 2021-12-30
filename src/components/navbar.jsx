@@ -8,39 +8,39 @@ const Navbar = () => {
             <div className="navbar-container">
                 <div className="navbar-left">
                     <Link to="/">
-                        <img src={logo} style={{width:"260px", height:"51px"}} alt="DD_Logo" />
+                        <img src={logo} style={{ width: "260px", height: "51px" }} alt="DD_Logo" />
                     </Link>
                 </div>
                 <div className="navbar-right">
-                    <div className="navbar-item">
-                        <Link to="/compania">
+                    <Link to="/compania">
+                        <div className="navbar-item">
                             <p>Compañía</p>
-                        </Link>
-                    </div>
-                    <div className="navbar-item">
-                        <Link to="/servicios">
+                        </div>
+                    </Link>
+                    <Link to="/servicios">
+                        <div className="navbar-item">
                             <p>Servicios</p>
-                        </Link>
-                    </div>
-                    <div className="navbar-item">
-                        <Link to="/planes">
+                        </div>
+                    </Link>
+                    <Link to="/planes">
+                        <div className="navbar-item">
                             <p>Planes</p>
-                        </Link>
-                    </div>
-                    <div className="navbar-item-btn">
-                        <div className="btnTest">
-                            <Link to="/prueba-de-servicio">
+                        </div>
+                    </Link>
+                    <Link to="/prueba-de-servicio">
+                        <div className="navbar-item-btn">
+                            <div className="btnTest">
                                 <div className="btnTest">Solicitar Prueba</div>
-                            </Link>
+                            </div>
                         </div>
-                    </div>
-                    <div className="navbar-item-btn">
-                        <div className="btnLogin">
-                            <Link to="/login">
+                    </Link>
+                    <Link to="/login">
+                        <div className="navbar-item-btn">
+                            <div className="btnLogin">
                                 <p>Iniciar sesión</p>
-                            </Link>
+                            </div>
                         </div>
-                    </div>
+                    </Link>
                 </div>
             </div>
         </>

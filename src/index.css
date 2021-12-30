@@ -29,9 +29,10 @@
   align-items: center;
   justify-content: center;
   transition: all .5s ease;
+  cursor: pointer;
 }
 
-.navbar-container a{
+.navbar-container a {
   text-decoration: none;
   color: #000000;
 }
@@ -62,18 +63,15 @@
   justify-content: center;
   cursor: pointer;
   transition: all .5s ease;
-}
-
-.btnTest a{
   font-weight: 700;
   letter-spacing: 0px;
 }
 
-.btnTest:hover{
+.btnTest:hover {
   background-color: #5bfac0;
 }
 
-.btnLogin{
+.btnLogin {
   margin-left: 20px;
   display: flex;
   width: 200px;
@@ -86,17 +84,11 @@
   justify-content: center;
   cursor: pointer;
   transition: all .5s ease;
-}
-
-.btnLogin a{
   font-weight: 700;
   color: #0D66CE;
 }
 
-.btnLogin:hover{
+.btnLogin:hover {
   color: #fff;
   background-color: #0D66CE;
-}
-.btnLogin:hover a{
-  color: #fff;
 }
