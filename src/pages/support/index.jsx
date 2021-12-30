@@ -1,6 +1,8 @@
 import React from 'react';
 import "./css/style.css";
 import { AiOutlineClockCircle } from "react-icons/ai";
+import { BsTelephone } from "react-icons/bs";
+import { HiOutlineMail } from "react-icons/hi";
 
 const Support = () => {
   return (
@@ -16,14 +18,14 @@ const Support = () => {
                 Horario de Atención
               </div>
               <ul>
-                <li className="text-[22px] font-light md:pb-[4px] md:mt-[21px]">
-                  <AiOutlineClockCircle className="text-blue"/> Lunes a Viernes 9:00am a 7:00pm TC
+                <li className="text-[22px] font-light md:pb-[4px] md:mt-[21px] flex">
+                  <AiOutlineClockCircle className="text-blue mr-[24px] self-center"/> Lunes a Viernes 9:00am a 7:00pm TC
                 </li>
-                <li className="text-[22px] font-light md:pb-[4px] md:mt-[21px]">
-                  contacto@docdigitales.com
+                <li className="text-[22px] font-light md:pb-[4px] md:mt-[21px] flex">
+                  <HiOutlineMail className="text-blue mr-[24px] self-center"/> contacto@docdigitales.com
                 </li>
-                <li className="text-[22px] font-light md:pb-[4px] md:mt-[21px]">
-                  686 520 0523
+                <li className="text-[22px] font-light md:pb-[4px] md:mt-[21px] flex">
+                  <BsTelephone className="text-blue mr-[24px] self-center"/> 686 520 0523
                 </li>
               </ul>
               <div className="text-[28px] font-medium md:pb-[12px] md:mt-[52px]">
