@@ -7,6 +7,7 @@ import Services from './pages/services/index';
 import Login from './pages/login/index';
 import Plans from './pages/plans/index';
 import ServiceTest from './pages/serviceTest/index';
+import Support from './pages/support/index';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/planes" element={<Plans/>}/>
         <Route path="/login" element={<Login/>}/>
         <Route path="/prueba-de-servicio" element={<ServiceTest/>}/>
+        <Route path="/soporte" element={<Support/>}/>
       </Routes>
     </div>
   );
