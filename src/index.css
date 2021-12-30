@@ -92,4 +92,7 @@
 .btnLogin:hover {
   color: #fff;
   background-color: #0D66CE;
+
+.btn--primary {
+  @apply text-base font-medium rounded-full p-3 bg-green ;
 }
