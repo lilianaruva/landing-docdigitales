@@ -6,6 +6,7 @@ import "./css/style.css";
 import AboutUs from "./components/aboutUs";
 import How from "./components/how";
 import News from "./components/news";
+import Ready from "./components/ready";
 
 const Home = () => {
     return (
@@ -72,6 +73,7 @@ const Home = () => {
             </div>
             <How/>
             <News/>
+            <Ready/>
         </>
     )
 }
