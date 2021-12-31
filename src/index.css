@@ -97,3 +97,7 @@
 .btn--primary {
   @apply text-base font-medium rounded-full p-3 bg-green ;
 }
+
+.bg-light-grey{
+  background-color: #F1F5FE;
+}

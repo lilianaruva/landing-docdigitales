@@ -3,13 +3,14 @@ import "./css/style.css";
 import { AiOutlineClockCircle } from "react-icons/ai";
 import { BsTelephone } from "react-icons/bs";
 import { HiOutlineMail } from "react-icons/hi";
+import spot from "../../img/support/blue-spot.svg";
 
 const Support = () => {
   return (
     <div className="max-h-screen">
-      <div className="md:flex justify-center items-center">
+      <div className="md:flex">
         <div className="basis-1/2">
-          <div className="bg-white md:pl-[141px] md:pt-[50px]">
+          <div className="bg-white md:pl-[141px] md:pt-[50px] justify-center items-center">
             <div className="">
               <div className="text-[35px] md:px-1 leading-6 font-semibold text-gray-900">
                 Información de contacto
@@ -43,7 +44,16 @@ const Support = () => {
             </div>
           </div>
         </div>
-        <div className="basis-1/2">03</div>
+        <div className="basis-1/2 bg-light-grey max-h-screen">
+          <div className="flex justify-center align-center">
+            <div className="">
+              hello
+              <div className="z-0 relative">
+                <img src={spot} alt="blue spot" className="bottom-1 left-2 relative" />
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   )
