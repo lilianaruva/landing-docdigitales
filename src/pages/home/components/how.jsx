@@ -14,7 +14,7 @@ const How = () => {
                 <div className="howTree">
                     <div className="howLeft">
                         <div className="howTop">
-                            <img src={imgLeft} />
+                            <img src={imgLeft} alt="howImgLeft"/>
                             <p>doc<b>Digitales</b></p>
                         </div>
                         <div className="howItem">Hacemos tu contabilidad</div>
@@ -24,11 +24,11 @@ const How = () => {
                         <div className="howItem">Te brindamos asesoría fiscal</div>
                     </div>
                     <div className="howCenter">
-                        <img src={imgScreen} />
+                        <img src={imgScreen} alt="howImgCenter"/>
                     </div>
                     <div className="howRight">
                         <div className="howTop">
-                            <img src={imgRight} />
+                            <img src={imgRight} alt="howImgRight"/>
                             <p>Nuestros <b>Clientes</b></p>
                         </div>
                         <div className="howItem">Facturas, cotizaciones y cuentas por cobrar</div>

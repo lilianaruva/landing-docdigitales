@@ -1,3 +1,6 @@
+@import url("how.css");
+@import url("news.css");
+
 .imageAboutUs {
     height: 674px;
     width: 674px;
@@ -80,61 +83,3 @@
     font-weight: bold;
     cursor: pointer;
 }
-
-/*----------------------------------------------------------------*/
-.mainHow-Container {
-    min-height: 90vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 5rem 10rem;
-    color: #000000;
-}
-
-.howTree {
-    display: flex;
-    width: 100%;
-}
-
-.howTree p{
-    font-size: 30px;
-    margin: 12px auto 43px auto;
-}
-
-.howLeft {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-}
-
-.howCenter {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.howCenter img{
-     margin: 3rem;
-}
-
-.howRight {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-}
-
-.howItem {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 420px;
-    height: 52px;
-    background-color: #fff;
-    box-shadow: 0px 3px 30px #DDE6F699;
-    border-radius: 10px;
-    margin-bottom: 20px;
-}
-

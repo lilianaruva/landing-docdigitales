@@ -1,11 +1,11 @@
 import React from "react";
-import im1 from "../../img/home/good-business-talk-2021-09-01-10-50-33-utc.png";
 import imglap from "../../img/home/african-american-woman-using-online-banking-close-2021-09-24-04-11-48-utc.png"
 import imgBusinessW from "../../img/home/young-business-woman-working-laptop-office (3).png"
 import imgLeader from "../../img/home/Leadership-Skills-Advance-Your-Career-Hospitality-Industry.png"
 import "./css/style.css";
 import AboutUs from "./components/aboutUs";
 import How from "./components/how";
+import News from "./components/news";
 
 const Home = () => {
     return (
@@ -71,6 +71,7 @@ const Home = () => {
                 </div>
             </div>
             <How/>
+            <News/>
         </>
     )
 }
