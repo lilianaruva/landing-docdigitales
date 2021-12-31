@@ -9,12 +9,14 @@
 
 .description-left {
   flex: 1;
-  padding-right: 136px;
   z-index: 2;
+  display: flex;
+  flex-direction: column;
 }
 
 .description-right {
   flex: 1;
-  padding-left: 5rem;
   z-index: 2;
+  display: flex;
+  flex-direction: column;
 }
