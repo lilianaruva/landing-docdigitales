@@ -44,13 +44,13 @@ const Support = () => {
             </div>
           </div>
         </div>
-        <div className="basis-1/2 bg-light-grey max-h-screen">
+        <div className="basis-1/2 bg-light-grey max-h-screen" id="backgroundSpot">
           <div className="flex justify-center align-center">
             <div className="">
               hello
-              <div className="z-0 relative">
+              {/* <div className="z-0 relative">
                 <img src={spot} alt="blue spot" className="bottom-1 left-2 relative" />
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
