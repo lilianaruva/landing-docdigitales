@@ -8,9 +8,9 @@ import InputMask from "react-input-mask";
 const Support = () => {
   return (
     <>
-      <hr />
-      <div className="md:flex screen-height">
-        <div className="basis-1/2 screen-height justify-items-center content-around">
+      <div className="md:flex h-screen">
+      <hr className="py-[5rem]"/>
+        <div className="basis-1/2 m-auto justify-items-center content-around">
           <div className="bg-white md:px-[100px] md:pt-[3rem]">
             <div className="text-[35px] md:px-1 leading-6 font-semibold text-gray-900">
               Información de contacto
@@ -43,7 +43,7 @@ const Support = () => {
             </div>
           </div>
         </div>
-        <div className="basis-1/2 bg-light-grey justify-items-center content-around" id="backgroundSpot">
+        <div className="basis-1/2 bg-light-grey m-auto justify-items-center content-around" id="backgroundSpot">
           <div className="flex justify-center align-center screen-height" >
             <div className="md:px-[100px] md:pt-[3rem]">
               <div className="text-[35px] md:px-1 leading-6 font-semibold text-gray-900">
