@@ -4,6 +4,7 @@ import imgBusinessW from "../../img/home/young-business-woman-working-laptop-off
 import imgLeader from "../../img/home/Leadership-Skills-Advance-Your-Career-Hospitality-Industry.png"
 import "./css/style.css";
 import AboutUs from "./components/aboutUs";
+import Circle from "./components/circle";
 import How from "./components/how";
 import Numbers from "./components/numbers";
 import Comment from "./components/comment";
@@ -14,6 +15,7 @@ const Home = () => {
     return (
         <>
             <AboutUs />
+            <Circle />
             <div className="title-platform">
                 <p>Controla todo desde <b>un mismo lugar</b></p>
             </div>

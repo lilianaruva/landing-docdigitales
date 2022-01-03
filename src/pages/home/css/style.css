@@ -3,6 +3,7 @@
 @import url("ready.css");
 @import url("comment.css");
 @import url("numbers.css");
+@import url("circle.css");
 
 .imageAboutUs {
     height: 674px;
