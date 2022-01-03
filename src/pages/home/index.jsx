@@ -5,10 +5,10 @@ import imgLeader from "../../img/home/Leadership-Skills-Advance-Your-Career-Hosp
 import "./css/style.css";
 import AboutUs from "./components/aboutUs";
 import How from "./components/how";
+import Numbers from "./components/numbers";
 import Comment from "./components/comment";
 import News from "./components/news";
 import Ready from "./components/ready";
-
 
 const Home = () => {
     return (
@@ -74,6 +74,7 @@ const Home = () => {
                 </div>
             </div>
             <How />
+            <Numbers />
             <Comment clientIndex="1" comment="“En Rentrailer estamos muy agradecidos por el trato tan amable y por el seguimiento personalizado que docDigitales tiene hacia nosotros. El servicio contable fue el plus necesario para que sea el paquete ideal, su equipo de Contadores tienen la disposición real de servicio y aclaraciones hasta en los detalles más mínimos. Contentos con el servicio brindado por esta plataforma y su equipo de trabajo.”" client="Lic. Brenda Sánchez O." clientRole="Administración Contable" clientLogo="https://images.pexels.com/photos/20787/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=350" />
             <News />
             <Ready />
