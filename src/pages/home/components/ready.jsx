@@ -1,12 +1,31 @@
 import React from "react";
+import calendar from "../../../img/home/calendar-blue.png";
+import card from "../../../img/home/card-blue.png"
 
 const Ready = () => {
     return (
         <>
-            <div className="mainMedium-Container" style={{backgroundColor:'#0063CE', color:'#FFFFFF'}}>
-                <div className="titleAboutUs" style={{textAlign:'center'}}>
-                    <p style={{fontWeight:'500', marginBottom:'1rem'}}>¿Listo para probar nuestros servicios?</p>
-                    <p style={{fontSize:'30px'}}>Prueba hoy la solución de facturación y contabilidad más sencilla de México</p>
+            <div className="mainMedium-Container" style={{ backgroundColor: '#0063CE', color: '#FFFFFF' }}>
+                <div className="titleAboutUs" style={{ textAlign: 'center' }}>
+                    <p style={{ fontWeight: '500', marginBottom: '1rem' }}>¿Listo para probar nuestros servicios?</p>
+                    <p style={{ fontSize: '25px' }}>Prueba hoy la solución de facturación y contabilidad más sencilla de México</p>
+                </div>
+                <div className="twoElements">
+                    <div className="twoElementsChild" style={{ marginRight: '3rem' }}>
+                        <div className="elementImg">
+                            <img src={card} alt="card-blue" />
+                        </div>
+                        <p><b>No</b> necesitas utilizar tu <b>tarjeta</b></p>
+                    </div>
+                    <div className="twoElementsChild">
+                        <div className="elementImg">
+                            <img src={calendar} alt="calendar-blue" />
+                        </div>
+                        <p>30 días de prueba <b>gratis</b></p>
+                    </div>
+                </div>
+                <div className="alreadyBottomBtn">
+                    <button>Solicitar prueba</button>
                 </div>
             </div>
         </>

@@ -12,10 +12,10 @@ const News = () => {
                     <p style={{fontWeight: '500'}}>Sala de prensa</p>
                 </div>
                 <div className="News">
-                    <img src={logo1}/>
-                    <img src={logo2}/>
-                    <img src={logo3}/>
-                    <img src={logo4}/>
+                    <img src={logo1} alt="homeNewImage1"/>
+                    <img src={logo2} alt="homeNewImage2"/>
+                    <img src={logo3} alt="homeNewImage3"/>
+                    <img src={logo4} alt="homeNewImage4"/>
                 </div>
             </div>
         </>
