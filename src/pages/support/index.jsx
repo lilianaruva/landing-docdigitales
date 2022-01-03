@@ -53,30 +53,30 @@ const Support = () => {
               <div className="md:pt-[20px]">
                 <label className="block">
                   <span className="text-blue">Nombre</span>
-                  <input className="mt-1 block md:w-[400px] px-4 py-2 rounded hover:shadow-lg focus:outline-0 focus:shadow-lg active:shadow-lg"/>
+                  <input className="mt-1 block md:w-[400px] px-4 py-2 rounded hover:shadow-md focus:outline-0 focus:shadow-lg active:shadow-lg"/>
                 </label>
               </div>
               <div className="md:pt-[20px]">
                 <label className="block">
                   <span className="text-blue">Correo</span>
-                  <input className="mt-1 block md:w-[400px] px-4 py-2 rounded hover:shadow-lg focus:outline-0 focus:shadow-lg active:shadow-lg" placeholder="ejemplo@gmail.com"/>
+                  <input className="mt-1 block md:w-[400px] px-4 py-2 rounded hover:shadow-md focus:outline-0 focus:shadow-lg active:shadow-lg" placeholder="ejemplo@gmail.com"/>
                 </label>
               </div>
               <div className="md:pt-[20px]">
                 <label className="block">
                   <span className="text-blue">Número de teléfono</span>
-                  <InputMask className="mt-1 block md:w-[400px] px-4 py-2 rounded hover:shadow-lg focus:outline-0 focus:shadow-lg active:shadow-lg" mask="999 999 9999"  placeholder="_ _ _  _ _ _  _ _ _ _"/>
+                  <InputMask className="mt-1 block md:w-[400px] px-4 py-2 rounded hover:shadow-md focus:outline-0 focus:shadow-lg active:shadow-lg" mask="999 999 9999"  placeholder="_ _ _  _ _ _  _ _ _ _"/>
                 </label>
               </div>
               <div className="md:pt-[20px]">
                 <label className="block">
                   <span className="text-blue">¿En qué podemos ayudarte?</span>
-                  <textarea className="mt-1 block md:w-[400px] px-4 py-2 rounded hover:shadow-lg focus:outline-0 focus:shadow-lg active:shadow-lg" type="textarea" placeholder="Escribe tu pregunta" rows="3"/>
+                  <textarea className="mt-1 block md:w-[400px] px-4 py-2 rounded hover:shadow-md focus:outline-0 focus:shadow-lg active:shadow-lg" type="textarea" placeholder="Escribe tu pregunta" rows="3"/>
                 </label>
               </div>
               <div className="md:mt-[52px]">
                 <button className="btn btn--blue">
-                  <span className="px-[88px] py-[22px] text-[22px]">Enviar</span>
+                  <span className="px-[90px] py-[22px] text-[22px]">Enviar</span>
                 </button>
               </div>
             </div>

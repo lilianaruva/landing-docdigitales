@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="943.132" height="943.132" viewBox="0 0 943.132 943.132">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#2aeaa5"/>
+      <stop offset="1" stop-color="#2aeaa5" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <circle id="christin-hume-Hcfwew744z4-unsplash" cx="350.5" cy="350.5" r="350.5" transform="translate(822.066 822.066) rotate(180)" opacity="0.1" fill="url(#radial-gradient)"/>
+</svg>
