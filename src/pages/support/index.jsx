@@ -3,6 +3,7 @@ import "./css/style.css";
 import { AiOutlineClockCircle } from "react-icons/ai";
 import { BsTelephone } from "react-icons/bs";
 import { HiOutlineMail } from "react-icons/hi";
+import InputMask from "react-input-mask";
 
 const Support = () => {
   return (
@@ -37,14 +38,14 @@ const Support = () => {
             </div>
             <div className="md:mt-[52px]">
               <button className="btn btn--primary">
-                <span className="px-[88px] py-[22px] text-[25px]">Solicitar prueba</span>
+                <span className="px-[50px] py-[22px] text-[25px]">Solicitar prueba</span>
               </button>
             </div>
           </div>
         </div>
         <div className="basis-1/2 bg-light-grey justify-items-center content-around" id="backgroundSpot">
           <div className="flex justify-center align-center screen-height" >
-            <div className="md:px-[100px] md:pt-[90px]">
+            <div className="md:px-[100px] md:pt-[3rem]">
               <div className="text-[35px] md:px-1 leading-6 font-semibold text-gray-900">
                 Contacta a soporte
               </div>
@@ -52,20 +53,31 @@ const Support = () => {
               <div className="md:pt-[20px]">
                 <label className="block">
                   <span className="text-blue">Nombre</span>
-                  <input className="mt-1 block w-full px-4 py-2 rounded"/>
+                  <input className="mt-1 block md:w-[400px] px-4 py-2 rounded hover:shadow-lg focus:outline-0 focus:shadow-lg active:shadow-lg"/>
                 </label>
               </div>
               <div className="md:pt-[20px]">
                 <label className="block">
                   <span className="text-blue">Correo</span>
-                  <input className="mt-1 block w-[350px] px-4 py-2 rounded" placeholder="ejemplo@gmail.com"/>
+                  <input className="mt-1 block md:w-[400px] px-4 py-2 rounded hover:shadow-lg focus:outline-0 focus:shadow-lg active:shadow-lg" placeholder="ejemplo@gmail.com"/>
                 </label>
               </div>
               <div className="md:pt-[20px]">
                 <label className="block">
                   <span className="text-blue">Número de teléfono</span>
-                  <input className="mt-1 block w-[350px] px-4 py-2 rounded" placeholder="_ _ _  _ _ _  _ _ _ _"/>
+                  <InputMask className="mt-1 block md:w-[400px] px-4 py-2 rounded hover:shadow-lg focus:outline-0 focus:shadow-lg active:shadow-lg" mask="999 999 9999"  placeholder="_ _ _  _ _ _  _ _ _ _"/>
                 </label>
+              </div>
+              <div className="md:pt-[20px]">
+                <label className="block">
+                  <span className="text-blue">¿En qué podemos ayudarte?</span>
+                  <textarea className="mt-1 block md:w-[400px] px-4 py-2 rounded hover:shadow-lg focus:outline-0 focus:shadow-lg active:shadow-lg" type="textarea" placeholder="Escribe tu pregunta" rows="3"/>
+                </label>
+              </div>
+              <div className="md:mt-[52px]">
+                <button className="btn btn--blue">
+                  <span className="px-[88px] py-[22px] text-[22px]">Enviar</span>
+                </button>
               </div>
             </div>
           </div>
