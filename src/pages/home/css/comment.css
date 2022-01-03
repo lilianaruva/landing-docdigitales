@@ -1,0 +1,67 @@
+#backgroundAboutUsComment {
+    background-image: url(../../../img/home/christin-hume-Hcfwew744z4-unsplash-3.svg), url(../../../img/home/christin-hume-Hcfwew744z4-unsplash-3.svg);
+    background-position: -200px 50%, 1000px 50%;
+    background-repeat: no-repeat, no-repeat;
+}
+
+.commentContainerHome {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1364px;
+    height: 517px;
+    border-radius: 20px;
+    background-color: white;
+    font-size: 27px;
+}
+
+.commentContent {
+    width: 1088px;
+}
+
+.commentByClient {
+    width: 100%;
+    padding: 0 8.7rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.commentByChild {
+    display: flex;
+    margin-top: 42px;
+    align-items: center;
+}
+
+.commentByChild img {
+    margin-right: 47px;
+    width: 90px;
+    height: 90px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px #0D66CE1A;
+}
+
+.circleArrowAvailable {
+    width: 51px;
+    height: 51px;
+    border: 2px solid #2AEAA5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 100%;
+    margin-right: 18px;
+}
+
+.circleArrowUnAvailable {
+    width: 51px;
+    height: 51px;
+    border: 2px solid #2AEAA5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 100%;
+    margin-right: 18px;
+    opacity: .5;
+}
