@@ -3,15 +3,15 @@ import "./css/style.css";
 import { AiOutlineClockCircle } from "react-icons/ai";
 import { BsTelephone } from "react-icons/bs";
 import { HiOutlineMail } from "react-icons/hi";
-import spot from "../../img/support/blue-spot.svg";
 
 const Support = () => {
   return (
-    <div className="max-h-screen">
-      <div className="md:flex">
-        <div className="basis-1/2">
-          <div className="bg-white md:pl-[141px] md:pt-[50px] justify-center items-center">
-            <div className="">
+    <>
+      <hr />
+      <div className="md:flex screen-height">
+        <div className="basis-1/2 screen-height justify-items-center content-around">
+          <div className="bg-white md:px-[100px] md:pt-[3rem]">
+            {/* <div className=""> */}
               <div className="text-[35px] md:px-1 leading-6 font-semibold text-gray-900">
                 Información de contacto
               </div>
@@ -41,11 +41,11 @@ const Support = () => {
                   <span className="px-[88px] py-[22px] text-[25px]">Solicitar prueba</span>
                 </button>
               </div>
-            </div>
+            {/* </div> */}
           </div>
         </div>
-        <div className="basis-1/2 bg-light-grey max-h-screen" id="backgroundSpot">
-          <div className="flex justify-center align-center">
+        <div className="basis-1/2 bg-light-grey justify-items-center content-around" id="backgroundSpot">
+          <div className="flex justify-center align-center screen-height" >
             <div className="">
               hello
               {/* <div className="z-0 relative">
@@ -55,7 +55,7 @@ const Support = () => {
           </div>
         </div>
       </div>
-    </div>
+    </>
   )
 }
 

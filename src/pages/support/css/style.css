@@ -1,7 +1,16 @@
 #backgroundSpot {
   background-image: url(../../../img/home/christin-hume-Hcfwew744z4-unsplash-3.svg), url(../../../img/home/christin-hume-Hcfwew744z4-unsplash.svg);
   /* background-position: 400px 50%, 1000px 50%; */
-  bottom:50%;
-  left:25%;
+  bottom:10%;
+  right:25%;
   background-repeat: no-repeat, no-repeat;
+}
+
+.screen-height{
+  height: 100vh;
+  z-index: 0;
+}
+
+hr{
+  border: 0.01em solid #dfdfe2;
 }
