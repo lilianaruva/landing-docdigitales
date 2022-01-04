@@ -1,3 +1,8 @@
 .service-background-color{
   background-color: #F1F5FE;
 }
+
+#greenSpot {
+  background-image: url(../../img/support/green-spot.svg);
+  background-position: -100% 70% ;
+}
