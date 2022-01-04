@@ -1,0 +1,62 @@
+.ContainerFooter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  margin: 0 auto;
+  padding: 4rem;
+}
+
+.ColumnFooter {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-left: 26px;
+}
+
+.ColumnFooter img{
+  width: 80%;
+}
+
+.RowFooter {
+  display: flex;
+  justify-content: space-between;
+}
+
+.FooterLink {
+  color: black;
+  margin-bottom: 20px;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.FooterLink:hover {
+  color: #0d66ce;
+  transition: 200ms ease-in;
+  cursor: pointer;
+}
+
+.HeadingFooter {
+  font-size: 22px;
+  color: #0d66ce;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+.childBottom{
+  display: flex;
+  height: 27px;
+}
+
+.childBottom img{
+  margin-right: 25px;
+}
+
+.BottomContainerFooter{
+  margin-top: 3rem;
+  padding-top: 2rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-top: 2px solid #DDE6F699;
+}
