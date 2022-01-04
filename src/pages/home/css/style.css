@@ -39,6 +39,16 @@
     font: normal normal medium 25px/50px Asap;
 }
 
+.btnAboutUs {
+    margin-top: 102px;
+    background-color: #2AEAA5;
+    width: 465px;
+    height: 71px;
+    font-size: 22px;
+    font-weight: 500;
+    border-radius: 100px;
+}
+
 .title-platform {
     margin-bottom: 1rem;
     display: flex;
