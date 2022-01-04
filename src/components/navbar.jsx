@@ -14,20 +14,18 @@ const Navbar = () => {
                 </div>
                 <div className="navbar-right">
                     <div className="dropdown">
-                        <Link to="/compania">
-                            <div className="navbar-item">
-                                <p>Compañía</p>
-                            </div>
-                        </Link>
+                        <div className="navbar-item">
+                            <p>Compañía</p>
+                        </div>
                         <div className="dropdown-content">
-                            <Link to="/">
-                                <a>Sobre Nosotros</a>
+                            <Link to="/sobre-nosotros">
+                                <p>Sobre Nosotros</p>
                             </Link>
-                            <Link to="/">
-                                <a>Recursos</a>
+                            <Link to="/recursos">
+                                <p>Recursos</p>
                             </Link>
-                            <Link to="/">
-                                <a>Contacto</a>
+                            <Link to="/contacto">
+                                <p>Contacto</p>
                             </Link>
                         </div>
                     </div>
@@ -39,16 +37,16 @@ const Navbar = () => {
                         </Link>
                         <div className="dropdown-content">
                             <Link to="/">
-                                <a>Facturación en linea</a>
+                                <p>Facturación en linea</p>
                             </Link>
                             <Link to="/">
-                                <a>Servicios contables</a>
+                                <p>Servicios contables</p>
                             </Link>
                             <Link to="/">
-                                <a>Administración de nómina</a>
+                                <p>Administración de nómina</p>
                             </Link>
                             <Link to="/">
-                                <a>API</a>
+                                <p>API</p>
                             </Link>
                         </div>
                     </div>

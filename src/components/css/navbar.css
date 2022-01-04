@@ -98,7 +98,7 @@
     padding: 8px;
 }
 
-.dropdown-content a {
+.dropdown-content p {
     display: flex;
     align-items: center;
     width: 266px;
@@ -107,7 +107,7 @@
     padding-left: 16px;
 }
 
-.dropdown-content a:hover{
+.dropdown-content p:hover{
     background: rgba(221, 230, 246, 0.3);
     cursor: pointer;
 }
