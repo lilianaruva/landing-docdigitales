@@ -37,13 +37,13 @@
     background-color: #F1F5FE;
 }
 
-.titleArticle{
+.titleArticle {
     font-size: 40px;
     font-weight: bold;
     margin-bottom: 60px;
 }
 
-.main-ContainerArticle{
+.main-ContainerArticle {
     min-height: 90vh;
     display: flex;
     flex-direction: column;
@@ -52,3 +52,17 @@
     padding: 1rem;
     color: #000000;
 }
+
+.articleTop {
+    display: flex;
+    justify-content: space-between;
+}
+
+.selectArticles {
+    background-color: #F1F5FE;
+    width: 398px;
+    height: 63px;
+    padding: 1rem;
+    border-right: 1rem solid #F1F5FE;
+}
+

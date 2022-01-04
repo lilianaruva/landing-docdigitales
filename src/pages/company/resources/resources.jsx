@@ -1,6 +1,6 @@
 import React from "react";
 import im1 from "../../../img/resources/Laptop 04.png"
-import ArticleList from "./articleList";
+import ArticleList from "./components/articleList";
 import './resources.css';
 
 const Resources = () => {
