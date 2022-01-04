@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import logo from "../img/home/DD_Logo.svg"
+import "./css/navbar.css";
 
 const Navbar = () => {
     return (
@@ -12,16 +13,45 @@ const Navbar = () => {
                     </Link>
                 </div>
                 <div className="navbar-right">
-                    <Link to="/compania">
-                        <div className="navbar-item">
-                            <p>Compañía</p>
+                    <div className="dropdown">
+                        <Link to="/compania">
+                            <div className="navbar-item">
+                                <p>Compañía</p>
+                            </div>
+                        </Link>
+                        <div className="dropdown-content">
+                            <Link to="/">
+                                <a>Sobre Nosotros</a>
+                            </Link>
+                            <Link to="/">
+                                <a>Recursos</a>
+                            </Link>
+                            <Link to="/">
+                                <a>Contacto</a>
+                            </Link>
                         </div>
-                    </Link>
-                    <Link to="/servicios">
-                        <div className="navbar-item">
-                            <p>Servicios</p>
+                    </div>
+                    <div className="dropdown">
+                        <Link to="/servicios">
+                            <div className="navbar-item">
+                                <p>Servicios</p>
+                            </div>
+                        </Link>
+                        <div className="dropdown-content">
+                            <Link to="/">
+                                <a>Facturación en linea</a>
+                            </Link>
+                            <Link to="/">
+                                <a>Servicios contables</a>
+                            </Link>
+                            <Link to="/">
+                                <a>Administración de nómina</a>
+                            </Link>
+                            <Link to="/">
+                                <a>API</a>
+                            </Link>
                         </div>
-                    </Link>
+                    </div>
                     <Link to="/planes">
                         <div className="navbar-item">
                             <p>Planes</p>
