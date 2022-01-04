@@ -1,5 +1,5 @@
 import React from "react";
-import "./FooterStyles.css";
+import "./css/footer.css";
 import logo from "../img/home/DD_Logo.svg"
 import logoSat from "../img/home/SAT-Logo-750x284 (1).png"
 import logoConekta from "../img/home/Page-1.svg"
