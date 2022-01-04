@@ -11,6 +11,7 @@ import Footer from "./components/footer";
 import AboutUs from "./pages/company/aboutUs/aboutUs";
 import Resources from "./pages/company/resources/resources";
 import Contact from "./pages/company/contact/contact";
+import ArticlePage from "./pages/company/resources/components/articlePage"
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         <Route path="/sobre-nosotros" element={<AboutUs />} />
         <Route path="/recursos" element={<Resources />} />
         <Route path="/contacto" element={<Contact />} />
+        <Route path="/articlePage" element={<ArticlePage />} />
       </Routes>
       <Footer />
     </div>
