@@ -1,7 +1,8 @@
 import { configureStore } from '@reduxjs/toolkit'
-import articlesReducer from './redux/reducers/articles';
+import articlesReducer from './redux/reducers/Articles';
+
 export const store = configureStore({
   reducer: {
-    feedback: articlesReducer,
+    article: articlesReducer,
   },
 })
