@@ -6,3 +6,14 @@
     background-color: #F1F5FE;
 }
 
+@media (max-width: 1920px) {
+    #backgroundAbout {
+        background-image: url(../../../img/company/christin-hume-Hcfwew744z4-unsplash-4.svg);
+        background-position: 1085px 225px;
+        background-repeat: no-repeat;
+        background-color: #F1F5FE;
+    }
+    .titleResponsive{
+        font-size: 55px;
+    }
+  }

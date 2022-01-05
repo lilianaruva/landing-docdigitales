@@ -10,13 +10,21 @@ import Numbers from "./components/numbers";
 import Comment from "./components/comment";
 import News from "./components/news";
 import Ready from "./components/ready";
+//Animations
+import { motion } from "framer-motion";
+import { pageAnimation } from "../../animation";
 
 const Home = () => {
     return (
-        <>
+        <motion.div
+            exit="exit"
+            variants={pageAnimation}
+            initial="hidden"
+            animate="show"
+        >
             <AboutUs />
             <Circle />
-            <div className="title-platform">
+            <div className="title-platform" style={{marginTop: '135px'}}>
                 <p>Controla todo desde <b>un mismo lugar</b></p>
             </div>
             <div className="main-Container">
@@ -80,7 +88,7 @@ const Home = () => {
             <Comment clientIndex="1" comment="“En Rentrailer estamos muy agradecidos por el trato tan amable y por el seguimiento personalizado que docDigitales tiene hacia nosotros. El servicio contable fue el plus necesario para que sea el paquete ideal, su equipo de Contadores tienen la disposición real de servicio y aclaraciones hasta en los detalles más mínimos. Contentos con el servicio brindado por esta plataforma y su equipo de trabajo.”" client="Lic. Brenda Sánchez O." clientRole="Administración Contable" clientLogo="https://images.pexels.com/photos/20787/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=350" />
             <News />
             <Ready />
-        </>
+        </motion.div>
     )
 }
 

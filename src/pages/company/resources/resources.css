@@ -66,3 +66,17 @@
     border-right: 1rem solid #F1F5FE;
 }
 
+@media (max-width: 1920px) {
+    #backgroundResources {
+        background-image: url(../../../img/resources/christin-hume-Hcfwew744z4-unsplash.svg);
+        background-position: 1114px 220px;
+        background-size: 37%;
+        background-repeat: no-repeat;
+        background-color: #F1F5FE;
+    }
+
+    .titleResponsive {
+        width: 638px;
+        font-size: 28px;
+    }
+}

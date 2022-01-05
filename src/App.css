@@ -7,6 +7,15 @@
   color: #000000;
 }
 
+.Principal-main-Container {
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5rem 6rem;
+  color: #000000;
+}
+
 .description-left {
   flex: 1;
   z-index: 2;
@@ -22,6 +31,26 @@
   align-items: flex-end;
 }
 
-.bg-light-grey{
+.bg-light-grey {
   background-color: #F1F5FE;
+}
+
+@media (min-width: 1920px) {
+  .main-Container {
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5rem 278px;
+    color: #000000;
+  }
+
+  .Principal-main-Container {
+    height: 1125px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 228px 136px;
+    color: #000000;
+  }
 }
