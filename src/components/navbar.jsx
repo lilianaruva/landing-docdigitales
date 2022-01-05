@@ -1,9 +1,19 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import logo from "../img/home/DD_Logo.svg"
 import "./css/navbar.css";
 
 const Navbar = () => {
+    let location = useLocation();
+
+    if(
+        location.pathname === '/login'
+        || location.pathname === '/registro'
+        || location.pathname === '/prueba-de-servicio'
+    ){
+        return null;
+    }
+    
     return (
         <>
             <nav className="navbar-container">
@@ -36,7 +46,7 @@ const Navbar = () => {
                             </div>
                         </Link>
                         <div className="dropdown-content">
-                            <Link to="/">
+                            <Link to="/facturacion">
                                 <p>Facturación en linea</p>
                             </Link>
                             <Link to="/">
