@@ -10,9 +10,9 @@ import './aboutUs.css';
 const AboutUs = () => {
     return (
         <>
-            <div className="main-Container" id="backgroundAbout" style={{ paddingTop: '145px' }}>
+            <div className="Principal-main-Container" id="backgroundAbout" style={{ paddingTop: '145px' }}>
                 <div className="description-left" style={{ marginRight: '20px' }}>
-                    <div className="titleAboutUs">
+                    <div className="titleAboutUs titleResponsive">
                         <p>Estamos listos para <b>solucionar tus problemas</b> contables y de administración</p>
                     </div>
                 </div>

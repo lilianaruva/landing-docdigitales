@@ -97,3 +97,11 @@
     font-weight: bold;
     cursor: pointer;
 }
+
+@media (min-width: 1920px) {
+    #backgroundAboutUs {
+        background-image: url(../../../img/home/christin-hume-Hcfwew744z4-unsplash-3.svg), url(../../../img/home/christin-hume-Hcfwew744z4-unsplash.svg);
+        background-position: -200px 50%, 1318px 50%;
+        background-repeat: no-repeat, no-repeat;
+    }
+}
