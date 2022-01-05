@@ -6,65 +6,83 @@ import './style.css'
 const ServiceTest = () => {
   return (
     <>
-			<div className="flex h-screen service-background-color">
-				<div className="m-auto">
-					<div className="flex py-[30px]">
-						<div className="m-auto">
-							<img src={logo} className="self-center" style={{ width:"260px"}} alt="DD_Logo" />
+			<div className="h-screen service-background-color">
+				<div className="grid sm:grid-cols-1 lg:grid-cols-2 justify-center lg:pt-[180px]">
+					<div className="lg:mx-[100px] xl:mx-[138px]">
+						<div className="">
+							<img src={logo} style={{ width:"239px"}} alt="DD_Logo" />
+						</div>
+						<div className="lg:text-[32px] lg:pt-[30px]">
+							<b>Regístrate e inicia tu prueba</b> para conocer la mejor plataforma de facturación, servicios contables y nomina en línea
 						</div>
 					</div>
-					<div className="shadow-[0px_3px_20px_#B9CCEF80] px-12 py-8 mb-4 md:w-[1000px]" style={{ background:'white' }}>
-						<div className="flex">
-							<div className="md:w-[450px] md:px-[50px] md:pt-[32px]">
-								<div className="md:text-[32px]">
-									Regístrate y <b>Prueba Gratis 30 días el Plan Premium</b> con Facturación ilimitada
-								</div>
-								<div className="md:text-[18px] pt-[34px]">
-									No te preocupes, no te pediremos los datos de tu tarjeta de crédito, ni hay contrato forzoso.
-								</div>
+					<div>
+						<div className="grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 lg:mr-[60px]">
+							<div className="md:mx-[15px] md:py-[10px]">
+								<label className="w-full">
+									<span className="text-blue">Nombre</span>
+									<input className="mt-1 block w-full bg-[#fff] px-4 py-2 rounded hover:shadow-md focus:outline-0 focus:shadow-lg active:shadow-lg"/>
+								</label>
 							</div>
-							<div className="md:pr-[50px] md:pl-[80px] md:pt-[22px] justify-center">
-								<div className="flex">
-									<label className="block">
-										<span className="text-green">Correo electrónico</span>
-										<input className="mt-1 block bg-[#DDE6F6] md:w-[300px] px-4 py-2 rounded hover:shadow-md focus:outline-0 focus:shadow-lg active:shadow-lg" placeholder="andrea@gmail.com" type="email"/>
-									</label>
-								</div>
-								<div className="flex pt-[20px]">
-									<label className="block">
-										<span className="text-green">Constraseña</span>
-										<input className="mt-1 block bg-[#DDE6F6] md:w-[300px] px-4 py-2 rounded hover:shadow-md focus:outline-0 focus:shadow-lg active:shadow-lg" placeholder="Ingresa tu contraseña" type="email"/>
-									</label>
-								</div>
-								<div className="flex pt-[20px]">
-									<label className="block">
-										<span className="text-green">RFC</span>
-										<input className="mt-1 block bg-[#DDE6F6] md:w-[300px] px-4 py-2 rounded hover:shadow-md focus:outline-0 focus:shadow-lg active:shadow-lg" placeholder="Ingresa tu RFC" type="email"/>
-									</label>
-								</div>
-								<div className="flex pt-[20px] text-[15px] opacity-20">
-									<a href="javascript:void(0)">¿Cuentas con un código de promoción?</a>
-								</div>
-								<div className="flex pt-[30px]">
-									<div className="block">
-										<Link to="/login">
-											<div className="btn btn--primary md:w-[300px] py-[10px]">
-												<span className="px-[90px] text-[18px]">Regístrate</span>
-											</div>
-										</Link>
+							<div className="md:mx-[15px] md:py-[10px]">
+								<label className="w-full">
+									<span className="text-blue">Apellido</span>
+									<input className="mt-1 block w-full bg-[#fff] px-4 py-2 rounded hover:shadow-md focus:outline-0 focus:shadow-lg active:shadow-lg"/>
+								</label>
+							</div>
+							<div className="md:mx-[15px] md:py-[10px]">
+								<label className="w-full">
+									<span className="text-blue">Correo electrónico</span>
+									<input className="mt-1 block w-full bg-[#fff] px-4 py-2 rounded hover:shadow-md focus:outline-0 focus:shadow-lg active:shadow-lg" type="email"/>
+								</label>
+							</div>
+							<div className="md:mx-[15px] md:py-[10px]">
+								<label className="w-full">
+									<span className="text-blue">Número de teléfono</span>
+									<input className="mt-1 block w-full bg-[#fff] px-4 py-2 rounded hover:shadow-md focus:outline-0 focus:shadow-lg active:shadow-lg"/>
+								</label>
+							</div>
+							<div className="md:mx-[15px] md:py-[10px]">
+								<label className="w-full">
+									<span className="text-blue">Nombre de tu empresa</span>
+									<input className="mt-1 block w-full bg-[#fff] px-4 py-2 rounded hover:shadow-md focus:outline-0 focus:shadow-lg active:shadow-lg"/>
+								</label>
+							</div>
+							<div className="md:mx-[15px] md:py-[10px]">
+								<label className="w-full">
+									<span className="text-blue">RFC de tu empresa</span>
+									<input className="mt-1 block w-full bg-[#fff] px-4 py-2 rounded hover:shadow-md focus:outline-0 focus:shadow-lg active:shadow-lg"/>
+								</label>
+							</div>
+							<div className="md:mx-[15px] md:py-[10px]">
+								<label className="w-full">
+									<span className="text-blue">No. de empleados</span>
+									<input className="mt-1 block w-full bg-[#fff] px-4 py-2 rounded hover:shadow-md focus:outline-0 focus:shadow-lg active:shadow-lg" type="number"/>
+								</label>
+							</div>
+							<div className="md:mx-[15px] md:py-[10px]">
+								<label className="w-full">
+									<span className="text-blue">Industria (a la que pertenece tu empresa)</span>
+									<input className="mt-1 block w-full bg-[#fff] px-4 py-2 rounded hover:shadow-md focus:outline-0 focus:shadow-lg active:shadow-lg"/>
+								</label>
+							</div>
+							<div className="md:mx-[15px] md:py-[10px]">
+								<label className="w-full">
+									<span className="text-blue">¿En que servicios estás interesado</span>
+									<select className="mt-1 block w-full bg-[#fff] px-4 py-2 rounded hover:shadow-md focus:outline-0 focus:shadow-lg active:shadow-lg"/>
+								</label>
+							</div>
+						</div>
+						<div className="grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 pt-[25px] mr-[100px]">
+							<div className="w-full md:mx-[15px] md:py-[10px]">
+								<button className="w-full mr-[15px]">
+									<div className="btn btn--blue">
+										<span className="px-[90px] py-[15px] text-[18px] text-center">Enviar</span>
 									</div>
-								</div>
+								</button>
 							</div>
 						</div>
-						<div className="md:text-[14px] pt-[34px] text-center opacity-20 md:mx-[50px]">
-							Términos y condiciones | Niveles de Servicio | Políticas de Privacidad Al registrarte aceptas los términos y condiciones
-						</div>
 					</div>
-					<Link to="/login">
-						<div className="md:text-[18px] pt-[34px] text-center">
-							¿Ya estás registrado? Ingresa al sistema
-						</div>
-					</Link>
 				</div>
 			</div>
     </>
