@@ -8,10 +8,10 @@ const AboutUs = () => {
         <>
             <div className="Principal-main-Container" id="backgroundAboutUs" style={{paddingTop:'145px'}}>
                 <div className="description-left" style={{marginRight: '20px' }}>
-                    <div className="titleAboutUs">
+                    <motion.div className="titleAboutUs">
                         <motion.p variants={titleAnim}>Crece tu negocio con la mejor plataforma de <b>Facturación en Línea</b> y <b>Servicios Contables</b></motion.p>
                         <motion.h3 variants={titleAnim} style={{fontSize: '25px', marginTop: '20px' }}>Hacemos tu contabilidad y te ofrecemos el sistema mas facil de usar, ideal para Pymes y Emprendedores.</motion.h3>
-                    </div>
+                    </motion.div>
                     <motion.button variants={titleAnim} className="btnAboutUs">Conoce más de nuestros servicios</motion.button>
                 </div>
                 <div className="description-right">
