@@ -5,6 +5,7 @@ import Home from "./pages/home/index";
 import Services from "./pages/services/index";
 import Login from "./pages/login/index";
 import Register from "./pages/register/index";
+import Billing from "./pages/billing/index";
 import Plans from "./pages/plans/index";
 import ServiceTest from "./pages/serviceTest/index";
 import Support from "./pages/support/index";
@@ -26,6 +27,7 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/prueba-de-servicio" element={<ServiceTest />} />
         <Route path="/soporte" element={<Support />} />
+        <Route path="/facturacion" element={<Billing />} />
         <Route path="/sobre-nosotros" element={<AboutUs />} />
         <Route path="/recursos" element={<Resources />} />
         <Route path="/contacto" element={<Contact />} />
