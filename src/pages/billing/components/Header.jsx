@@ -1,11 +1,12 @@
 import React from 'react'
 import { Link } from "react-router-dom";
-import im1 from "../../../img/home/cutout1@2x.png";
+import im1 from "../../../img/home/cutout1.png";
+import billing from "../../../img/home/billing-video.png";
 
 const Header = () => {
   return (
     <>
-      <div className="main-Container h-screen" id="backgroundAboutUs" style={{paddingTop:'0px',background:'#F1F5FE'}}>
+      <div className="main-Container h-screen content-center" id="backgroundAboutUs" style={{paddingTop:'0px',background:'#F1F5FE'}}>
         <div className="description-left" style={{marginRight: '20px' }}>
           <div className="titleAboutUs">
             <p>El sistema de <b>facturación en línea</b> más fácil de usar en México</p>
@@ -25,11 +26,46 @@ const Header = () => {
       </div>
       <div className="main-Container h-screen">
         <div className="flex">
-          <div className="grid gap-y-10 sm:grid-cols-1 gap-x-6 lg:grid-cols-2 xl:grid-cols-2 xl:gap-x-8">
-            alo
+          <div className="lg:w-1/2 lg:mr-[100px]">
+            <div className="lg:my-[20px]">
+              <div className="flex">
+                <div className="lg:mx-[25px]">
+                  {/* //TODO:Icon */}
+                  Icon
+                </div>
+                <div>
+                  <p className="text-[30px]"><b>Facturación</b></p>
+                  <p className="text-[18px]">Aprovecha todas las funcionalidades de nuestro sistema de facturación en línea: edita, timbra, guarda, valida y copia facturas para ahorrar tiempo.</p>
+                </div>
+              </div>
+            </div>
+            <div className="lg:my-[20px]">
+              <div className="flex">
+                <div className="lg:mx-[25px]">
+                  {/* //TODO:Icon */}
+                  Icon
+                </div>
+                <div>
+                  <p className="text-[30px]"><b>Control de gastos</b></p>
+                  <p className="text-[18px]">Carga automáticamente al sistema todas las facturas de tus proveedores, controla tu presupuesto y ahorra dinero.</p>
+                </div>
+              </div>
+            </div>
+            <div className="lg:my-[20px]">
+              <div className="flex">
+                <div className="lg:mx-[25px]">
+                  {/* //TODO:Icon */}
+                  Icon
+                </div>
+                <div>
+                  <p className="text-[30px]"><b>Reportes</b></p>
+                  <p className="text-[18px]">Optimiza la toma de decisiones y utiliza la información clave que ponemos a tu alcance. Ventas, facturación, cobranza, pagos y más; todo lo que necesitas para administrar tu negocio efectivamente.</p>
+                </div>
+              </div>
+            </div>
           </div>
-          <div className="grid gap-y-10 sm:grid-cols-1 gap-x-6 lg:grid-cols-2 xl:grid-cols-2 xl:gap-x-8">
-            alo
+          <div className="lg:w-1/2 content-around grid justify-center">
+            <img src={billing} alt="billing" className="w-[28rem] h-[28rem] "></img>
           </div>
         </div>
       </div>
