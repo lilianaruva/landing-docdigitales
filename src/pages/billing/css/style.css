@@ -97,3 +97,16 @@
     font-weight: bold;
     cursor: pointer;
 }
+
+.tab-content {
+    display: none;
+}
+
+.tab{
+    background-color: white;
+}
+
+.tab-content.active {
+    display: block;
+    background-color: #2AEAA5 0% 0% no-repeat padding-box !important;
+}
