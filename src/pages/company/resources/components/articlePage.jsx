@@ -1,12 +1,13 @@
 import React from "react";
 import ArticleBottom from "./articleBottom";
-import Article01 from "./01";
+import Article01 from "./articles/01";
+import '../resources.css'
 
 const ArticlePage = ({ }) => {
     return (
         <>
-            <div className="main-ContainerArticle">
-
+            <div className="main-ContainerArticle" style={{ marginTop: '134px' }}>
+                <Article01 />
             </div>
             <div className="mainMedium-Container" style={{ borderTop: '2px solid #DDE6F699' }}>
                 <div className="title-platform">

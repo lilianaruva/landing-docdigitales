@@ -51,6 +51,40 @@
     justify-content: space-between;
     padding: 1rem;
     color: #000000;
+    font-size: 25px;
+}
+
+.ArticleContent {
+    max-width: 1088px;
+    margin-bottom: 200px;
+}
+
+.ArticleContent br {
+    margin: 1rem;
+}
+
+.ArticleContent ul {
+    list-style-image: url('./components/articles/point.svg');
+    margin-left: 3rem;
+}
+
+.ArticleContent li{
+    padding-left: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.centerImage {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 90px;
+}
+
+
+.entry-title {
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 67.92px;
 }
 
 .articleTop {
