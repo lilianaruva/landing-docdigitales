@@ -1,5 +1,6 @@
 import React from "react";
 import ArticleBottom from "./articleBottom";
+import Article01 from "./01";
 
 const ArticlePage = ({ }) => {
     return (
