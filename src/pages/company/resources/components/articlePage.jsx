@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import ArticleBottom from "./articleBottom";
 import Article01 from "./articles/01";
 import Article02 from "./articles/02";
@@ -11,11 +11,15 @@ import Article08 from "./articles/08";
 import Article09 from "./articles/09";
 import Article10 from "./articles/10";
 import SocialMedia from "./articles/socialMedia";
-import { Link, useLocation } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 import '../resources.css'
 
 const ArticlePage = ({ }) => {
     let location = useLocation();
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
 
     return (
         <>

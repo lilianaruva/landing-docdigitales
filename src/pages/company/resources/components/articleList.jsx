@@ -5,6 +5,10 @@ import { Link } from "react-router-dom";
 const ArticleList = () => {
     const [articles, setArticles] = useState([...useSelector(state => state.article.articles)])
 
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
+
     return (
         <>
             <div className="bg-white">

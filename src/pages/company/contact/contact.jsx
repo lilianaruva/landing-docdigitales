@@ -1,8 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 import im1 from "../../../img/company/cutout4.png"
 
 const Contact = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
+
     return (
         <>
             <div className="main-Container" id="backgroundAboutUs" style={{ paddingTop: '145px' }}>
