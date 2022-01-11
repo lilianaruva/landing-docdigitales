@@ -5,78 +5,98 @@ const initialState = {
   articles: [
     {
       id: 1,
-      name: "¿Cómo generar mi constancia de situación fiscal en el SAT?",
-      href: "/articulo-01",
-      date: "Septiembre 14, 2021",
+      name: "Nuevos cambios para CFDI Factura 4.0",
+      href: "/recursos/articulo-nuevos-cambios-para-cfdi-factura-4-0/",
+      date: "Diciembre 28, 2021",
       imageSrc: "",
-      imageAlt: "¿Cómo generar mi constancia de situación fiscal en el SAT?",
+      imageAlt: "Nuevos cambios para CFDI Factura 4.0",
     },
     {
       id: 2,
-      name: "Conoce cuándo es necesario el complemento Carta Porte en tus facturas.",
-      href: "/articulo-02",
-      date: "Septiembre 14, 2021",
+      name: "Manual del Complemento de Carta Porte",
+      href: "/recursos/articulo-manual-del-complemento-de-carta-porte/",
+      date: "Diciembre 16, 2021",
       imageSrc: "",
       imageAlt:
-        "Olive drab green insulated bottle with flared screw lid and flat top.",
+        "Manual del Complemento de Carta Porte",
     },
     {
       id: 3,
-      name: "Renueva tu e.Firma sin acudir al SAT",
-      href: "/articulo-03",
+      name: "¿Cómo generar mi constancia de situación fiscal en el SAT?",
+      href: "/recursos/articulo-como-generar-mi-constancia-de-situacion-fiscal-en-el-sat/",
       date: "Septiembre 14, 2021",
       imageSrc:
         "https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg",
       imageAlt:
-        "Person using a pen to cross a task off a productivity paper card.",
+        "¿Cómo generar mi constancia de situación fiscal en el SAT?",
     },
     {
       id: 4,
-      name: "Obtén tu firma electrónica (FIEL) por primera vez",
-      href: "/articulo-04",
-      date: "Septiembre 14, 2021",
+      name: "Conoce cuándo es necesario el complemento Carta Porte en tus facturas.",
+      href: "/recursos/articulo-conoce-cuando-es-necesario-el-complemento-carta-porte-en-tus-facturas/",
+      date: "Septiembre 10, 2021",
       imageSrc:
         "https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg",
       imageAlt:
-        "Hand holding black machined steel mechanical pencil with brass tip and top.",
+        "Conoce cuándo es necesario el complemento Carta Porte en tus facturas.",
     },
     {
       id: 5,
-      name: "¿Cómo realizo el cambio de domicilio fiscal en el SAT?",
-      href: "/articulo-05",
-      date: "Septiembre 14, 2021",
+      name: "¿Cómo presento mi aviso de actividades económicas en el SAT?",
+      href: "/recursos/articulo-como-presento-mi-aviso-de-actividades-economicas-en-el-sat/",
+      date: "Agosto 23, 2021",
       imageSrc: "",
       imageAlt:
-        "Tall slender porcelain bottle with natural clay textured body and cork stopper.",
+        "¿Cómo presento mi aviso de actividades económicas en el SAT?",
     },
     {
       id: 6,
-      name: "Personas físicas podrán presentar declaración anual hasta mayo",
-      href: "/articulo-06",
-      date: "Septiembre 14, 2021",
+      name: "Renueva tu e.Firma sin acudir al SAT",
+      href: "/recursos/articulo-renovacion-de-e-firma/",
+      date: "Agosto 19, 2021",
       imageSrc: "",
       imageAlt:
-        "Olive drab green insulated bottle with flared screw lid and flat top.",
+        "Renueva tu e.Firma sin acudir al SAT",
     },
     {
       id: 7,
-      name: "¿Cómo presento mi aviso de actividades económicas en el SAT?",
-      href: "/articulo-07",
-      date: "Septiembre 14, 2021",
+      name: "Obtén tu firma electrónica (FIEL) por primera vez",
+      href: "/recursos/articulo-agenda-una-cita-y-obten-tu-e-firma-por-primera-vez/",
+      date: "Agosto 19, 2021",
       imageSrc:
         "https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg",
       imageAlt:
-        "Person using a pen to cross a task off a productivity paper card.",
+        "Obtén tu firma electrónica (FIEL) por primera vez",
     },
     {
       id: 8,
-      name: "Manual del Complemento de Carta Porte",
-      href: "/articulo-08",
+      name: "¿Cómo realizo el cambio de domicilio fiscal en el SAT?",
+      href: "/recursos/articulo-como-realizo-el-cambio-de-domicilio-fiscal-en-el-sat/",
+      date: "Agosto 12, 2021",
+      imageSrc:
+        "https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg",
+      imageAlt:
+        "¿Cómo realizo el cambio de domicilio fiscal en el SAT?",
+    },
+    {
+      id: 9,
+      name: "Personas físicas podrán presentar declaración anual hasta mayo",
+      href: "/recursos/articulo-personas-fisicas-podran-presentar-declaracion-anual-hasta-mayo/",
       date: "Septiembre 14, 2021",
       imageSrc:
         "https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg",
       imageAlt:
-        "Hand holding black machined steel mechanical pencil with brass tip and top.",
+        "Personas físicas podrán presentar declaración anual hasta mayo",
+    },
+    {
+      id: 10,
+      name: "Complemento de Vehículos Usados",
+      href: "/recursos/articulo-complemento-de-vehiculos-usados/",
+      date: "Febrero 22, 2021",
+      imageSrc:
+        "https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg",
+      imageAlt:
+        "Complemento de Vehículos Usados",
     },
   ],
 };
