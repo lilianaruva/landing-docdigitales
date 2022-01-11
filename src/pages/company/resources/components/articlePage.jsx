@@ -8,13 +8,14 @@ import Article05 from "./articles/05";
 import Article06 from "./articles/06";
 import Article07 from "./articles/07";
 import Article08 from "./articles/08";
+import Article09 from "./articles/09";
 import '../resources.css'
 
 const ArticlePage = ({ }) => {
     return (
         <>
             <div className="main-ContainerArticle" style={{ marginTop: '134px' }}>
-                <Article08 />
+                <Article09 />
             </div>
             <div className="mainMedium-Container" style={{ borderTop: '2px solid #DDE6F699' }}>
                 <div className="title-platform">
