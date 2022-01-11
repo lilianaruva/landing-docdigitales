@@ -46,9 +46,9 @@
 .main-ContainerArticle {
     min-height: 90vh;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     padding: 1rem;
     color: #000000;
     font-size: 25px;
@@ -103,6 +103,16 @@
     height: 63px;
     padding: 1rem;
     border-right: 1rem solid #F1F5FE;
+}
+
+.social-mediaContainer {
+    width: 38px;
+    margin-right: 100px;
+}
+
+.social-mediaItem {
+    height: 38px;
+    margin-bottom: 26px;
 }
 
 @media (max-width: 1920px) {

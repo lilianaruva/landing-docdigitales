@@ -10,6 +10,7 @@ import Article07 from "./articles/07";
 import Article08 from "./articles/08";
 import Article09 from "./articles/09";
 import Article10 from "./articles/10";
+import SocialMedia from "./articles/socialMedia";
 import '../resources.css'
 
 const ArticlePage = ({ }) => {
@@ -18,6 +19,7 @@ const ArticlePage = ({ }) => {
             <div className="mainMedium-Container" style={{ backgroundColor: '#DDE6F699' }}>
             </div>
             <div className="main-ContainerArticle" style={{ marginTop: '134px' }}>
+                <SocialMedia />
                 <Article10 />
             </div>
             <div className="mainMedium-Container" style={{ borderTop: '2px solid #DDE6F699' }}>
