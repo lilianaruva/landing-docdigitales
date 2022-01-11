@@ -63,12 +63,16 @@
     margin: 1rem;
 }
 
+.ArticleContent a {
+    color: #3A72B3;
+}
+
 .ArticleContent ul {
     list-style-image: url('./components/articles/point.svg');
     margin-left: 3rem;
 }
 
-.ArticleContent li{
+.ArticleContent li {
     padding-left: 1rem;
     margin-bottom: 0.5rem;
 }

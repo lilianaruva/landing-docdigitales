@@ -4,13 +4,13 @@ const Article02 = () => {
     return (
         <div className="ArticleContent">
             <div>
-                <h1 class="entry-title" itemprop="headline">Manual del Complemento de Carta Porte</h1>
+                <h1 className="entry-title" itemprop="headline">Manual del Complemento de Carta Porte</h1>
             </div>
             <div>
                 <p>En <a href="http://www.docdigitales.com">docDigitales</a> te decimos cómo realizar un CFDI con <a href="http://omawww.sat.gob.mx/cartaporte/Paginas/default.htm">complemento de carta porte</a> de una forma rápida y muy sencilla. Lo primero que necesitas hacer es identificar que tipo de CFDI deberás emitir, esto dependerá si la mercancía o bienes que trasladarás son tuyos o bien estás prestando el servicio de traslado.</p>
                 <br />
                 <div className="centerImage">
-                    <img src="https://www.docdigitales.com/blog/wp-content/uploads/2021/09/Presentación1-1024x576.png" alt="Presentación1" class="wp-image-6678" srcset="https://www.docdigitales.com/blog/wp-content/uploads/2021/09/Presentación1-1024x576.png 1024w, https://www.docdigitales.com/blog/wp-content/uploads/2021/09/Presentación1-300x169.png 300w, https://www.docdigitales.com/blog/wp-content/uploads/2021/09/Presentación1-768x432.png 768w, https://www.docdigitales.com/blog/wp-content/uploads/2021/09/Presentación1.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" />
+                    <img src="https://www.docdigitales.com/blog/wp-content/uploads/2021/09/Presentación1-1024x576.png" alt="Presentación1" className="wp-image-6678" srcset="https://www.docdigitales.com/blog/wp-content/uploads/2021/09/Presentación1-1024x576.png 1024w, https://www.docdigitales.com/blog/wp-content/uploads/2021/09/Presentación1-300x169.png 300w, https://www.docdigitales.com/blog/wp-content/uploads/2021/09/Presentación1-768x432.png 768w, https://www.docdigitales.com/blog/wp-content/uploads/2021/09/Presentación1.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" />
                 </div>
                 <p>Una vez que elegiste el tipo de CFDI llenarás tu factura y agregarás al final en <strong>Opciones adicionales a la factura</strong> los complementos y activarás el botón. Eliges <strong>Carta Porte</strong> y das clic en el botón de <strong>Elegir Complemento</strong>.</p>
                 <br />
@@ -43,8 +43,8 @@ const Article02 = () => {
                     <li>Luego elegir el Código Postal, País, Estado, Municipio, Localidad y Colonia, es necesario hacerlo en ese orden para que vaya filtrando por entidad el contenido de la siguiente celda. </li>
                 </ul>
                 <br />
-                <div class="centerImage">
-                    <img src="https://www.docdigitales.com/blog/wp-content/uploads/2021/12/2-cp.jpg" alt="2 cp" class="wp-image-6738" srcset="https://www.docdigitales.com/blog/wp-content/uploads/2021/12/2-cp.jpg 860w, https://www.docdigitales.com/blog/wp-content/uploads/2021/12/2-cp-300x174.jpg 300w, https://www.docdigitales.com/blog/wp-content/uploads/2021/12/2-cp-768x446.jpg 768w" sizes="(max-width: 860px) 100vw, 860px" />
+                <div className="centerImage">
+                    <img src="https://www.docdigitales.com/blog/wp-content/uploads/2021/12/2-cp.jpg" alt="2 cp" className="wp-image-6738" srcset="https://www.docdigitales.com/blog/wp-content/uploads/2021/12/2-cp.jpg 860w, https://www.docdigitales.com/blog/wp-content/uploads/2021/12/2-cp-300x174.jpg 300w, https://www.docdigitales.com/blog/wp-content/uploads/2021/12/2-cp-768x446.jpg 768w" sizes="(max-width: 860px) 100vw, 860px" />
                 </div>
                 <p><strong>Ubicación 2: Destino/Intermedio</strong></p>
                 <br />
@@ -68,8 +68,8 @@ const Article02 = () => {
                     <li> Luego elegir el Código Postal, País, Estado, Municipio, Localidad y Colonia, es necesario hacerlo en ese orden para que vaya filtrando por entidad el contenido de la siguiente celda.  </li>
                 </ul>
                 <br />
-                <div class="centerImage">
-                    <img src="https://www.docdigitales.com/blog/wp-content/uploads/2021/12/1.jpg" alt="1" class="wp-image-6739" srcset="https://www.docdigitales.com/blog/wp-content/uploads/2021/12/1.jpg 980w, https://www.docdigitales.com/blog/wp-content/uploads/2021/12/1-300x196.jpg 300w, https://www.docdigitales.com/blog/wp-content/uploads/2021/12/1-768x502.jpg 768w" sizes="(max-width: 980px) 100vw, 980px" />
+                <div className="centerImage">
+                    <img src="https://www.docdigitales.com/blog/wp-content/uploads/2021/12/1.jpg" alt="1" className="wp-image-6739" srcset="https://www.docdigitales.com/blog/wp-content/uploads/2021/12/1.jpg 980w, https://www.docdigitales.com/blog/wp-content/uploads/2021/12/1-300x196.jpg 300w, https://www.docdigitales.com/blog/wp-content/uploads/2021/12/1-768x502.jpg 768w" sizes="(max-width: 980px) 100vw, 980px" />
                 </div>
                 <p>3. <strong>Mercancías</strong>: en este apartado se registra toda la información relacionada con los bienes y mercancías que se trasladan.&nbsp;</p>
                 <br />
@@ -89,8 +89,8 @@ const Article02 = () => {
                     <li>UUID Comercio Exterior:  folio fiscal (UUID) del comprobante de comercio exterior que se relaciona, es opcional.</li>
                 </ul>
                 <br />
-                <div class="centerImage">
-                    <img src="https://www.docdigitales.com/blog/wp-content/uploads/2021/12/Picture1.png" alt="Picture1" class="wp-image-6742" srcset="https://www.docdigitales.com/blog/wp-content/uploads/2021/12/Picture1.png 890w, https://www.docdigitales.com/blog/wp-content/uploads/2021/12/Picture1-300x163.png 300w, https://www.docdigitales.com/blog/wp-content/uploads/2021/12/Picture1-768x419.png 768w" sizes="(max-width: 890px) 100vw, 890px" />
+                <div className="centerImage">
+                    <img src="https://www.docdigitales.com/blog/wp-content/uploads/2021/12/Picture1.png" alt="Picture1" className="wp-image-6742" srcset="https://www.docdigitales.com/blog/wp-content/uploads/2021/12/Picture1.png 890w, https://www.docdigitales.com/blog/wp-content/uploads/2021/12/Picture1-300x163.png 300w, https://www.docdigitales.com/blog/wp-content/uploads/2021/12/Picture1-768x419.png 768w" sizes="(max-width: 890px) 100vw, 890px" />
                 </div>
                 <p>Si para tu CFDI es necesario agregar el apartado de <strong>Pedimentos</strong>, se sigue el siguiente formato para expresar el número de pedimento:</p>
                 <br />
@@ -103,8 +103,8 @@ const Article02 = () => {
                 <br />
                 <p>En total son 21 dígitos tomando en cuenta los espacios. </p>
                 <br />
-                <div class="centerImage">
-                    <img src="https://www.docdigitales.com/blog/wp-content/uploads/2021/12/image-2.png" alt="image 2" class="wp-image-6743" width="234" height="46" srcset="https://www.docdigitales.com/blog/wp-content/uploads/2021/12/image-2.png 419w, https://www.docdigitales.com/blog/wp-content/uploads/2021/12/image-2-300x59.png 300w" sizes="(max-width: 234px) 100vw, 234px" />
+                <div className="centerImage">
+                    <img src="https://www.docdigitales.com/blog/wp-content/uploads/2021/12/image-2.png" alt="image 2" className="wp-image-6743" width="234" height="46" srcset="https://www.docdigitales.com/blog/wp-content/uploads/2021/12/image-2.png 419w, https://www.docdigitales.com/blog/wp-content/uploads/2021/12/image-2-300x59.png 300w" sizes="(max-width: 234px) 100vw, 234px" />
                 </div>
                 <p><strong>Guía de Identificación</strong>: Es requerido si es necesario registrar información de número de guías que se encuentren asociados al o los paquetes que se trasladan dentro de territorio nacional. </p>
                 <br />
@@ -134,7 +134,7 @@ const Article02 = () => {
                 </ul>
                 <br />
                 <div className="centerImage">
-                    <img src="https://www.docdigitales.com/blog/wp-content/uploads/2021/12/autotransporte-1024x726.png" alt="autotransporte" class="wp-image-6751" srcset="https://www.docdigitales.com/blog/wp-content/uploads/2021/12/autotransporte-1024x726.png 1024w, https://www.docdigitales.com/blog/wp-content/uploads/2021/12/autotransporte-300x213.png 300w, https://www.docdigitales.com/blog/wp-content/uploads/2021/12/autotransporte-768x545.png 768w, https://www.docdigitales.com/blog/wp-content/uploads/2021/12/autotransporte.png 1245w" sizes="(max-width: 1024px) 100vw, 1024px" />
+                    <img src="https://www.docdigitales.com/blog/wp-content/uploads/2021/12/autotransporte-1024x726.png" alt="autotransporte" className="wp-image-6751" srcset="https://www.docdigitales.com/blog/wp-content/uploads/2021/12/autotransporte-1024x726.png 1024w, https://www.docdigitales.com/blog/wp-content/uploads/2021/12/autotransporte-300x213.png 300w, https://www.docdigitales.com/blog/wp-content/uploads/2021/12/autotransporte-768x545.png 768w, https://www.docdigitales.com/blog/wp-content/uploads/2021/12/autotransporte.png 1245w" sizes="(max-width: 1024px) 100vw, 1024px" />
                 </div>
                 <ul>
                     <li>Si transportas diferentes mercancías para distintos clientes es necesario emitir a cada uno su CFDI con complemento carta porte con la o las mercancías y/o bienes que le transportas a cada uno.</li>
