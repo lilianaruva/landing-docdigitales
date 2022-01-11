@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import imglap from "../../img/home/african-american-woman-using-online-banking-close-2021-09-24-04-11-48-utc.png"
 import imgBusinessW from "../../img/home/young-business-woman-working-laptop-office (3).png"
 import imgLeader from "../../img/home/Leadership-Skills-Advance-Your-Career-Hospitality-Industry.png"
@@ -15,6 +15,10 @@ import { motion } from "framer-motion";
 import { pageAnimation } from "../../animation";
 
 const Home = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
+
     return (
         <motion.div
             exit="exit"
@@ -24,7 +28,7 @@ const Home = () => {
         >
             <AboutUs />
             <Circle />
-            <div className="title-platform" style={{marginTop: '135px'}}>
+            <div className="title-platform" style={{ marginTop: '135px' }}>
                 <p>Controla todo desde <b>un mismo lugar</b></p>
             </div>
             <div className="main-Container">

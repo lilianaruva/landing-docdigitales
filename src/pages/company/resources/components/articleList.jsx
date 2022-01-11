@@ -5,6 +5,10 @@ import { Link } from "react-router-dom";
 const ArticleList = () => {
     const [articles, setArticles] = useState([...useSelector(state => state.article.articles)])
 
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
+
     return (
         <>
             <div className="bg-white">
@@ -26,7 +30,7 @@ const ArticleList = () => {
                     </div>
                     <div className="grid grid-cols-1 gap-y-10 sm:grid-cols-2 gap-x-6 lg:grid-cols-3 xl:grid-cols-3 xl:gap-x-8">
                         {articles.map((article) => (
-                            <Link to="/articlePage" key={article.id}>
+                            <Link to={article.href} key={article.id}>
                                 <a className="group">
                                     {
                                         article.imageSrc !== "" ?

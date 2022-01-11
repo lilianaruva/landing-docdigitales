@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import im1 from "../../../img/company/cutout4.png"
 import call from "../../../img/company/business-man-working-at-home-home-office-2021-08-30-06-38-21-utc.png"
 import hand from "../../../img/company/pexels-sora-shimazaki-5673488.png"
@@ -8,6 +8,10 @@ import logoDD from "../../../img/home/DD_Logo.svg"
 import './aboutUs.css';
 
 const AboutUs = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
+
     return (
         <>
             <div className="Principal-main-Container" id="backgroundAbout" style={{ paddingTop: '145px' }}>
@@ -21,9 +25,9 @@ const AboutUs = () => {
                 </div>
             </div>
             <div className="mainMedium-Container">
-                <img src={logoDD} alt="logoDDAboutUs"/>
+                <img src={logoDD} alt="logoDDAboutUs" />
                 <div className="title-platform">
-                    <p style={{fontWeight: '500', width: "1080px", marginTop: "35.68px"}}>Nuestra misión es hacer más <b>sencilla</b> y <b>productiva la vida laboral</b> de nuestros clientes con la mejor atención y el mejor producto.</p>
+                    <p style={{ fontWeight: '500', width: "1080px", marginTop: "35.68px" }}>Nuestra misión es hacer más <b>sencilla</b> y <b>productiva la vida laboral</b> de nuestros clientes con la mejor atención y el mejor producto.</p>
                 </div>
             </div>
             <div className="main-Container">
@@ -40,10 +44,10 @@ const AboutUs = () => {
                     </div>
                 </div>
             </div>
-            <div className="mainMedium-Container" style= {{backgroundColor: '#F1F5FE'}}>
+            <div className="mainMedium-Container" style={{ backgroundColor: '#F1F5FE' }}>
                 <div className="title-platform">
-                    <p style={{fontWeight: '500'}}>Confiamos en nuestros compañeros, equipo y clientes</p>
-                    <p style={{fontSize: '25px'}}>Entendemos que simple es mejor. Damos confianza y recibimos confianza. Somos directos y nos comunicamos de manera honesta. Escuchamos y nos ponemos en los zapatos de nuestros compañeros y clientes. Somos empáticos. Trabajamos con pasión haciendo lo que nos gusta.</p>
+                    <p style={{ fontWeight: '500' }}>Confiamos en nuestros compañeros, equipo y clientes</p>
+                    <p style={{ fontSize: '25px' }}>Entendemos que simple es mejor. Damos confianza y recibimos confianza. Somos directos y nos comunicamos de manera honesta. Escuchamos y nos ponemos en los zapatos de nuestros compañeros y clientes. Somos empáticos. Trabajamos con pasión haciendo lo que nos gusta.</p>
                 </div>
                 <div className="sectionNumbersContainer">
                     <div className="sectionNumbersChild">

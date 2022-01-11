@@ -1,19 +1,23 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import logo from "../../img/home/DD_Logo.svg"
 import './style.css'
 
 const ServiceTest = () => {
-  return (
-    <>
+	useEffect(() => {
+		window.scrollTo(0, 0)
+	}, [])
+
+	return (
+		<>
 			<div className="flex h-screen service-background-color" id="greenSpot">
 				<div className="m-auto">
 					<div className="flex py-[30px]">
 						<div className="m-auto">
-							<img src={logo} className="self-center" style={{ width:"260px"}} alt="DD_Logo" />
+							<img src={logo} className="self-center" style={{ width: "260px" }} alt="DD_Logo" />
 						</div>
 					</div>
-					<div className="shadow-[0px_3px_20px_#B9CCEF80] px-12 py-8 mb-4 lg:w-[1000px]" style={{ background:'white' }}>
+					<div className="shadow-[0px_3px_20px_#B9CCEF80] px-12 py-8 mb-4 lg:w-[1000px]" style={{ background: 'white' }}>
 						<div className="flex">
 							<div className="lg:w-[450px] lg:px-[50px] lg:pt-[32px]">
 								<div className="lg:text-[32px]">
@@ -27,19 +31,19 @@ const ServiceTest = () => {
 								<div className="flex">
 									<label className="block">
 										<span className="text-green">Correo electrónico</span>
-										<input className="mt-1 block bg-[#DDE6F6] lg:w-[300px] px-4 py-2 rounded hover:shadow-md focus:outline-0 focus:shadow-lg active:shadow-lg" placeholder="andrea@gmail.com" type="email"/>
+										<input className="mt-1 block bg-[#DDE6F6] lg:w-[300px] px-4 py-2 rounded hover:shadow-md focus:outline-0 focus:shadow-lg active:shadow-lg" placeholder="andrea@gmail.com" type="email" />
 									</label>
 								</div>
 								<div className="flex pt-[20px]">
 									<label className="block">
 										<span className="text-green">Constraseña</span>
-										<input className="mt-1 block bg-[#DDE6F6] lg:w-[300px] px-4 py-2 rounded hover:shadow-md focus:outline-0 focus:shadow-lg active:shadow-lg" placeholder="Ingresa tu contraseña" type="email"/>
+										<input className="mt-1 block bg-[#DDE6F6] lg:w-[300px] px-4 py-2 rounded hover:shadow-md focus:outline-0 focus:shadow-lg active:shadow-lg" placeholder="Ingresa tu contraseña" type="email" />
 									</label>
 								</div>
 								<div className="flex pt-[20px]">
 									<label className="block">
 										<span className="text-green">RFC</span>
-										<input className="mt-1 block bg-[#DDE6F6] lg:w-[300px] px-4 py-2 rounded hover:shadow-md focus:outline-0 focus:shadow-lg active:shadow-lg" placeholder="Ingresa tu RFC" type="email"/>
+										<input className="mt-1 block bg-[#DDE6F6] lg:w-[300px] px-4 py-2 rounded hover:shadow-md focus:outline-0 focus:shadow-lg active:shadow-lg" placeholder="Ingresa tu RFC" type="email" />
 									</label>
 								</div>
 								<div className="flex pt-[20px] text-[15px] opacity-20">
@@ -67,8 +71,8 @@ const ServiceTest = () => {
 					</Link>
 				</div>
 			</div>
-    </>
-  );
+		</>
+	);
 };
 
 export default ServiceTest;

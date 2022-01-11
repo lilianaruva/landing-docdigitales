@@ -31,7 +31,7 @@ function App() {
         <Route path="/sobre-nosotros" element={<AboutUs />} />
         <Route path="/recursos" element={<Resources />} />
         <Route path="/contacto" element={<Contact />} />
-        <Route path="/articlePage" element={<ArticlePage />} />
+        <Route path="*" element={<ArticlePage />} />
       </Routes>
       <Footer />
     </div>

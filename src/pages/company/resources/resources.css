@@ -46,11 +46,50 @@
 .main-ContainerArticle {
     min-height: 90vh;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     padding: 1rem;
     color: #000000;
+    font-size: 25px;
+}
+
+.ArticleContent {
+    max-width: 1088px;
+    margin-bottom: 200px;
+}
+
+.ArticleContent br {
+    margin: 1rem;
+}
+
+.ArticleContent a {
+    color: #3A72B3;
+}
+
+.ArticleContent ul {
+    list-style-image: url('./components/articles/point.svg');
+    margin-left: 3rem;
+}
+
+.ArticleContent li {
+    padding-left: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.centerImage {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 90px;
+    align-items: center;
+}
+
+
+.entry-title {
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 67.92px;
 }
 
 .articleTop {
@@ -64,6 +103,16 @@
     height: 63px;
     padding: 1rem;
     border-right: 1rem solid #F1F5FE;
+}
+
+.social-mediaContainer {
+    width: 38px;
+    margin-right: 100px;
+}
+
+.social-mediaItem {
+    height: 38px;
+    margin-bottom: 26px;
 }
 
 @media (max-width: 1920px) {

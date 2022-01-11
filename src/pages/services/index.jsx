@@ -1,9 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 
-const Services = () =>{
+const Services = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
+
     return (
         <>
-        <h1>Services</h1>
+            <h1>Services</h1>
         </>
     )
 }
