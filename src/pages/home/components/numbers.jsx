@@ -1,8 +1,8 @@
 import React from "react";
 import icon1 from "../../../img/home/business-21.svg"
-//import icon2 from "../../../img/home/business-23.svg"
+import icon2 from "../../../img/home/hands.svg"
 import icon3 from "../../../img/home/business-03.svg"
-//import icon4 from "../../../img/home/business-28.svg"
+import icon4 from "../../../img/home/bill.svg"
 import CountUp from 'react-countup';
 import { AnimateSharedLayout } from "framer-motion";
 import { scrollReveal } from "../../../animation";
@@ -27,7 +27,7 @@ const Numbers = () => {
                         <p className="numberSubtitle">Años de experiencia</p>
                     </div>
                     <div className="sectionNumbersChild">
-                        <img src={icon1} alt="iconNumbers2" />
+                        <img src={icon2} alt="iconNumbers2" style={{ marginBottom: "55px" }}/>
                         <p className="numberTitle"><CountUp start={0} end={6000} duration={2} />+</p>
                         <p className="numberSubtitle">Empresas ya confían en nosotros</p>
                     </div>
@@ -37,7 +37,7 @@ const Numbers = () => {
                         <p className="numberSubtitle">Facturas generadas mensualmente</p>
                     </div>
                     <div className="sectionNumbersChild">
-                        <img src={icon1} alt="iconNumbers4" />
+                        <img src={icon4} alt="iconNumbers4"/>
                         <p className="numberTitle"><CountUp start={0} end={2} duration={1} />Bll USD+</p>
                         <p className="numberSubtitle">Facturados anualmente por nuestros clientes</p>
                     </div>
