@@ -9,13 +9,16 @@ import Article06 from "./articles/06";
 import Article07 from "./articles/07";
 import Article08 from "./articles/08";
 import Article09 from "./articles/09";
+import Article10 from "./articles/10";
 import '../resources.css'
 
 const ArticlePage = ({ }) => {
     return (
         <>
+            <div className="mainMedium-Container" style={{ backgroundColor: '#DDE6F699' }}>
+            </div>
             <div className="main-ContainerArticle" style={{ marginTop: '134px' }}>
-                <Article09 />
+                <Article10 />
             </div>
             <div className="mainMedium-Container" style={{ borderTop: '2px solid #DDE6F699' }}>
                 <div className="title-platform">
