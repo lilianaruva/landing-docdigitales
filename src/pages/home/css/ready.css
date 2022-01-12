@@ -35,6 +35,11 @@
 }
 
 #pointsBackground {
-    background-image: url(../../../img/pointAqua.png);
-    background-repeat: repeat;
+    background-image: url(../../../img/pointB.png);
+    background-repeat: space;
+    background-size: 90px;
+    position: relative;
+    
+    top: 0;
+    content: "";
 }
