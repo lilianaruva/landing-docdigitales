@@ -23,9 +23,9 @@ import pointBlue from "../../img/pointBlue.png";
 import pointCeleste from "../../img/pointCeleste.png";
 
 const Home = () => {
-    useEffect(() => {
+    /*useEffect(() => {
         window.scrollTo(0, 0)
-    }, [])
+    }, [])*/
 
     return (
         <motion.div
@@ -107,7 +107,10 @@ const Home = () => {
             </div>
             <How />
             <Numbers />
-            <Comment clientIndex="1" comment="“En Rentrailer estamos muy agradecidos por el trato tan amable y por el seguimiento personalizado que docDigitales tiene hacia nosotros. El servicio contable fue el plus necesario para que sea el paquete ideal, su equipo de Contadores tienen la disposición real de servicio y aclaraciones hasta en los detalles más mínimos. Contentos con el servicio brindado por esta plataforma y su equipo de trabajo.”" client="Lic. Brenda Sánchez O." clientRole="Administración Contable" clientLogo="https://images.pexels.com/photos/20787/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=350" />
+            {
+
+            }
+            <Comment />
             <News />
             <Ready />
         </motion.div>
