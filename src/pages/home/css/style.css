@@ -34,7 +34,7 @@
 .titleAboutUs button {
     width: 473px;
     height: 71px;
-    background: #2AEAA5 0% 0% no-repeat padding-box;
+    background: #2AEAA5;
     border-radius: 100px;
     font: normal normal medium 25px/50px Asap;
 }
@@ -48,6 +48,8 @@
     font-weight: 500;
     border-radius: 100px;
 }
+
+
 
 .title-platform {
     margin-bottom: 1rem;
@@ -96,6 +98,30 @@
     color: #14BFC9;
     font-weight: bold;
     cursor: pointer;
+}
+
+#blue {
+    border: 2px solid #0D66CE;
+    color: #0D66CE;
+}
+
+#aqua {
+    border: 2px solid #2AEAA5;
+    color: #2AEAA5;
+}
+
+#pointRightCenter {
+    position: relative;
+    top: -300px;
+    left: 500px;
+    width: 15%;
+}
+
+#pointRightTop {
+    width: 15%;
+    position: relative;
+    top: -550px;
+    left: 500px;
 }
 
 @media (min-width: 1920px) {
