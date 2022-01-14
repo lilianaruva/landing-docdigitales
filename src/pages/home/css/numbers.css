@@ -24,3 +24,15 @@
 .numberSubtitle{
     width: 265px;
 }
+
+@media (max-width: 1300px) {
+
+    .sectionNumbersContainer{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sectionNumbersChild{
+        margin-bottom: 4rem;
+    }
+}

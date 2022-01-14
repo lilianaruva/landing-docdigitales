@@ -18,7 +18,7 @@ const Numbers = () => {
                 initial="hidden"
                 variants={scrollReveal}>
                 <div className="title-platform">
-                    <p style={{ fontWeight: '500', width: '992px' }}>Somos la mejor solución para la <b>vida laboral de PyMES y emprendedores</b></p>
+                    <p style={{ fontWeight: '500', maxWidth: '992px' }}>Somos la mejor solución para la <b>vida laboral de PyMES y emprendedores</b></p>
                 </div>
                 <div className="sectionNumbersContainer">
                     <div className="sectionNumbersChild">

@@ -17,3 +17,25 @@
 .News img {
     width: 30%;
 }
+
+/* M  */
+
+@media (max-width: 1300px) {
+
+    .News {
+        margin-top: 54px;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        align-items: center;
+    }
+
+    .News img {
+        width: 100%;
+    }
+
+    .newItem {
+        min-width: 500px;
+        margin-top: 1rem;
+    }
+}

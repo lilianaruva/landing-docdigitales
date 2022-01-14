@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import imglap from "../../img/home/african-american-woman-using-online-banking-close-2021-09-24-04-11-48-utc.png"
 import imgBusinessW from "../../img/home/young-business-woman-working-laptop-office (3).png"
 import imgLeader from "../../img/home/Leadership-Skills-Advance-Your-Career-Hospitality-Industry.png"
@@ -6,11 +6,13 @@ import imgLentes from "../../img/home/man-glass.png"
 import "./css/style.css";
 import AboutUs from "./components/aboutUs";
 import Circle from "./components/circle";
+import MidCircle from './components/midCircle';
 import How from "./components/how";
 import Numbers from "./components/numbers";
 import Comment from "./components/comment";
 import News from "./components/news";
 import Ready from "./components/ready";
+
 //react router
 import { Link } from 'react-router-dom';
 //Animations
@@ -33,9 +35,14 @@ const Home = () => {
             variants={pageAnimation}
             initial="hidden"
             animate="show"
+            id="backgroundAboutUs2"
         >
             <AboutUs />
-            <Circle />
+            {
+                window.innerWidth >= 1300 ?
+                    <Circle /> :
+                    <MidCircle />
+            }
             <div className="title-platform" style={{ marginTop: '135px' }}>
                 <p>Controla todo desde <b>un mismo lugar</b></p>
             </div>
@@ -107,13 +114,10 @@ const Home = () => {
             </div>
             <How />
             <Numbers />
-            {
-
-            }
             <Comment />
             <News />
             <Ready />
-        </motion.div>
+        </motion.div >
     )
 }
 

@@ -1,5 +1,5 @@
 .main-ContainerSection2 {
-    height: 1125px;
+    height: 780px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -12,7 +12,31 @@
     background-image: url(../../../img/home/clear_white.png);
     background-position: 80% 50%;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 90% !important;
+}
+
+#first {
+    position: relative;
+    top: -10%;
+    left: 30%;
+}
+
+#second {
+    position: relative;
+    top: 15%;
+    left: 10%;
+}
+
+#third {
+    position: relative;
+    top: 45%;
+    left: -17%;
+}
+
+#fourth {
+    position: relative;
+    top: 80%;
+    left: -85%;
 }
 
 .descriptionHome-left {
@@ -20,10 +44,12 @@
     z-index: 2;
     display: flex;
     flex-direction: column;
+    height: 100%;
+    min-width: 40%;
 }
 
 .descriptionHome-left img {
-    width: 80%;
+    width: 100% !important;
 }
 
 .descriptionHome-right {
@@ -31,7 +57,12 @@
     z-index: 2;
     display: flex;
     height: 100%;
-    width: 100%;
+    width: 50% !important;
+}
+
+.selected {
+    font-weight: 600;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .columnSection2 {
@@ -41,9 +72,9 @@
 }
 
 .cardColumSection2 {
-    width: 147px;
-    height: 147px;
-    background-color: #FFFFFF;
+    width: 305px !important;
+    height: 165px !important;
+    background-color: white;
     border-radius: 5px;
     display: flex;
     flex-direction: column;
@@ -52,7 +83,11 @@
     justify-content: center;
     font-size: 18px;
     cursor: pointer;
-    padding: 17.5px;
+    padding: 2rem;
+}
+
+.cardColumSection2 p{
+    width: 100px !important;
 }
 
 .cardColumSection2:hover {
@@ -62,32 +97,30 @@
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
-.cardColumSection2 p {
-    width: 94px;
-}
 
-.textColumnSection2 {
-    width: 300px;
-    font-size: 20px;
-}
 
-#top {
+.textColumnSection2 p{
+    width: 200px !important;
     position: relative;
-    top: -40px;
+    top: 32%;
+    left: 0%;
 }
+
 
 .title-platformCircle {
-    font-size: '30px';
+    font-size: 30px;
     margin-bottom: 1rem;
-    display: flex;
-    flex-direction: column;
     width: 100%;
-    justify-content: center;
     text-align: center;
-    width: '600px';
 }
 
-@media (max-width: 1920px) {
+@media (min-width: 1920px) {
+
+    .main-ContainerSection2 {
+        height: 1125px;
+    }
+    
+
     .title-platformCircle {
         margin-bottom: 75.8px;
         font-size: 50px;
@@ -101,11 +134,11 @@
         background-size: 1612px 1024.29px;
     }
 
-    .textColumnSection2 {
-        width: 312px;
+    .textColumnSection2 p{
+        width: 300px !important;
         position: relative;
         top: 400px;
-        left: 80px;
+        left: 10px;
     }
 
     .responsiveTitleCircle {
@@ -118,25 +151,90 @@
 
     #first {
         position: relative;
-        top: 80px;
+        top: 30px;
         left: 280px;
     }
 
     #second {
         position: relative;
         top: 280px;
-        left: 180px;
+        left: 110px;
     }
 
     #third {
         position: relative;
         top: 530px;
-        left: 40px;
+        left: -50px;
     }
 
     #fourth {
         position: relative;
         top: 730px;
-        left: -450px;
+        left: -490px;
     }
+}
+
+/* M  */
+
+@media (max-width: 1300px) {
+    .main-ContainerSection2 {
+        min-height: 140vh !important;
+        display: block;
+        flex-direction: column;
+        align-items: center;
+        padding: 2rem 80px !important;
+        color: #000000;
+        background-color: #F2F5FE;
+    }
+
+    .descriptionHome-left {
+        flex: 1;
+        z-index: 2;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        height: 100%;
+        width: 100%;
+    }
+    
+    .descriptionHome-left img {
+        width: 50% !important;
+    }
+    
+    .descriptionHome-right {
+        z-index: 2;
+        display: flex;
+        flex-direction: column;
+        width: 100% !important;
+    }
+
+    .TextMidCicle{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .cardMidCircle{
+        margin-top: 2rem;
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+
+    .cardColumSection2 p{
+        margin-top: 1rem;
+        width: 100% !important;
+    }
+
+    .TextMidCicle{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        font-size: 30px;
+        width: 100%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+
 }

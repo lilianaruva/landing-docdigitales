@@ -1,13 +1,12 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect } from 'react';
+import { LayoutGroup, motion } from "framer-motion";
+import { useScroll } from "../../../components/useScroll";
+import { scrollReveal, cardAnimation, list } from "../../../animation";
 import screen from "../../../img/home/Screen Shot 2021-12-27 at 14.59.15.png"
 import icon1 from "../../../img/home/business-23.svg";
 import icon3 from "../../../img/home/business-28.svg";
 
-import { LayoutGroup, motion } from "framer-motion";
-import { useScroll } from "../../../components/useScroll";
-import { scrollReveal, cardAnimation, list } from "../../../animation";
-
-const Circle = () => {
+const MidCircle = () => {
 
     const menuOption = [
         {
@@ -40,7 +39,6 @@ const Circle = () => {
         }
     ]
 
-
     const [animation, setAnimation] = useState(true);
     const [textOption, setTextOption] = useState(menuOption[0]);
     const [index, setIndex] = useState(0);
@@ -56,7 +54,6 @@ const Circle = () => {
     const changeContentIn = (index) => {
         setTextOption(menuOption[index]);
     }
-
 
     useEffect(() => {
         var delayInMilliseconds = 5000;
@@ -87,53 +84,53 @@ const Circle = () => {
                 </div>
                 <LayoutGroup>
                     <motion.div className="descriptionHome-right" variants={list} initial="hidden" animate="visible">
-                        <motion.div className={`cardColumSection2 ${index === 0 ? "selected" : ""}`}
-                            id="first"
-                            animate={{ scale: 1 }}
-                            variants={cardAnimation}
-                            whileHover={{ scale: 0.9 }}
-                            onTap={() => { changeContent(0) }}
-                            onMouseOver={() => { changeContent(0) }}
-                        >
-                            <img src={icon1} alt="icon1Section2" />
-                            <p>Facturación en línea</p>
-                        </motion.div>
-                        <motion.div className="textColumnSection2">
+                        <div className="cardMidCircle">
+                            <motion.div className={`cardColumSection2 ${index === 0 ? "selected" : ""}`}
+                                animate={{ scale: 1 }}
+                                variants={cardAnimation}
+                                whileHover={{ scale: 0.9 }}
+                                onTap={() => { changeContent(0) }}
+                                onMouseOver={() => { changeContent(0) }}
+                            >
+                                <img src={icon1} alt="icon1Section2" />
+                                <p>Facturación en línea</p>
+                            </motion.div>
+                            <motion.div className={`cardColumSection2 ${index === 1 ? "selected" : ""}`}
+                                animate={{ scale: 1 }}
+                                variants={cardAnimation}
+                                whileHover={{ scale: 0.9 }}
+                                onTap={() => { changeContent(1) }}
+                                onMouseOver={() => { changeContent(1) }}
+                            >
+                                <img src={icon3} alt="icon1Section2" />
+                                <p>Recibe pagos en línea</p>
+                            </motion.div>
+                        </div>
+                        <div className="cardMidCircle">
+                            <motion.div className={`cardColumSection2 ${index === 2 ? "selected" : ""}`}
+                                animate={{ scale: 1 }}
+                                variants={cardAnimation}
+                                whileHover={{ scale: 0.9 }}
+                                onTap={() => { changeContent(2) }}
+                                onMouseOver={() => { changeContent(2) }}
+                            >
+                                <img src={icon3} alt="icon1Section2" />
+                                <p>Servicios contables</p>
+                            </motion.div>
+                            <motion.div className={`cardColumSection2 ${index === 3 ? "selected" : ""}`}
+                                animate={{ scale: 1 }}
+                                variants={cardAnimation}
+                                whileHover={{ scale: 0.9 }}
+                                onTap={() => { changeContent(3) }}
+                                onMouseOver={() => { changeContent(3) }}
+                            >
+                                <img src={icon1} alt="icon1Section2" />
+                                <p>Administración de nómina</p>
+                            </motion.div>
+                        </div>
+                        <motion.div className="TextMidCicle">
                             <p className="responsiveTitleCircle"><b>{textOption?.strongTitle ?? ""}</b> {textOption?.simpleTitle ?? ""}</p>
                             <p className="responsiveSubtitleCircle">{textOption?.description ?? ""}</p>
-                        </motion.div>
-                        <motion.div className={`cardColumSection2 ${index === 1 ? "selected" : ""}`}
-                            id="second"
-                            animate={{ scale: 1 }}
-                            variants={cardAnimation}
-                            whileHover={{ scale: 0.9 }}
-                            onTap={() => { changeContent(1) }}
-                            onMouseOver={() => { changeContent(1) }}
-                        >
-                            <img src={icon3} alt="icon1Section2" />
-                            <p>Recibe pagos en línea</p>
-                        </motion.div>
-                        <motion.div className={`cardColumSection2 ${index === 2 ? "selected" : ""}`}
-                            id="third"
-                            animate={{ scale: 1 }}
-                            variants={cardAnimation}
-                            whileHover={{ scale: 0.9 }}
-                            onTap={() => { changeContent(2) }}
-                            onMouseOver={() => { changeContent(2) }}
-                        >
-                            <img src={icon3} alt="icon1Section2" />
-                            <p>Servicios contables</p>
-                        </motion.div>
-                        <motion.div className={`cardColumSection2 ${index === 3 ? "selected" : ""}`}
-                            id="fourth"
-                            animate={{ scale: 1 }}
-                            variants={cardAnimation}
-                            whileHover={{ scale: 0.9 }}
-                            onTap={() => { changeContent(3) }}
-                            onMouseOver={() => { changeContent(3) }}
-                        >
-                            <img src={icon1} alt="icon1Section2" />
-                            <p>Administración de nómina</p>
                         </motion.div>
                     </motion.div>
                 </LayoutGroup>
@@ -142,4 +139,4 @@ const Circle = () => {
     )
 }
 
-export default Circle;
+export default MidCircle;

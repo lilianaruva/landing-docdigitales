@@ -17,6 +17,13 @@
     background-repeat: no-repeat, no-repeat;
 }
 
+#backgroundAboutUs2 {
+    background-image: url(../../../img/home/christin-hume-Hcfwew744z4-unsplash.svg);
+    background-position-x: 350%;
+    background-position-y: 0px;
+    background-repeat: no-repeat;
+}
+
 .titleAboutUs h1 {
     font-size: 40px;
     font-weight: regular;
@@ -72,7 +79,7 @@
 }
 
 .simple-description {
-    width: 682px;
+    max-width: 682px;
 }
 
 .simple-description .title {
@@ -124,10 +131,52 @@
     left: 500px;
 }
 
+#pointLeftBottom {
+    width: 15%;
+    position: relative;
+    top: -100px;
+    left: -450px;
+}
+
 @media (min-width: 1920px) {
     #backgroundAboutUs {
         background-image: url(../../../img/home/christin-hume-Hcfwew744z4-unsplash-3.svg), url(../../../img/home/christin-hume-Hcfwew744z4-unsplash.svg);
-        background-position: -200px 50%, 1318px 50%;
-        background-repeat: no-repeat, no-repeat;
+        background-position: -200px 10%, -200px 10%;
+    }
+}
+
+/* M  */
+
+@media (max-width: 1300px) {
+
+    #pointLeftBottom {
+        width: 15%;
+        position: relative;
+        top: -100px;
+        left: -150px;
+    }
+
+    .main-Container {
+        display: block;
+        padding: 2rem 2rem;
+        text-align: center;
+    }
+
+    .title-platform p {
+        font-size: 30px;
+        font-weight: regular;
+        margin-bottom: 20px;
+    }
+
+    .simple-description .title {
+        font-size: 30px;
+        font-weight: regular;
+        margin-bottom: 33.92px;
+    }
+
+    .simple-description .description {
+        font-size: 18px;
+        font-weight: regular;
+        margin-bottom: 32.08px;
     }
 }
