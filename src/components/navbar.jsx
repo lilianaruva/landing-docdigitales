@@ -6,14 +6,14 @@ import "./css/navbar.css";
 const Navbar = () => {
     let location = useLocation();
 
-    if(
+    if (
         location.pathname === '/login'
         || location.pathname === '/registro'
         || location.pathname === '/prueba-de-servicio'
-    ){
+    ) {
         return null;
     }
-    
+
     return (
         <>
             <nav className="navbar-container">
@@ -40,22 +40,20 @@ const Navbar = () => {
                         </div>
                     </div>
                     <div className="dropdown">
-                        <Link to="/servicios">
-                            <div className="navbar-item">
-                                <p>Servicios</p>
-                            </div>
-                        </Link>
+                        <div className="navbar-item">
+                            <p>Servicios</p>
+                        </div>
                         <div className="dropdown-content">
                             <Link to="/facturacion">
                                 <p>Facturación en linea</p>
                             </Link>
-                            <Link to="/">
+                            <Link to="/servicios-contables">
                                 <p>Servicios contables</p>
                             </Link>
-                            <Link to="/">
+                            <Link to="/administracion-nomina">
                                 <p>Administración de nómina</p>
                             </Link>
-                            <Link to="/">
+                            <Link to="/api">
                                 <p>API</p>
                             </Link>
                         </div>

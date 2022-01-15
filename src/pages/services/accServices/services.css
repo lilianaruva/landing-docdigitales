@@ -1,0 +1,36 @@
+@import url("./css/control.css");
+
+#backgroundServices {
+    background-image: url(../../../img/resources/christin-hume-Hcfwew744z4-unsplash.svg);
+    background-position: 600px -300px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #F1F5FE;
+}
+
+#pointRightBottom{
+    position: relative;
+    top: -150px;
+    left: -10%;
+    width: 15%;
+}
+
+@media (min-width: 1920px) {
+    #backgroundServices {
+        background-image: url(../../../img/resources/christin-hume-Hcfwew744z4-unsplash.svg);
+        background-position: 800px -300px;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-color: #F1F5FE;
+    }
+}
+
+@media (max-width: 1300px){
+    #backgroundServices {
+        background-image: url(../../../img/resources/christin-hume-Hcfwew744z4-unsplash.svg);
+        background-position: 400px 600px;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-color: #F1F5FE;
+    }
+}

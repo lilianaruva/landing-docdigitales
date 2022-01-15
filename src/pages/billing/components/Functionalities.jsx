@@ -62,30 +62,30 @@ const Functionalities = () => {
             </div>
           </div>
         </div> */}
-        <div class="bg-white flex pb-14">
-          <nav class="tabs flex flex-col sm:flex-row mx-auto">
-            <button data-target="panel-1" class="tab text-gray-600 py-2 px-8 block hover:text-blue-500 focus:outline-none text-blue-500 border-b-2 font-medium border-green-500">
+        <div className="bg-white flex pb-14">
+          <nav className="tabs flex flex-col sm:flex-row mx-auto">
+            <button data-target="panel-1" className="tab text-gray-600 py-2 px-8 block hover:text-blue-500 focus:outline-none text-blue-500 border-b-2 font-medium border-green-500">
               Facturación
             </button>
-            <button data-target="panel-2" class="tab text-gray-600 py-2 px-8 block hover:text-blue-500 focus:outline-none">
+            <button data-target="panel-2" className="tab text-gray-600 py-2 px-8 block hover:text-blue-500 focus:outline-none">
               Pagos en línea
             </button>
-            <button data-target="panel-3" class="tab text-gray-600 py-2 px-8 block hover:text-blue-500 focus:outline-none">
+            <button data-target="panel-3" className="tab text-gray-600 py-2 px-8 block hover:text-blue-500 focus:outline-none">
               Cotizaciones
             </button>
-            <button data-target="panel-3" class="tab text-gray-600 py-2 px-8 block hover:text-blue-500 focus:outline-none">
+            <button data-target="panel-3" className="tab text-gray-600 py-2 px-8 block hover:text-blue-500 focus:outline-none">
               Descarga de CFDI
             </button>
-            <button data-target="panel-3" class="tab text-gray-600 py-2 px-8 block hover:text-blue-500 focus:outline-none">
+            <button data-target="panel-3" className="tab text-gray-600 py-2 px-8 block hover:text-blue-500 focus:outline-none">
               Facturas
             </button>
-            <button data-target="panel-3" class="tab text-gray-600 py-2 px-8 block hover:text-blue-500 focus:outline-none">
+            <button data-target="panel-3" className="tab text-gray-600 py-2 px-8 block hover:text-blue-500 focus:outline-none">
               Catálogo de productos
             </button>
-            <button data-target="panel-3" class="tab text-gray-600 py-2 px-8 block hover:text-blue-500 focus:outline-none">
+            <button data-target="panel-3" className="tab text-gray-600 py-2 px-8 block hover:text-blue-500 focus:outline-none">
               Gastos
             </button>
-            <button data-target="panel-3" class="tab text-gray-600 py-2 px-10 block hover:text-blue-500 focus:outline-none">
+            <button data-target="panel-3" className="tab text-gray-600 py-2 px-10 block hover:text-blue-500 focus:outline-none">
               Reportes
             </button>
           </nav>
