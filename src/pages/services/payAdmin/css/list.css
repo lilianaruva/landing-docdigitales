@@ -1,0 +1,22 @@
+.firstList ul{
+    list-style-image: url(./point.svg);
+}
+
+.adminList ul {
+    list-style-image: url(./check2.svg);
+}
+
+.adminList ul li {
+    margin-bottom: 30px;
+    padding-left: 22px;
+}
+
+.secondList ul{
+    list-style-image: url(./arrow.svg);
+}
+
+@media (max-width: 1300px) {
+    .adminList ul {
+        text-align: left;
+    }
+}
