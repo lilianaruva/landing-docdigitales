@@ -1,0 +1,36 @@
+.CarouselContainer {
+    min-height: 45vh;
+    display: flex;
+    align-items: center;
+    padding: 5rem 10rem;
+    color: #000000;
+    background-color: #F2F5FE;
+}
+
+.CarouselCard-Container{
+    display: flex;
+}
+
+.Carousel-content{
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+    font-size: 22px;
+    text-align: left;
+    justify-content: center;
+}
+
+.CarouselCard-Container img{
+    width: 80%;
+}
+
+
+@media (max-width: 1300px) {
+    .CarouselCard-Container{
+        flex-direction: column;
+    }
+
+    .CarouselContainer{
+        justify-content: center;
+    }
+}

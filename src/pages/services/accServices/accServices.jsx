@@ -4,6 +4,7 @@ import im2 from "../../../img/services/accServices/successful-entrepreneur-2021-
 import "./services.css";
 import pointBlue from "../../../img/pointBlue.png";
 import Control from "./components/control";
+import CarouselS from './components/carouselS';
 import How from "./components/how";
 import Plans from "./components/plans";
 import ServC from './components/servC';
@@ -44,6 +45,10 @@ const AccServices = () => {
                     </div>
                 </div>
             </div>
+            <div style={{ display: 'flex', justifyContent: 'center', width: '100%', fontSize: '40px', marginBottom: '3rem'}}>
+                <p>Tu contabilidad<b> más fácil que nunca</b></p>
+            </div>
+            <CarouselS />
             <How />
             <ServC />
             <Plans />
