@@ -5,6 +5,7 @@ import './payAdmin.css';
 import FirstList from './components/firstList';
 import SecondList from './components/secondList';
 import List from './components/list';
+import Automatic from './components/automatic';
 
 const PayAdmin = () => {
 
@@ -28,6 +29,7 @@ const PayAdmin = () => {
                 </div>
             </div>
             <FirstList />
+            <Automatic />
             <SecondList />
             <List />
         </>
