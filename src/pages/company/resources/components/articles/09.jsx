@@ -3,7 +3,7 @@ import React from 'react';
 const Article09 = () => {
     return (
         <div className="ArticleContent">
-            <h1 class="entry-title">Personas físicas podrán presentar declaración anual hasta mayo</h1>
+            <h1 className="entry-title">Personas físicas podrán presentar declaración anual hasta mayo</h1>
             <br />
             <p>En <a href="http://www.docdigitales.com">docDigitales</a> te informamos que ya puedes presentar tu declaración anual. Por fallas en el portal del <a href="http://www.sat.gob.mx">SAT</a>, darán prorroga para la presentación de la declaración anual de personas físicas, ahora tienes hasta el 31 de mayo de 2021 para realizar tu declaración anual, y no hasta el 30 de abril, como se tenía originalmente. </p>
             <br />

@@ -1,0 +1,39 @@
+.Control {
+    display: flex;
+    margin-top: 2rem;
+}
+
+.controlItems {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+
+.controlItems p {
+    margin-left: 26px;
+    margin-right: 56px;
+    width: 363px;
+}
+
+@media (min-width: 1920px) {
+    .controlItems {
+        display: flex;
+        align-items: center;
+        font-size: 25px;
+    }
+
+    .Control{
+        margin-top: 159px;
+    }
+}
+
+@media (max-width: 1300px) {
+
+    .Control{
+        flex-direction: column;
+    }
+
+    .controlItems{
+        margin-bottom: 2rem;
+    }
+}
