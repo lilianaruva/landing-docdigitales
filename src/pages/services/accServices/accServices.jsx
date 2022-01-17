@@ -1,18 +1,19 @@
 import React, { useEffect } from 'react';
 import im1 from "../../../img/services/accServices/cutout2-2.png";
-import im2 from "../../../img/services/accServices/successful-entrepreneur-2021-09-01-07-24-53-utc.png"
+import im2 from "../../../img/services/accServices/successful-entrepreneur-2021-09-01-07-24-53-utc.png";
 import "./services.css";
 import pointBlue from "../../../img/pointBlue.png";
 import Control from "./components/control";
 import How from "./components/how";
 import Plans from "./components/plans";
+import ServC from './components/servC';
 
 const AccServices = () => {
-
-    useEffect(() => {
-        window.scrollTo(0, 0)
-    }, [])
-
+    /*
+        useEffect(() => {
+            window.scrollTo(0, 0)
+        }, [])
+    */
 
     return (
         <>
@@ -29,7 +30,7 @@ const AccServices = () => {
                     <img src={pointBlue} alt="pointBlue" id="pointRightBottom"></img>
                 </div>
             </div>
-            <Control/>
+            <Control />
             <div className="main-Container">
                 <div className="description-left">
                     <div className="image">
@@ -43,7 +44,8 @@ const AccServices = () => {
                     </div>
                 </div>
             </div>
-            <How/>
+            <How />
+            <ServC />
             <Plans />
         </>
     )
