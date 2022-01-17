@@ -15,6 +15,7 @@
 .sectionNumbersChild img{
     max-width: 93px;
     margin-bottom: 34px;
+    z-index: 1;
 }
 .numberTitle{
     font-size: 60px;

@@ -42,7 +42,7 @@ const ServC = () => {
                 <div className="description-right">
                     <div className="image">
                         <img src={im3} alt="im3"></img>
-                        <img src={pointBlue} alt="pointBlue" id="pointRightBottom"></img>
+                        <img src={pointBlue} alt="pointBlue" id="pointLeft"></img>
                     </div>
                 </div>
             </div>

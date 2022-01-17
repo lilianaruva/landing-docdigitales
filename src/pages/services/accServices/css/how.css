@@ -1,0 +1,25 @@
+#pointer {
+    border-top: 5px dotted #B9CCEF;
+    width: 900px;
+    height: 10px;
+    position: absolute;
+    top: 3050px;
+    left: 20%;
+}
+
+@media (min-width: 1920px) {
+    #pointer {
+        border-top: 5px dotted #B9CCEF;
+        width: 1200px;
+        height: 10px;
+        position: absolute;
+        top: 3730px;
+        left: 20%;
+    }
+}
+
+@media (max-width: 1300px) {
+    #pointer {
+       display: none;
+    }
+}
