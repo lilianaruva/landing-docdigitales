@@ -8,12 +8,13 @@
     background-color: #F1F5FE;
 }
 
-#pointRightBottom{
+#pointRightBottom {
     position: relative;
     top: -150px;
     left: -10%;
     width: 15%;
 }
+
 
 @media (min-width: 1920px) {
     #backgroundServices {
@@ -25,7 +26,7 @@
     }
 }
 
-@media (max-width: 1300px){
+@media (max-width: 1300px) {
     #backgroundServices {
         background-image: url(../../../img/resources/christin-hume-Hcfwew744z4-unsplash.svg);
         background-position: 400px 600px;

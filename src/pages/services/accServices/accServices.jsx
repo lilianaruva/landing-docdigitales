@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import im1 from "../../../img/services/accServices/cutout2-2.png";
+import im2 from "../../../img/services/accServices/successful-entrepreneur-2021-09-01-07-24-53-utc.png"
 import "./services.css";
 import pointBlue from "../../../img/pointBlue.png";
 import Control from "./components/control";
@@ -29,6 +30,19 @@ const AccServices = () => {
                 </div>
             </div>
             <Control/>
+            <div className="main-Container">
+                <div className="description-left">
+                    <div className="image">
+                        <img src={im2} alt="im2"></img>
+                    </div>
+                </div>
+                <div className="description-right">
+                    <div className="simple-description">
+                        <div className="title"><b>¡Somos un nuevo tipo de contador!</b></div>
+                        <div className="description">Contamos con un equipo de contadores expertos por industria, que te ofrece un <b>servicio de contabilidad profesional y confiable</b>. Realizamos las tareas contables por ti y mantenemos tus obligaciones al día. Siempre con la <b>garantía</b> de un cumplimiento correcto y a tiempo.</div>
+                    </div>
+                </div>
+            </div>
             <How/>
             <Plans />
         </>
