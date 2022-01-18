@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="643" height="643" viewBox="0 0 643 643">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#6c56eb"/>
+      <stop offset="0.64" stop-color="#6c56eb" stop-opacity="0.216"/>
+      <stop offset="1" stop-color="#6c56eb" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <circle id="christin-hume-Hcfwew744z4-unsplash" cx="171.5" cy="171.5" r="171.5" transform="translate(150 150)" opacity="0.6" fill="url(#radial-gradient)"/>
+</svg>
