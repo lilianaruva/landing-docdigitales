@@ -9,7 +9,7 @@ const Api = () => {
 
     return(
         <>
-         <h1>Api</h1>
+         <h1>Apia</h1>
         </>
     )
 }
