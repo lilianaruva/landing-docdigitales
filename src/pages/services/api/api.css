@@ -28,6 +28,12 @@
     background-repeat: no-repeat;
 }
 
+#pointBackgroundLeftBottom4 {
+    background-image: url(../../../img/services/api/screen.png);
+    background-position: 100% 10%;
+    background-repeat: no-repeat;
+}
+
 @media (min-width: 1920px) {
     #backgroundApi {
         background-image: url(../../../img/services/api/christin-hume-Hcfwew744z4-unsplash.svg);
@@ -56,7 +62,7 @@
 
     #pointBackgroundLeftBottom4 {
         background-image: url(../../../img/services/api/screen.png);
-        background-position: 3% 30%;
+        background-position: 90% 10%;
         background-repeat: no-repeat;
     }
     
