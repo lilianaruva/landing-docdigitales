@@ -6,6 +6,13 @@ import imgTeam from "../../../img/services/api/writing-codes-and-typing-data-cod
 import imgDev from "../../../img/services/api/developer-checking-programming-code-2021-08-29-14-43-20-utc.png"
 import imgQA from "../../../img/services/api/pexels-yan-krukov-8867434.png"
 import FourContain from './fourContain';
+import Steps from './steps';
+
+//react router
+import { Link } from 'react-router-dom';
+//Animations
+import { motion } from "framer-motion";
+import { pageAnimation, photoAnim } from "../../../animation";
 
 const Api = () => {
     /*
@@ -15,8 +22,11 @@ const Api = () => {
     
     */
     return (
-        <>
-            <div className="Principal-main-Container" id="backgroundApi" style={{ paddingTop: '100px', backgroundColor: '#F1F5FE' }}>
+        <motion.div exit="exit"
+            variants={pageAnimation}
+            initial="hidden"
+            animate="show">
+            <motion.div variants={photoAnim} className="Principal-main-Container" id="backgroundApi" style={{ paddingTop: '100px', backgroundColor: '#F1F5FE' }}>
                 <div className="description-left" style={{ marginRight: '20px' }}>
                     <div className="titleAboutUs">
                         <p><b>Api</b> de facturación en línea</p>
@@ -28,7 +38,7 @@ const Api = () => {
                     <img src={im1} alt="im1"></img>
                     <img src={pointPurple} alt="pointPurple" id="pointRightBottom"></img>
                 </div>
-            </div>
+            </motion.div>
             <div className="title-platform" style={{ marginTop: '135px' }}>
                 <p>¿Ya tienes un sistema y necesitas <b>integrar timbrado de facturación en línea y complemento de pagos?</b></p>
                 <p style={{ fontSize: '20px' }}>Conoce nuestra API y descubre los grandes beneficios de integrar y conectar tu sistema con docDigitales</p>
@@ -75,8 +85,9 @@ const Api = () => {
                     </div>
                 </div>
             </div>
-            <FourContain/>
-        </>
+            <FourContain />
+            <Steps />
+        </motion.div>
     )
 }
 
