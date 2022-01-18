@@ -1,0 +1,33 @@
+.btnResourcesCeleste {
+    background-color: #13BFC9;
+    color: #fff;
+    width: 353px;
+    height: 60px;
+    border-radius: 100px;
+    font-size: 20px;
+    margin-top: 87.8px;
+}
+
+
+#backgroundPayAdmin {
+    background-image: url(../../../img/services/payAdmin/christin-hume-Hcfwew744z4-unsplash.svg);
+    background-position: 900px 0px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #F1F5FE;
+}
+
+@media (min-width: 1920px) {
+    #backgroundPayAdmin {
+        background-image: url(../../../img/services/payAdmin/christin-hume-Hcfwew744z4-unsplash.svg);
+        background-position: 1114px 0px;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-color: #F1F5FE;
+    }
+
+    .titleResponsive {
+        width: 638px;
+        font-size: 28px;
+    }
+}

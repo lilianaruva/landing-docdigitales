@@ -10,11 +10,10 @@ import Plans from "./components/plans";
 import ServC from './components/servC';
 
 const AccServices = () => {
-    /*
+    
         useEffect(() => {
             window.scrollTo(0, 0)
         }, [])
-    */
 
     return (
         <>
