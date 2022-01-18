@@ -15,7 +15,7 @@ const PayAdmin = () => {
 
     return (
         <>
-            <div className="Principal-main-Container" id="backgroundPayAdmin" style={{ paddingTop: '100px', backgroundColor: '#F1F5FE' }}>
+            <div className="Principal-main-Container" id="backgroundPayAdmin" style={{ paddingTop: '145px', backgroundColor: '#F1F5FE' }}>
                 <div className="description-left" style={{ marginRight: '20px' }}>
                     <div className="titleAboutUs">
                         <p>Calculamos y timbramos la <b>nómina de tu empresa</b></p>

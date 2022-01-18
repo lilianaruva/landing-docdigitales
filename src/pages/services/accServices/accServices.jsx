@@ -17,7 +17,7 @@ const AccServices = () => {
 
     return (
         <>
-            <div className="Principal-main-Container" id="backgroundServices" style={{ paddingTop: '100px', backgroundColor: '#F1F5FE' }}>
+            <div className="Principal-main-Container" id="backgroundServices" style={{ paddingTop: '145px', backgroundColor: '#F1F5FE' }}>
                 <div className="description-left" style={{ marginRight: '20px' }}>
                     <div className="titleAboutUs">
                         <p>Conoce la <b>mejor solución de servicios contables</b> para Pymes y empresas de servicios</p>

@@ -8,10 +8,13 @@
     position: absolute;
     top: 0;
     left: 0;
+    flex-wrap: wrap;
 }
 
 .navbar-right {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .navbar-item {
@@ -124,3 +127,5 @@
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+

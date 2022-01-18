@@ -7,6 +7,7 @@ import imgDev from "../../../img/services/api/developer-checking-programming-cod
 import imgQA from "../../../img/services/api/pexels-yan-krukov-8867434.png"
 import FourContain from './fourContain';
 import Steps from './steps';
+import Code from './code';
 
 //react router
 import { Link } from 'react-router-dom';
@@ -15,18 +16,17 @@ import { motion } from "framer-motion";
 import { pageAnimation, photoAnim } from "../../../animation";
 
 const Api = () => {
-    /*
-        useEffect(() => {
-            window.scrollTo(0, 0)
-        }, [])
-    
-    */
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
+
     return (
         <motion.div exit="exit"
             variants={pageAnimation}
             initial="hidden"
             animate="show">
-            <motion.div variants={photoAnim} className="Principal-main-Container" id="backgroundApi" style={{ paddingTop: '100px', backgroundColor: '#F1F5FE' }}>
+            <motion.div variants={photoAnim} className="Principal-main-Container" id="backgroundApi" style={{ paddingTop: '145px', backgroundColor: '#F1F5FE' }}>
                 <div className="description-left" style={{ marginRight: '20px' }}>
                     <div className="titleAboutUs">
                         <p><b>Api</b> de facturación en línea</p>
@@ -41,7 +41,7 @@ const Api = () => {
             </motion.div>
             <div className="title-platform" style={{ marginTop: '135px' }}>
                 <p>¿Ya tienes un sistema y necesitas <b>integrar timbrado de facturación en línea y complemento de pagos?</b></p>
-                <p style={{ fontSize: '20px' }}>Conoce nuestra API y descubre los grandes beneficios de integrar y conectar tu sistema con docDigitales</p>
+                <p style={{ fontSize: '27px' }}>Conoce nuestra API y descubre los grandes beneficios de integrar y conectar tu sistema con docDigitales</p>
             </div>
             <div className="main-Container" id="pointBackgroundLeftBottom">
                 <div className="description-left">
@@ -85,6 +85,7 @@ const Api = () => {
                     </div>
                 </div>
             </div>
+            <Code />
             <FourContain />
             <Steps />
         </motion.div>

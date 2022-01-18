@@ -1,5 +1,4 @@
 import React from 'react';
-import pointPurple from "../../../img/pointPurple.svg";
 import imglap from "../../../img/services/api/clement-helardot-95YRwf6CNw8-unsplash.png"
 
 
