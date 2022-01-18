@@ -1,14 +1,14 @@
-ul {
+.list ul {
     list-style-image: url(./check.svg);
 }
 
-ul li {
+.list ul li {
     margin-bottom: 30px;
     padding-left: 22px;
 }
 
 @media (max-width: 1300px) {
-    ul {
+    .list ul {
         text-align: left;
     }
 }

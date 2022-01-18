@@ -32,7 +32,6 @@ const Automatic = () => {
                     </div>
                 </div>
                 <div className="automaticRow">
-                    <div id="pointer"></div>
                     <div className="automaticCol">
                         <img src={im4} alt="iconNumbers1" />
                         <p className="titleAutomatic"><b>Recordatorio de pagos</b></p>

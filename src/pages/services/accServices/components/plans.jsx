@@ -14,7 +14,7 @@ const Plans = () => {
                 <div className="description-right">
                     <div className="simple-description">
                         <div className="title"><b>Todos los planes</b> incluyen</div>
-                        <div className="description">
+                        <div className="description list">
                             <ul>
                                 <li>Un contador experto asignado únicamente para ti.</li>
                                 <li>Respaldo de tu información contable de 5 años (según la legislación vigente).</li>
