@@ -47,3 +47,14 @@
   text-align: center;
   margin-top: 38px;
 }
+
+.colListPlans{
+  display: flex; 
+}
+
+.itemListPlans{
+    width: 390px;
+    font-size: 24px;
+    padding-right: 1rem;
+    margin-right: 2rem;
+}
