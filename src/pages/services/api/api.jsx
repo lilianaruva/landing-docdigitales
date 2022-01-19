@@ -32,7 +32,7 @@ const Api = () => {
                         <p><b>Api</b> de facturación en línea</p>
                         <h3 style={{ fontSize: '25px', marginTop: '20px' }} className="titleResponsive">DocDigitales API es una gran herramienta para integrar la facturación electrónica a tu sistema.</h3>
                     </div>
-                    <Link to="/planes">
+                    <Link to="/registro">
                         <button className="btnResourcesPurple">Solicitar prueba</button>
                     </Link>
                 </div>

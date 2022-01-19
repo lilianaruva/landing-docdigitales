@@ -9,7 +9,7 @@ const Navbar = () => {
     if (
         location.pathname === '/login'
         || location.pathname === '/registro'
-        || location.pathname === '/prueba-de-servicio'
+        || location.pathname === '/registro'
     ) {
         return null;
     }
@@ -63,7 +63,7 @@ const Navbar = () => {
                             <p>Planes</p>
                         </div>
                     </Link>
-                    <Link to="/prueba-de-servicio">
+                    <Link to="/registro">
                         <div className="navbar-item-btn">
                             <div className="btnTest">
                                 <div className="btnTest">Solicitar Prueba</div>

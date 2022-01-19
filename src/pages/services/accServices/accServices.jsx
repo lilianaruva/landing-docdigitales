@@ -30,7 +30,7 @@ const AccServices = () => {
                         <p>Conoce la <b>mejor solución de servicios contables</b> para Pymes y empresas de servicios</p>
                         <h3 style={{ fontSize: '25px', marginTop: '20px' }} className="titleResponsive">Llevamos tu contabilidad, cumplimos con tus obligaciones fiscales y <b>mantenemos tus números sanos</b>, para que crezcas tu negocio de la mejor manera.</h3>
                     </div>
-                    <Link to="/planes">
+                    <Link to="/registro">
                         <button className="btnResourcesBlue">Solicitar prueba</button>
                     </Link>
                 </div>
