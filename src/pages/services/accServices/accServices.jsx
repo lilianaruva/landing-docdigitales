@@ -8,28 +8,37 @@ import CarouselS from './components/carouselS';
 import How from "./components/how";
 import Plans from "./components/plans";
 import ServC from './components/servC';
+//React router
+import { Link } from "react-router-dom";
+//Animations
+import { motion } from "framer-motion";
+import { pageAnimation, photoAnim } from "../../../animation";
 
 const AccServices = () => {
-    
-        useEffect(() => {
-            window.scrollTo(0, 0)
-        }, [])
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
 
     return (
-        <>
-            <div className="Principal-main-Container" id="backgroundServices" style={{ paddingTop: '145px', backgroundColor: '#F1F5FE' }}>
+        <motion.div exit="exit"
+            variants={pageAnimation}
+            initial="hidden"
+            animate="show">
+            <motion.div variants={photoAnim} className="Principal-main-Container whiteSpace" id="backgroundServices" style={{ backgroundColor: '#F1F5FE' }}>
                 <div className="description-left" style={{ marginRight: '20px' }}>
                     <div className="titleAboutUs">
                         <p>Conoce la <b>mejor solución de servicios contables</b> para Pymes y empresas de servicios</p>
                         <h3 style={{ fontSize: '25px', marginTop: '20px' }} className="titleResponsive">Llevamos tu contabilidad, cumplimos con tus obligaciones fiscales y <b>mantenemos tus números sanos</b>, para que crezcas tu negocio de la mejor manera.</h3>
                     </div>
-                    <button className="btnResourcesBlue">Solicitar prueba</button>
+                    <Link to="/planes">
+                        <button className="btnResourcesBlue">Solicitar prueba</button>
+                    </Link>
                 </div>
                 <div className="description-right">
                     <img src={im1} alt="im1"></img>
                     <img src={pointBlue} alt="pointBlue" id="pointRightBottom"></img>
                 </div>
-            </div>
+            </motion.div>
             <Control />
             <div className="main-Container">
                 <div className="description-left">
@@ -44,14 +53,14 @@ const AccServices = () => {
                     </div>
                 </div>
             </div>
-            <div style={{ display: 'flex', justifyContent: 'center', width: '100%', fontSize: '40px', marginBottom: '3rem'}}>
+            <div style={{ display: 'flex', justifyContent: 'center', width: '100%', fontSize: '40px', marginBottom: '3rem' }}>
                 <p>Tu contabilidad<b> más fácil que nunca</b></p>
             </div>
             <CarouselS />
             <How />
             <ServC />
             <Plans />
-        </>
+        </motion.div>
     )
 }
 

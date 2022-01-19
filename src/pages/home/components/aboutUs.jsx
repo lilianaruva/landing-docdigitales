@@ -7,7 +7,7 @@ import pointBlue from "../../../img/pointBlue.png";
 const AboutUs = () => {
     return (
         <>
-            <motion.div variants={photoAnim} className="Principal-main-Container" id="backgroundAboutUs" style={{ paddingTop: '145px' }}>
+            <motion.div variants={photoAnim} className="Principal-main-Container whiteSpace" id="backgroundAboutUs" >
                 <div className="description-left" style={{ marginRight: '20px' }}>
                     <div className="titleAboutUs">
                         <p >Crece tu negocio con la mejor plataforma de <b>Facturación en Línea</b> y <b>Servicios Contables</b></p>

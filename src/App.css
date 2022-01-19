@@ -35,6 +35,10 @@
   background-color: #F1F5FE;
 }
 
+.whiteSpace {
+   padding-top: 100px;
+}
+
 /* XL */
 @media (min-width: 1920px) {
   .main-Container {
@@ -54,6 +58,9 @@
     padding: 228px 136px;
     color: #000000;
   }
+  .whiteSpace {
+    padding-top: 145px;
+ }
 }
 
 /* M  */
@@ -90,6 +97,9 @@
     text-align: center;
     align-items: center!important;
   }
+  .whiteSpace {
+    padding-top: 145px;
+ }
 }
 
 /* S */

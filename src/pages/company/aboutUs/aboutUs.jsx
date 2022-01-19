@@ -6,6 +6,9 @@ import team from "../../../img/company/pexels-fauxels-3183150.png"
 import heart from "../../../img/company/5.svg"
 import logoDD from "../../../img/home/DD_Logo.svg"
 import './aboutUs.css';
+//Animations
+import { motion } from "framer-motion";
+import { pageAnimation, photoAnim } from "../../../animation";
 
 const AboutUs = () => {
     useEffect(() => {
@@ -13,8 +16,11 @@ const AboutUs = () => {
     }, [])
 
     return (
-        <>
-            <div className="Principal-main-Container" id="backgroundAbout" style={{ paddingTop: '145px' }}>
+        <motion.div exit="exit"
+            variants={pageAnimation}
+            initial="hidden"
+            animate="show">
+            <motion.div variants={photoAnim} className="Principal-main-Container whiteSpace" id="backgroundAbout">
                 <div className="description-left" style={{ marginRight: '20px' }}>
                     <div className="titleAboutUs titleResponsive">
                         <p>Estamos listos para <b>solucionar tus problemas</b> contables y de administración</p>
@@ -23,7 +29,7 @@ const AboutUs = () => {
                 <div className="description-right">
                     <img src={im1} alt="im1" style={{ width: "85%" }}></img>
                 </div>
-            </div>
+            </motion.div>
             <div className="mainMedium-Container">
                 <img src={logoDD} alt="logoDDAboutUs" />
                 <div className="title-platform">
@@ -100,7 +106,7 @@ const AboutUs = () => {
                     </div>
                 </div>
             </div>
-        </>
+        </motion.div>
     )
 }
 

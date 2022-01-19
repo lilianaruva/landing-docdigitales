@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import imglap from "../../img/home/african-american-woman-using-online-banking-close-2021-09-24-04-11-48-utc.png"
 import imgBusinessW from "../../img/home/young-business-woman-working-laptop-office (3).png"
 import imgLeader from "../../img/home/Leadership-Skills-Advance-Your-Career-Hospitality-Industry.png"
@@ -25,9 +25,9 @@ import pointBlue from "../../img/pointBlue.png";
 import pointCeleste from "../../img/pointCeleste.png";
 
 const Home = () => {
-    /*useEffect(() => {
+    useEffect(() => {
         window.scrollTo(0, 0)
-    }, [])*/
+    }, [])
 
     return (
         <motion.div
@@ -83,7 +83,7 @@ const Home = () => {
                         <div className="title">¡Somos tu <b>nuevo contador!</b></div>
                         <div className="description">Hacemos tu contabilidad y te ofrecemos la plataforma más fácil de usar.</div>
                         <div className="description">Crece tu negocio, mientras trabajamos por ti. Presentamos tus declaraciones, calculamos tus impuestos y te ayudamos a mantener números sanos.</div>
-                        <Link to="/servicios">
+                        <Link to="/servicios-contables">
                             <button id="blue">Conoce más</button>
                         </Link>
                     </div>
@@ -106,7 +106,7 @@ const Home = () => {
                     <div className="simple-description">
                         <div className="title">¿Tienes <b>equipo de trabajo?</b></div>
                         <div className="description">También hacemos la Nómina por ti. Solo tienes que monitorear y aprobar asistencias e incidencias, mientras nosotros nos encargamos de todo lo demás: hacemos los cálculos, las declaraciones ante el IMSS y te damos el neto a pagar, para que disperses en un solo clic.</div>
-                        <Link to="/servicios">
+                        <Link to="/administracion-nomina">
                             <button> Conoce más</button>
                         </Link>
                     </div>

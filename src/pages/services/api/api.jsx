@@ -26,13 +26,15 @@ const Api = () => {
             variants={pageAnimation}
             initial="hidden"
             animate="show">
-            <motion.div variants={photoAnim} className="Principal-main-Container" id="backgroundApi" style={{ paddingTop: '145px', backgroundColor: '#F1F5FE' }}>
+            <motion.div variants={photoAnim} className="Principal-main-Container whiteSpace" id="backgroundApi" style={{ backgroundColor: '#F1F5FE' }}>
                 <div className="description-left" style={{ marginRight: '20px' }}>
                     <div className="titleAboutUs">
                         <p><b>Api</b> de facturación en línea</p>
                         <h3 style={{ fontSize: '25px', marginTop: '20px' }} className="titleResponsive">DocDigitales API es una gran herramienta para integrar la facturación electrónica a tu sistema.</h3>
                     </div>
-                    <button className="btnResourcesPurple">Solicitar prueba</button>
+                    <Link to="/planes">
+                        <button className="btnResourcesPurple">Solicitar prueba</button>
+                    </Link>
                 </div>
                 <div className="description-right">
                     <img src={im1} alt="im1"></img>
