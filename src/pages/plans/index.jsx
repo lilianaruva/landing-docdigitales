@@ -118,7 +118,7 @@ const Plans = () => {
                             </ul>
                         </div>
                     </div>
-                    <div className="md:w-1/4 flex justify-center md:px-[10px]">
+                    <div className="md:w-1/4 flex justify-center md:px-[10px] md:my-[25px]">
                         <div className=" bg-[#F6F9FE] p-[30px]" style={{ border:'2px solid #B9CCEF' }}>
                             <p className="text-gray-800 text-xl font-medium mb-2 text-center">
                                 Plus
@@ -197,7 +197,7 @@ const Plans = () => {
                             </ul>
                         </div>
                     </div>
-                    <div className="md:w-1/4 flex justify-center md:px-[10px]">
+                    <div className="md:w-1/4 flex justify-center md:px-[10px] md:my-[25px]">
                         <div className=" bg-[#F6F9FE] p-[30px]" style={{ border:'2px solid #B9CCEF' }}>
                             <p className="text-gray-800 text-xl font-medium mb-2 text-center">
                                 Ilimitado
@@ -276,7 +276,7 @@ const Plans = () => {
                             </ul>
                         </div>
                     </div>
-                    <div className="md:w-1/4 flex justify-center md:px-[10px]">
+                    <div className="md:w-1/4 flex justify-center md:px-[10px] md:my-[25px]">
                         <div className=" bg-[#F6F9FE] p-[30px]" style={{ border:'2px solid #B9CCEF' }}>
                             <p className="text-gray-800 text-xl font-medium mb-2 text-center">
                                 Premium
