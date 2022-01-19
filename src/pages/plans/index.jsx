@@ -22,17 +22,17 @@ const Plans = () => {
                     <div>
                         <ul className="flex flex-wrap justify-center border-gray-200">
                             <li className="mr-2">
-                                <button onClick={() => setIndex(0)} aria-current="page" className={`inline-block py-4 px-4 mx-1 text-sm text-center md:text-[18px] rounded-t-lg active ${index === 0 ? "bg-green" : "bg-[#F6F9FE] text-[#000] opacity-20"}`}>
+                                <button onClick={() => setIndex(0)} aria-current="page" className={`inline-block py-4 px-4 mx-1 text-sm text-center md:text-[18px] rounded-t-lg active ${index === 0 ? "bg-green text-[#FFF]" : "bg-[#F6F9FE] text-[#000] opacity-20"}`}>
                                     <span className="font-medium">Facturación en línea</span>
                                 </button>
                             </li>
                             <li className="mr-2">
-                                <button onClick={() => setIndex(1)} aria-current="page" className="inline-block py-4 px-4 mx-1 text-sm text-center md:text-[18px] bg-[#F6F9FE] rounded-t-lg active">
+                                <button onClick={() => setIndex(1)} aria-current="page" className={`inline-block py-4 px-4 mx-1 text-sm text-center md:text-[18px] rounded-t-lg active ${index === 1 ? "bg-blue text-[#FFF]"  : "bg-[#F6F9FE] text-[#000] opacity-20"}`}>
                                     <span className="font-medium">Servicios contables</span>
                                 </button>
                             </li>
                             <li className="mr-2">
-                                <button onClick={() => setIndex(2)} aria-current="page" className="inline-block py-4 px-4 mx-1 text-sm text-center md:text-[18px] bg-[#F6F9FE] rounded-t-lg active">
+                                <button onClick={() => setIndex(2)} aria-current="page" className={`inline-block py-4 px-4 mx-1 text-sm text-center md:text-[18px] rounded-t-lg active ${index === 2 ? "bg-[#13BFC9] text-[#FFF]" : "bg-[#F6F9FE] text-[#000] opacity-20"}`}>
                                     <span className="font-medium">Administración de nómina</span>
                                 </button>
                             </li>

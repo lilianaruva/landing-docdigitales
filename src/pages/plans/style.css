@@ -1,4 +1,49 @@
-#aqua{
+#aqua {
   border: 2px solid #2AEAA5;
   color: #2AEAA5;
+}
+
+.planCard:hover {
+  box-shadow: 0px 3px 30px #B9CCEF;
+  background-color: #fff;
+  border: none;
+}
+
+.planCard:hover button {
+  background-color: #2AEAA5;
+  color: black !important;
+  border: none;
+}
+
+.planCard {
+  border: 2px solid #B9CCEF;
+}
+
+.planContainer {
+  display: flex;
+  padding-top: 40px;
+  padding-bottom: 114px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.planCardBlue:hover {
+  box-shadow: 0px 3px 30px #B9CCEF;
+  background-color: #fff;
+  border: none;
+}
+
+.planCardBlue:hover button {
+  background-color: #0D66CE;
+  color: white !important;
+  border: none;
+}
+
+.planCardBlue {
+  border: 2px solid #B9CCEF;
+}
+
+.bottomServices{
+  text-align: center;
+  margin-top: 38px;
 }

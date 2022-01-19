@@ -4,9 +4,9 @@ import { Link } from "react-router-dom";
 const Services = () => {
     return (
         <>
-            <div className="flex md:px-[50px]" style={{ paddingTop: '40px', paddingBottom: '114px' }}>
+            <div className="planContainer md:px-[50px]">
                 <div className="md:w-1/4 flex justify-center md:px-[10px]">
-                    <div className="shadow-lg bg-[#fff] p-[30px]">
+                    <div className="planCardBlue bg-[#fff] p-[30px]" style={{ border: 'none' }}>
                         <p className="text-gray-800 text-xl font-medium mb-2 text-center">
                             Emprededor
                         </p>
@@ -16,18 +16,18 @@ const Services = () => {
                         <p className="text-gray-600 text-center text-[20px]">
                             <small>+IVA / mes</small>
                         </p>
-                        <p className="text-gray-600 text-center text-[20px]">
+                        <p className="text-gray-600 text-center text-[20px]" style={{ lineHeight: 'normal' }}>
                             <small>1 a 30 movimientos bancarios /mes Incluye plataforma de facturación ilimitada</small>
                         </p>
                         <div className=" flex mt-[27px] justify-center mb-4">
-                            <button className="btn btn--primary">
+                            <button className="btn btn--primary" style={{ backgroundColor: '#0D66CE', color: '#FFFFFF' }}>
                                 <span className="px-[70px] py-[0px] text-[20px]">Contratar</span>
                             </button>
                         </div>
                     </div>
                 </div>
                 <div className="md:w-1/4 flex justify-center md:px-[10px] md:my-[25px]">
-                    <div className=" bg-[#F6F9FE] p-[30px]" style={{ border: '2px solid #B9CCEF' }}>
+                    <div className="planCardBlue p-[30px]">
                         <p className="text-gray-800 text-xl font-medium mb-2 text-center">
                             Emprendedor Plus
                         </p>
@@ -37,7 +37,7 @@ const Services = () => {
                         <p className="text-gray-600 text-center text-[20px]">
                             <small>+IVA / mes</small>
                         </p>
-                        <p className="text-gray-600 text-center text-[20px]">
+                        <p className="text-gray-600 text-center text-[20px]" style={{ lineHeight: 'normal' }}>
                             <small>31 a 100 movimientos bancarios /mes Incluye plataforma de facturación ilimitada</small>
                         </p>
                         <div className=" flex mt-[27px] justify-center mb-4">
@@ -48,7 +48,7 @@ const Services = () => {
                     </div>
                 </div>
                 <div className="md:w-1/4 flex justify-center md:px-[10px] md:my-[25px]">
-                    <div className=" bg-[#F6F9FE] p-[30px]" style={{ border: '2px solid #B9CCEF' }}>
+                    <div className="planCardBlue p-[30px]">
                         <p className="text-gray-800 text-xl font-medium mb-2 text-center">
                             Empresarial
                         </p>
@@ -58,7 +58,7 @@ const Services = () => {
                         <p className="text-gray-600 text-center text-[20px]">
                             <small>+IVA / mes</small>
                         </p>
-                        <p className="text-gray-600 text-center text-[20px]">
+                        <p className="text-gray-600 text-center text-[20px]" style={{ lineHeight: 'normal' }}>
                             <small>101 a 300 movimientos bancarios /mes Incluye plataforma de facturación ilimitada</small>
                         </p>
                         <div className=" flex mt-[27px] justify-center mb-4">
@@ -68,7 +68,15 @@ const Services = () => {
                         </div>
                     </div>
                 </div>
+                <div className="bottomServices">
+                    <p><b>¿Tienes más de 300 movimientos bancarios al mes?</b></p>
+                    <div style={{ display: 'flex', justifyContent: 'center' }}>
+                        <Link to="/contacto"><p style={{ marginRight: '4px', color: '#0D66CE', textDecoration: 'underline' }}><b>Contáctanos</b></p></Link>
+                        <p>para hacer un paquete acorde a tus necesidades</p>
+                    </div>
+                </div>
             </div>
+            <div></div>
         </>
     )
 }
