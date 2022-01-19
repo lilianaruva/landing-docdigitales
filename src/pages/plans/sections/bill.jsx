@@ -5,9 +5,9 @@ import { FiCheckCircle } from "react-icons/fi";
 const Bill = () => {
     return (
         <>
-            <div className="flex md:px-[50px]" style={{ paddingTop: '40px', paddingBottom: '114px' }}>
+            <div className="md:px-[50px] planContainer">
                 <div className="md:w-1/4 flex justify-center md:px-[10px]">
-                    <div className="shadow-lg bg-[#fff] p-[30px]">
+                    <div className="planCard bg-[#fff] p-[30px]" style={{ border: 'none' }}>
                         <p className="text-gray-800 text-xl font-medium mb-2 text-center">
                             Básico
                         </p>
@@ -86,7 +86,7 @@ const Bill = () => {
                     </div>
                 </div>
                 <div className="md:w-1/4 flex justify-center md:px-[10px] md:my-[25px]">
-                    <div className=" bg-[#F6F9FE] p-[30px]" style={{ border: '2px solid #B9CCEF' }}>
+                    <div className="planCard bg-[#F6F9FE] p-[30px]" >
                         <p className="text-gray-800 text-xl font-medium mb-2 text-center">
                             Plus
                         </p>
@@ -165,7 +165,7 @@ const Bill = () => {
                     </div>
                 </div>
                 <div className="md:w-1/4 flex justify-center md:px-[10px] md:my-[25px]">
-                    <div className=" bg-[#F6F9FE] p-[30px]" style={{ border: '2px solid #B9CCEF' }}>
+                    <div className="planCard bg-[#F6F9FE] p-[30px]" >
                         <p className="text-gray-800 text-xl font-medium mb-2 text-center">
                             Ilimitado
                         </p>
@@ -183,7 +183,7 @@ const Bill = () => {
                         <ul className="text-sm text-gray-600 w-full mt-8 mb-8">
                             <li className="mb-3 flex items-center">
                                 <FiCheckCircle style={{ color: '#2AEAA5' }} size={'16px'} className="mr-2" />
-                                <b className="text-[20px]">50 Timbres</b>
+                                <b className="text-[20px]">Timbres ilimitados</b>
                             </li>
                             <li className="mb-3 flex items-center">
                                 <FiCheckCircle style={{ color: '#2AEAA5' }} size={'16px'} className="mr-2" />
@@ -244,7 +244,7 @@ const Bill = () => {
                     </div>
                 </div>
                 <div className="md:w-1/4 flex justify-center md:px-[10px] md:my-[25px]">
-                    <div className=" bg-[#F6F9FE] p-[30px]" style={{ border: '2px solid #B9CCEF' }}>
+                    <div className="planCard bg-[#F6F9FE] p-[30px]" >
                         <p className="text-gray-800 text-xl font-medium mb-2 text-center">
                             Premium
                         </p>
@@ -262,7 +262,7 @@ const Bill = () => {
                         <ul className="text-sm text-gray-600 w-full mt-8 mb-8">
                             <li className="mb-3 flex items-center">
                                 <FiCheckCircle style={{ color: '#2AEAA5' }} size={'16px'} className="mr-2" />
-                                <b className="text-[20px]">50 Timbres</b>
+                                <b className="text-[20px]">Timbres ilimitados</b>
                             </li>
                             <li className="mb-3 flex items-center">
                                 <FiCheckCircle style={{ color: '#2AEAA5' }} size={'16px'} className="mr-2" />
