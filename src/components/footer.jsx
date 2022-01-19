@@ -8,7 +8,6 @@ import { FaFacebookSquare, FaGithub, FaLinkedin } from 'react-icons/fa';
 import { IconContext } from "react-icons";
 import { Link } from "react-router-dom";
 
-
 const Footer = () => {
     return (
         <>
