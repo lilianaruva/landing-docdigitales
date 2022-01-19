@@ -28,6 +28,107 @@
     background-repeat: no-repeat;
 }
 
+#pointBackgroundLeftBottom4 {
+    background-image: url(../../../img/services/api/screen.png);
+    background-position: 100% 10%;
+    background-repeat: no-repeat;
+}
+
+.StepContainer {
+    margin-top: 54px;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.stepCardContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: #FAFAFE;
+    border-radius: 10px;
+    padding: 2rem;
+    font-size: 20px;
+}
+
+.stepCardContainer p {
+    margin-top: 1rem;
+}
+
+.stepCardContainer img {
+    width: 50%;
+}
+
+.stepCardContainer:hover {
+    box-shadow: 0px 3px 20px #B9CCEF;
+    background-color: white;
+    transition: all 0.5 ease-out;
+}
+
+
+.consoleContainer {
+    background-color: #2B2B2B;
+    color: #FFFFFF;
+    font-family: PT Mono;
+    padding: 3rem;
+    min-height: 300px;
+    line-height: 200%;
+    width: 100%;
+    text-align: left;
+}
+
+.sistemList ul {
+    list-style-image: url(./check.svg);
+}
+
+.sistemList ul li {
+    margin-bottom: 30px;
+    padding-left: 22px;
+}
+
+.codeList ul {
+    list-style-image: url(./arrowWhite.svg);
+}
+
+
+
+.descriptionSelect {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.descriptionSelect {
+    margin-bottom: 1rem;
+}
+
+.descriptionSelect button {
+    background-color: #fff;
+    color: #A3A3A3;
+    border-radius: 10px;
+    height: 60px;
+    width: 150px;
+    opacity: 0.5;
+    font-weight: bold;
+}
+
+.descriptionSelect button:focus {
+    opacity: 1;
+    background-color: #6C56EB;
+    box-shadow: 0px 0px 20px #6C56EB;
+    color: #fff;
+}
+
+.SelectActive {
+    border-radius: 10px;
+    height: 60px;
+    width: 150px;
+    opacity: 1 !important;
+    background-color: #6C56EB !important;
+    box-shadow: 0px 0px 20px #6C56EB;
+    color: #fff !important;
+}
+
 @media (min-width: 1920px) {
     #backgroundApi {
         background-image: url(../../../img/services/api/christin-hume-Hcfwew744z4-unsplash.svg);
@@ -47,7 +148,7 @@
         background-position: 95% 40%;
         background-repeat: no-repeat;
     }
-    
+
     #pointBackgroundLeftBottom {
         background-image: url(../../../img/services/api/christin-hume-Hcfwew744z4-unsplash.svg);
         background-position: 3% 30%;
@@ -56,10 +157,10 @@
 
     #pointBackgroundLeftBottom4 {
         background-image: url(../../../img/services/api/screen.png);
-        background-position: 3% 30%;
+        background-position: 90% 10%;
         background-repeat: no-repeat;
     }
-    
+
 }
 
 @media (max-width: 1300px) {
@@ -81,5 +182,16 @@
         background-image: url(../../../img/services/api/christin-hume-Hcfwew744z4-unsplash.svg);
         background-position: 110% 90%;
         background-repeat: no-repeat;
+    }
+
+    #pointBackgroundLeftBottom4 {
+        background-image: url(../../../img/services/api/screen.png);
+        background-position: 100% 10%;
+        background-repeat: no-repeat;
+        background: none;
+    }
+
+    .stepCardContainer {
+       margin-bottom: 2rem;
     }
 }

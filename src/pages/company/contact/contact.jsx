@@ -1,5 +1,7 @@
 import React, { useEffect } from "react";
-
+//Animations
+import { motion } from "framer-motion";
+import { pageAnimation, photoAnim } from "../../../animation";
 import im1 from "../../../img/company/cutout4.png"
 
 const Contact = () => {
@@ -8,8 +10,11 @@ const Contact = () => {
     }, [])
 
     return (
-        <>
-            <div className="main-Container" id="backgroundAboutUs" style={{ paddingTop: '145px' }}>
+        <motion.div exit="exit"
+            variants={pageAnimation}
+            initial="hidden"
+            animate="show">
+            <motion.div variants={photoAnim} className="main-Container whiteSpace" id="backgroundAboutUs" >
                 <div className="description-left" style={{ marginRight: '20px' }}>
                     <div className="titleAboutUs">
                         <p>Crece tu negocio con la mejor plataforma de <b>Facturación en Línea</b> y <b>Servicios Contables</b></p>
@@ -19,8 +24,8 @@ const Contact = () => {
                 <div className="description-right">
                     <img src={im1} alt="im1" style={{ width: "85%" }}></img>
                 </div>
-            </div>
-        </>
+            </motion.div>
+        </motion.div>
     )
 }
 

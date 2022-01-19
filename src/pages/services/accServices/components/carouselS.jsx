@@ -10,12 +10,12 @@ const CarouselS = () => {
     return (
         <>
             <Carousel autoPlay centerMode>
-                <div key="slide1" style={{ padding: 20, height: '80vh', backgroundColor: '#F1F5FE', borderRadius: '20px' }}>
+                <div key="slide1" style={{ padding: 20, margin: 40, height: '80vh', backgroundColor: '#F1F5FE', borderRadius: '20px' }}>
                     <div className="CarouselContainer">
                         <CardCarousel image={im1} title="Hacemos tu contabilidad mensual" subtitle="Te asignamos un contador experto, quien se encargara de llevar tu contabilidad y asesorarte con tus finanzas para impulsar el crecimiento de tu negocio." />
                     </div>
                 </div>
-                <div key="slide2" style={{ padding: 20, height: '80vh', backgroundColor: '#F1F5FE', borderRadius: '20px' }}>
+                <div key="slide2" style={{ padding: 20, margin: 40, height: '80vh', backgroundColor: '#F1F5FE', borderRadius: '20px' }}>
                     <div className="CarouselContainer">
                         <CardCarousel image={im2} title="Hacemos tu contabilidad mensual" subtitle="Te asignamos un contador experto, quien se encargara de llevar tu contabilidad y asesorarte con tus finanzas para impulsar el crecimiento de tu negocio." />
                     </div>

@@ -14,7 +14,9 @@ const ServiceTest = () => {
 				<div className="m-auto">
 					<div className="flex py-[30px]">
 						<div className="m-auto">
-							<img src={logo} className="self-center" style={{ width: "260px" }} alt="DD_Logo" />
+							<Link to="/">
+								<img src={logo} className="self-center" style={{ width: "260px" }} alt="DD_Logo" />
+							</Link>
 						</div>
 					</div>
 					<div className="shadow-[0px_3px_20px_#B9CCEF80] px-12 py-8 mb-4 lg:w-[1000px]" style={{ background: 'white' }}>
