@@ -2,11 +2,13 @@ import React from 'react'
 import { Link } from "react-router-dom";
 import im1 from "../../../img/home/cutout1.png";
 import billing from "../../../img/home/billing-video.png";
+import { motion } from "framer-motion";
+import { photoAnim } from "../../../animation";
 
 const Header = () => {
   return (
     <>
-      <div className="main-Container h-screen content-center" id="backgroundAboutUs" style={{paddingTop:'0px',background:'#F1F5FE'}}>
+      <motion.div variants={photoAnim} className="Principal-main-Container whiteSpace" id="backgroundAboutUs" style={{background:'#F1F5FE'}}>
         <div className="description-left" style={{marginRight: '20px' }}>
           <div className="titleAboutUs">
             <p>El sistema de <b>facturación en línea</b> más fácil de usar en México</p>
@@ -23,7 +25,7 @@ const Header = () => {
         <div className="description-right">
           <img src={im1} alt="im1" style={{ width: "85%" }}></img>
         </div>
-      </div>
+      </motion.div>
       <div className="main-Container h-screen">
         <div className="flex">
           <div className="lg:w-1/2 lg:mr-[100px]">
