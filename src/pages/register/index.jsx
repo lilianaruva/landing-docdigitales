@@ -14,7 +14,9 @@ const ServiceTest = () => {
 				<div className="grid sm:grid-cols-1 lg:grid-cols-2 justify-center lg:pt-[180px]">
 					<div className="lg:mx-[100px] xl:mx-[138px]">
 						<div className="">
-							<img src={logo} style={{ width: "239px" }} alt="DD_Logo" />
+							<Link to="/">
+								<img src={logo} style={{ width: "239px" }} alt="DD_Logo" />
+							</Link>
 						</div>
 						<div className="lg:text-[32px] lg:pt-[30px]">
 							<b>Regístrate e inicia tu prueba</b> para conocer la mejor plataforma de facturación, servicios contables y nomina en línea
