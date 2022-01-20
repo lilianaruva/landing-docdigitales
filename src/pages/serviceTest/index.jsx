@@ -6,7 +6,7 @@ import './style.css'
 const ServiceTest = () => {
   return (
     <>
-			<div className="flex h-screen service-background-color" id="greenSpot">
+			<div className="flex h-screen service-background-color whiteSpace" id="greenSpot">
 				<div className="m-auto">
 					<div className="flex py-[30px]">
 						<div className="m-auto">

@@ -15,6 +15,7 @@ import ArticlePage from "./pages/company/resources/components/articlePage";
 import AccService from "./pages/services/accServices/accServices";
 import Api from "./pages/services/api/api";
 import PayAdmins from "./pages/services/payAdmin/payAdmin";
+import Trial from "./pages/serviceTest/index";
 
 function App() {
   return (
@@ -33,7 +34,8 @@ function App() {
         <Route path="*" element={<ArticlePage />} />
         <Route path="/servicios-contables" element={<AccService />} />
         <Route path="/api" element={<Api />} />
-        <Route path="/administracion-nomina" element={< PayAdmins/>} />
+        <Route path="/administracion-nomina" element={<PayAdmins />} />
+        <Route path="/prueba-30-dias" element={<Trial />} />
       </Routes>
       <Footer />
     </div>

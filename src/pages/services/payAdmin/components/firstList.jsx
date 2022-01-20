@@ -12,7 +12,6 @@ const FirstList = () => {
                 </div>
                 <div className="description-right">
                     <div className="simple-description">
-                        <div className="title">Nuestro servicio de <b>administración de nómina</b> incluye:</div>
                         <div className="description firstList">
                             <ul>
                                 <li>Nos encargamos del cálculo y timbrado de tu nomina. <b>Tu solo tienes que registrar las incidencias de tus colaboradores.</b></li>

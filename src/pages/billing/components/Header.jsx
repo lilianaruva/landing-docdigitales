@@ -5,30 +5,32 @@ import billing from "../../../img/home/billing-video.png";
 import { motion } from "framer-motion";
 import { photoAnim } from "../../../animation";
 import imPoint from "../../../img/pointAqua.png";
+import Easy from './Easy';
 import "../style.css";
 
 const Header = () => {
   return (
     <>
-      <motion.div variants={photoAnim} className="Principal-main-Container whiteSpace" id="backgroundPay"  style={{ background: '#F1F5FE' }}>
+      <motion.div variants={photoAnim} className="Principal-main-Container whiteSpace" id="backgroundPay" style={{ background: '#F1F5FE' }}>
         <div className="description-left" style={{ marginRight: '20px' }}>
           <div className="titleAboutUs">
             <p>El sistema de <b>facturación en línea</b> más fácil de usar en México</p>
             <h3 style={{ fontSize: '25px', marginTop: '20px' }}>Genera facturas, cotizaciones, lleva cuentas por cobrar y más. ¡Ideal para PyMEs, empresas de servicios y freelancers!</h3>
           </div>
           <div className="block lg:pt-[50px]">
-            <Link to="/registro">
+            <Link to="/prueba-30-dias">
               <div className="btn btn--primary lg:w-[300px] py-[10px]">
                 <span className="px-[40px] text-[18px]">Prueba <b>gratis</b> 30 días</span>
               </div>
             </Link>
           </div>
         </div>
-        <div className="description-right" id="backgroundPay">
+        <div className="description-right">
           <img src={im1} alt="im1" style={{ width: "85%" }}></img>
           <img src={imPoint} alt="pointAqua1" id="pointRightBottom"></img>
         </div>
       </motion.div>
+      <Easy />
       <div className="main-Container h-screen">
         <div className="flex">
           <div className="lg:w-1/2 lg:mr-[100px]">

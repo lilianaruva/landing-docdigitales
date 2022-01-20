@@ -26,7 +26,7 @@ const Ready = () => {
                     </div>
                 </div>
                 <div className="alreadyBottomBtn">
-                    <Link to="/registro">
+                    <Link to="/prueba-30-dias">
                         <button>Solicitar prueba</button>
                     </Link>
                 </div>

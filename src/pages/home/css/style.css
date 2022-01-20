@@ -181,11 +181,20 @@
     }
 }
 
-@media (max-width: 1024px){
+@media (max-width: 1024px) {
     .title-platform p {
         font-size: 25px;
         font-weight: regular;
         margin-bottom: 20px;
         width: 100% !important;
+    }
+}
+
+@media(min-width: 1200px) {
+    #pointRightCenter {
+        position: relative;
+        top: -300px;
+        left: 80%;
+        width: 15%;
     }
 }

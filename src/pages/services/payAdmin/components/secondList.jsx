@@ -7,7 +7,7 @@ const SecondList = () => {
             <div className="main-Container" style={{ backgroundColor: "#E7F9FA" }}>
                 <div className="description-left">
                     <div className="simple-description">
-                        <div className="title">Nuestro servicio de <b>administración de nómina</b> incluye:</div>
+                        <div className="title">Conoce nuestro servicio de <b>cálculo y timbrado de nómina</b></div>
                         <div className="description secondList">
                             <ul>
                                 <li>Cálculos automáticos</li>

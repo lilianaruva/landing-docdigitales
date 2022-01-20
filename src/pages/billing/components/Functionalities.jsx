@@ -5,7 +5,7 @@ import img from "../../../img/home/Screen Shot 2021-12-27 at 14.59.15@2x.png";
 const Functionalities = () => {
   return (
     <>
-      <div className="h-screen content-center grid justify-center" id="backgroundAboutUs" style={{paddingTop:'0px',background:'#F1F5FE'}}>
+      <div className="h-screen content-center grid justify-center" id="backgroundAboutUs" style={{ paddingTop: '0px', background: '#F1F5FE' }}>
         <div className="mx-auto flex">
           <div className="text-center lg:text-[35px] pb-16">
             Conoce <b>todas las funcionalidades</b> de nuestra plataforma
@@ -64,28 +64,28 @@ const Functionalities = () => {
         </div> */}
         <div className="bg-white flex pb-14">
           <nav className="tabs flex flex-col sm:flex-row mx-auto">
-            <button data-target="panel-1" className="tab text-gray-600 py-2 px-8 block hover:text-blue-500 focus:outline-none text-blue-500 border-b-2 font-medium border-green-500">
+            <button data-target="panel-1" className="tab text-gray-600 py-2 px-8 block hover:text-blue-500 focus:outline-none text-blue-500 border-b-2 font-medium border-green-500" style={{ borderBottom: "1px solid #2AEAA5", backgroundColor: "#F4FEFA" }}>
               Facturación
             </button>
-            <button data-target="panel-2" className="tab text-gray-600 py-2 px-8 block hover:text-blue-500 focus:outline-none">
+            <button data-target="panel-2" className="tab text-gray-600 py-2 px-8 block hover:text-blue-500 focus:outline-none" style={{ backgroundColor: "#FFFFFF" }}>
               Pagos en línea
             </button>
-            <button data-target="panel-3" className="tab text-gray-600 py-2 px-8 block hover:text-blue-500 focus:outline-none">
+            <button data-target="panel-3" className="tab text-gray-600 py-2 px-8 block hover:text-blue-500 focus:outline-none" style={{ backgroundColor: "#FFFFFF" }}>
               Cotizaciones
             </button>
-            <button data-target="panel-3" className="tab text-gray-600 py-2 px-8 block hover:text-blue-500 focus:outline-none">
+            <button data-target="panel-3" className="tab text-gray-600 py-2 px-8 block hover:text-blue-500 focus:outline-none" style={{ backgroundColor: "#FFFFFF" }}>
               Descarga de CFDI
             </button>
-            <button data-target="panel-3" className="tab text-gray-600 py-2 px-8 block hover:text-blue-500 focus:outline-none">
+            <button data-target="panel-3" className="tab text-gray-600 py-2 px-8 block hover:text-blue-500 focus:outline-none" style={{ backgroundColor: "#FFFFFF" }}>
               Facturas
             </button>
-            <button data-target="panel-3" className="tab text-gray-600 py-2 px-8 block hover:text-blue-500 focus:outline-none">
+            <button data-target="panel-3" className="tab text-gray-600 py-2 px-8 block hover:text-blue-500 focus:outline-none" style={{ backgroundColor: "#FFFFFF" }}>
               Catálogo de productos
             </button>
-            <button data-target="panel-3" className="tab text-gray-600 py-2 px-8 block hover:text-blue-500 focus:outline-none">
+            <button data-target="panel-3" className="tab text-gray-600 py-2 px-8 block hover:text-blue-500 focus:outline-none" style={{ backgroundColor: "#FFFFFF" }}>
               Gastos
             </button>
-            <button data-target="panel-3" className="tab text-gray-600 py-2 px-10 block hover:text-blue-500 focus:outline-none">
+            <button data-target="panel-3" className="tab text-gray-600 py-2 px-10 block hover:text-blue-500 focus:outline-none" style={{ backgroundColor: "#FFFFFF" }}>
               Reportes
             </button>
           </nav>

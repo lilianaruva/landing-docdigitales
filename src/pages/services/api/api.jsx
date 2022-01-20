@@ -41,7 +41,7 @@ const Api = () => {
                     <img src={pointPurple} alt="pointPurple" id="pointRightBottom"></img>
                 </div>
             </motion.div>
-            <div className="title-platform" style={{ marginTop: '135px' }}>
+            <div className="title-platform" style={{ marginTop: '135px' }} >
                 <p>¿Ya tienes un sistema y necesitas <b>integrar timbrado de facturación en línea y complemento de pagos?</b></p>
                 <p style={{ fontSize: '27px' }}>Conoce nuestra API y descubre los grandes beneficios de integrar y conectar tu sistema con docDigitales</p>
             </div>
