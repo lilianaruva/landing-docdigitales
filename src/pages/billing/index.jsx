@@ -3,7 +3,7 @@ import Header from './components/Header'
 import Plans from './components/Plans';
 import Functionalities from './components/Functionalities';
 import BillingOnline from './components/BillingOnline';
-import "./css/style.css";
+import "./style.css";
 //Animations
 import { motion } from "framer-motion";
 import { pageAnimation } from "../../animation";

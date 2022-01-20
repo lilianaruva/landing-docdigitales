@@ -1,0 +1,23 @@
+#backgroundPay {
+    background-image: url(../../img/services/payAdmin/Greensplash.svg);
+    background-position: 900px 0px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #F1F5FE;
+    z-index: 2;
+}
+
+@media (min-width: 1920px) {
+    #backgroundPay {
+        background-image: url(../../img/services/payAdmin/Greensplash.svg);
+        background-position: 1114px 0px;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-color: #F1F5FE;
+    }
+
+    .titleResponsive {
+        width: 638px;
+        font-size: 28px;
+    }
+}

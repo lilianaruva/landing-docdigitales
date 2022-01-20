@@ -5,11 +5,12 @@ import billing from "../../../img/home/billing-video.png";
 import { motion } from "framer-motion";
 import { photoAnim } from "../../../animation";
 import imPoint from "../../../img/pointAqua.png";
+import "../style.css";
 
 const Header = () => {
   return (
     <>
-      <motion.div variants={photoAnim} className="Principal-main-Container whiteSpace" id="backgroundAboutUs" style={{ background: '#F1F5FE' }}>
+      <motion.div variants={photoAnim} className="Principal-main-Container whiteSpace" id="backgroundPay"  style={{ background: '#F1F5FE' }}>
         <div className="description-left" style={{ marginRight: '20px' }}>
           <div className="titleAboutUs">
             <p>El sistema de <b>facturación en línea</b> más fácil de usar en México</p>
@@ -23,7 +24,7 @@ const Header = () => {
             </Link>
           </div>
         </div>
-        <div className="description-right">
+        <div className="description-right" id="backgroundPay">
           <img src={im1} alt="im1" style={{ width: "85%" }}></img>
           <img src={imPoint} alt="pointAqua1" id="pointRightBottom"></img>
         </div>
