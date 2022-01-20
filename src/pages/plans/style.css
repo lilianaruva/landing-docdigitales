@@ -43,35 +43,74 @@
   border: 2px solid #B9CCEF;
 }
 
-.bottomServices{
+.bottomServices {
   width: 100%;
   text-align: center;
   margin-top: 38px;
 }
 
-.colListPlans{
-  display: flex; 
+.colListPlans {
+  display: flex;
 }
 
-.itemListPlans{
-    width: 390px;
-    font-size: 24px;
-    padding-right: 1rem;
-    margin-right: 2rem;
+.itemListPlans {
+  width: 390px;
+  font-size: 24px;
+  padding-right: 1rem;
+  margin-right: 2rem;
 }
 
-.adminListPlans{
+.adminListPlans {
   margin-left: 6rem;
 }
 
-.adminListPlans p{
+.adminListPlans p {
   font-size: 25px;
   margin-bottom: 1rem;
 }
 
 
-.adminListPlans li{
+.adminListPlans li {
   font-size: 15px;
   margin: 0 !important;
   padding: 0 0 5px 1rem !important;
 }
+
+
+.triangle {
+  display: flex;
+  position: absolute;
+  margin: 0rem;
+  right: 9px;
+  z-index: 2;
+  border-style: solid;
+  border-width: 0 100px 100px 0;
+  border-color: transparent #FFC400 transparent transparent;
+}
+
+.triangle p {
+  transform: rotate(45deg);
+  display: flex;
+  position: absolute;
+  left: 0;
+  text-align: center;
+  margin: 0.5rem 2.5rem 1rem;
+  font-weight: bold;
+}
+
+.containerCardT {
+  position: relative;
+}
+
+@media (min-width: 1920px) {
+  .triangle {
+    right: 60px;
+  }
+}
+
+@media (max-width: 1300px) {
+  .triangle {
+    right: 1px;
+  }
+}
+

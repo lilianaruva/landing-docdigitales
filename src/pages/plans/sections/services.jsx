@@ -26,7 +26,10 @@ const Services = () => {
                         </div>
                     </div>
                 </div>
-                <div className="md:w-1/4 flex justify-center md:px-[10px]">
+                <div className="md:w-1/4 flex justify-center md:px-[10px]  containerCardT">
+                    <div className="triangle">
+                        <p>Más + popular</p>
+                    </div>
                     <div className="planCardBlue bg-[#fff] p-[30px]" style={{ border: 'none' }}>
                         <p className="text-gray-800 text-xl font-medium mb-2 text-center" style={{ fontWeight: '600' }}>
                             Emprendedor Plus
