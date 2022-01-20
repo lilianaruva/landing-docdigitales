@@ -6,9 +6,9 @@ const Bill = () => {
     return (
         <>
             <div className="md:px-[50px] planContainer">
-                <div className="md:w-1/4 flex justify-center md:px-[10px]">
-                    <div className="planCard bg-[#fff] p-[30px]" style={{ border: 'none' }}>
-                        <p className="text-gray-800 text-xl font-medium mb-2 text-center">
+                <div className="md:w-1/4 flex justify-center md:px-[10px] md:my-[25px]">
+                    <div className="planCard bg-[#F6F9FE] p-[30px]">
+                        <p className="text-gray-800 text-xl font-medium mb-2 text-center" style={{ fontWeight: '600' }}>
                             Básico
                         </p>
                         <p className="text-gray-900 text-[60px] font-bold text-center">
@@ -18,9 +18,7 @@ const Bill = () => {
                             <small>+IVA / mes</small>
                         </p>
                         <div className=" flex mt-[27px] justify-center mb-4">
-                            <button className="btn btn--primary">
-                                <span className="px-[70px] py-[0px] text-[20px]">Contratar</span>
-                            </button>
+                            <button id="aqua" className="font-medium rounded-full p-3 bg-white px-[70px] py-[7px] text-[20px]">Contratar</button>
                         </div>
                         <ul className="text-sm text-gray-600 w-full mt-8 mb-8">
                             <li className="mb-3 flex items-center">
@@ -85,9 +83,12 @@ const Bill = () => {
                         </ul>
                     </div>
                 </div>
-                <div className="md:w-1/4 flex justify-center md:px-[10px] md:my-[25px]">
-                    <div className="planCard bg-[#F6F9FE] p-[30px]" >
-                        <p className="text-gray-800 text-xl font-medium mb-2 text-center">
+                <div className="md:w-1/4 flex justify-center md:px-[10px] containerCardT">
+                    <div className="triangle">
+                        <p>Más + popular</p>
+                    </div>
+                    <div className="planCard bg-[#fff] p-[30px]" style={{ border: 'none' }} >
+                        <p className="text-gray-800 text-xl font-medium mb-2 text-center" style={{ fontWeight: '600' }}>
                             Plus
                         </p>
                         <p className="text-gray-900 text-[60px] font-bold text-center">
@@ -98,7 +99,7 @@ const Bill = () => {
                         </p>
                         <div className=" flex mt-[27px] justify-center mb-4">
                             <Link to="/servicios">
-                                <button id="aqua" className="font-medium rounded-full p-3 bg-white px-[70px] py-[7px] text-[20px]">Contratar</button>
+                                <button className="btn btn--primary"><span className="px-[70px] py-[0px] text-[20px]">Contratar</span></button>
                             </Link>
                         </div>
                         <ul className="text-sm text-gray-600 w-full mt-8 mb-8">
@@ -166,7 +167,7 @@ const Bill = () => {
                 </div>
                 <div className="md:w-1/4 flex justify-center md:px-[10px] md:my-[25px]">
                     <div className="planCard bg-[#F6F9FE] p-[30px]" >
-                        <p className="text-gray-800 text-xl font-medium mb-2 text-center">
+                        <p className="text-gray-800 text-xl font-medium mb-2 text-center" style={{ fontWeight: '600' }}>
                             Ilimitado
                         </p>
                         <p className="text-gray-900 text-[60px] font-bold text-center">
@@ -245,7 +246,7 @@ const Bill = () => {
                 </div>
                 <div className="md:w-1/4 flex justify-center md:px-[10px] md:my-[25px]">
                     <div className="planCard bg-[#F6F9FE] p-[30px]" >
-                        <p className="text-gray-800 text-xl font-medium mb-2 text-center">
+                        <p className="text-gray-800 text-xl font-medium mb-2 text-center" style={{ fontWeight: '600' }}>
                             Premium
                         </p>
                         <p className="text-gray-900 text-[60px] font-bold text-center">

@@ -36,7 +36,7 @@
 }
 
 .whiteSpace {
-   padding-top: 100px;
+  padding-top: 100px;
 }
 
 /* XL */
@@ -58,9 +58,10 @@
     padding: 228px 136px;
     color: #000000;
   }
+
   .whiteSpace {
     padding-top: 145px;
- }
+  }
 }
 
 /* M  */
@@ -83,23 +84,43 @@
     color: #000000;
   }
 
-  .description-right{
+  .description-right {
     margin-top: 3rem;
     display: flex;
     align-items: center;
     text-align: center;
   }
 
-  .description-left{
+  .description-left {
     margin-top: 3rem;
     display: flex;
     align-items: center;
     text-align: center;
-    align-items: center!important;
+    align-items: center !important;
   }
+
   .whiteSpace {
     padding-top: 145px;
- }
+  }
 }
 
 /* S */
+
+@media (max-width: 320px) {
+  .whiteSpace {
+    padding-top: 20rem;
+  }
+
+  .RowFooter{
+    flex-direction: column;
+  }
+
+  .BottomContainerFooter{
+    flex-direction: column;
+  }
+
+  p{
+    font-size: 16px !important;
+  }
+
+}
