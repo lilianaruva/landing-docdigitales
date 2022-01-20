@@ -14,7 +14,7 @@ const Plans = () => {
 
     return (
         <>
-            <div className="flex justify-center" style={{ paddingTop: '87px', background: '#fff' }}>
+            <div className="flex justify-center whiteSpace" style={{ background: '#fff' }}>
                 <div>
                     <div className="text-center text-[35px] pt-10 pb-14">
                         Planes que se acomodan <b>a tu negocio</b>

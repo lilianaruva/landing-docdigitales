@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import logo1 from '../../../img/home/logos/Imagen1.png';
+import logo2 from '../../../img/home/logos/Imagen2.png';
+import logo3 from '../../../img/home/logos/Imagen3.png';
 
 const Comment = () => {
 
@@ -16,21 +18,21 @@ const Comment = () => {
             comment: "“La plataforma realmente me ha ayudado a manejar  mi negocio de una forma más cómoda. Me sorprendió mucho la facilidad con la que se usa el sistema, además de que siempre hay una persona lista para asistirte cuando tienes algún problema.”",
             client: "Lic. Brenda Sánchez O.",
             clientRole: "Administración Contable",
-            clientLogo: "https://images.pexels.com/photos/20787/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=350"
+            clientLogo: logo2
         },
         {
             clientIndex: "3",
             comment: "“Sin duda es la mejor forma de administrar mi negocio. No me lleva más de un par de minutos facturar, revisar mis gastos y descargar los reportes semanales de seguimiento. Siempre tienen mi contabilidad a tiempo y ahora ya no tengo que preocuparme por hacer mis declaraciones.”",
             client: "Lic. Brenda Sánchez O.",
             clientRole: "Administración Contable",
-            clientLogo: "https://images.pexels.com/photos/20787/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=350"
+            clientLogo: logo3
         },
         {
             clientIndex: "4",
             comment: "“Llevo ya algún tiempo trabajando con docDigitales y siempre he recibido un trato cercano y una atención personalizada.  La plataforma me gusta mucho, tiene múltiples funciones que me han permitido darle mejor atención a mis clientes y proveedores, lo que ha resultado en que mi negocio creciera bastante en los últimos meses”",
             client: "Lic. Brenda Sánchez O.",
             clientRole: "Administración Contable",
-            clientLogo: "https://images.pexels.com/photos/20787/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=350"
+            clientLogo: logo2
         },
     ]
 
