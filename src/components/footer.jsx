@@ -6,9 +6,20 @@ import logoConekta from "../img/home/Page-1.svg"
 import logoIzettle from "../img/home/2560px-IZettle_Logo.png"
 import { FaFacebookSquare, FaGithub, FaLinkedin } from 'react-icons/fa';
 import { IconContext } from "react-icons";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 const Footer = () => {
+    let location = useLocation();
+
+    if (
+        location.pathname === '/login'
+        || location.pathname === '/registro'
+        || location.pathname === '/registro'
+        || location.pathname === '/contacto'
+    ) {
+        return null;
+    }
+
     return (
         <>
             <div className="ContainerFooter">

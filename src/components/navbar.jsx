@@ -16,7 +16,7 @@ const Navbar = () => {
 
     return (
         <>
-            <nav className="navbar-container">
+            <nav className={`navbar-container ${location.pathname === '/contacto' ? "whiteColor": ""}`}>
                 <div className="navbar-left">
                     <Link to="/">
                         <img src={logo} style={{ width: "260px", height: "51px" }} alt="DD_Logo" />

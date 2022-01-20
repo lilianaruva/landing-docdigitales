@@ -11,6 +11,10 @@
     flex-wrap: wrap;
 }
 
+.whiteColor{
+    background-color: white;
+}
+
 .navbar-right {
     display: flex;
     flex-wrap: wrap;

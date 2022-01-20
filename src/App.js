@@ -10,7 +10,7 @@ import Support from "./pages/support/index";
 import Footer from "./components/footer";
 import AboutUs from "./pages/company/aboutUs/aboutUs";
 import Resources from "./pages/company/resources/resources";
-import Contact from "./pages/company/contact/contact";
+import Contact from "./pages/support/index";
 import ArticlePage from "./pages/company/resources/components/articlePage";
 import AccService from "./pages/services/accServices/accServices";
 import Api from "./pages/services/api/api";

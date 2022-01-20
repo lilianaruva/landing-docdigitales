@@ -14,8 +14,8 @@ const Support = () => {
     <>
       <hr />
       <div className="lg:flex screen-height">
-        <div className="basis-1/2 screen-height justify-items-center content-around">
-          <div className="bg-white lg:px-[100px] lg:pt-[3rem]">
+        <div className="basis-1/2 screen-height justify-items-center content-around whiteSpace">
+          <div className="bg-white lg:px-[100px] lg:pt-[3rem]" style={{paddingBottom: "6rem"}}>
             <div className="text-[35px] lg:px-1 leading-6 font-semibold text-gray-900">
               Información de contacto
             </div>
@@ -47,7 +47,7 @@ const Support = () => {
             </div>
           </div>
         </div>
-        <div className="basis-1/2 bg-light-grey justify-items-center content-around" id="backgroundSpot">
+        <div className="basis-1/2 bg-light-grey justify-items-center content-around whiteSpace" id="backgroundSpot">
           <div className="flex justify-center align-center screen-height" >
             <div className="lg:px-[100px] lg:pt-[3rem]">
               <div className="text-[35px] lg:px-1 leading-6 font-semibold text-gray-900">
@@ -78,7 +78,7 @@ const Support = () => {
                   <textarea className="mt-1 block lg:w-[400px] px-4 py-2 rounded hover:shadow-md focus:outline-0 focus:shadow-lg active:shadow-lg" type="textarea" placeholder="Escribe tu pregunta" rows="3" />
                 </label>
               </div>
-              <div className="lg:mt-[52px]">
+              <div className="lg:mt-[52px]" style={{marginBottom: "6rem"}}>
                 <button className="btn btn--blue">
                   <span className="px-[90px] py-[22px] text-[22px]">Enviar</span>
                 </button>
