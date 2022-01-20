@@ -27,7 +27,7 @@ const Services = () => {
                     </div>
                 </div>
                 <div className="md:w-1/4 flex justify-center md:px-[10px]  containerCardT">
-                    <div className="triangle">
+                    <div className="triangleSC">
                         <p>Más + popular</p>
                     </div>
                     <div className="planCardBlue bg-[#fff] p-[30px]" style={{ border: 'none' }}>

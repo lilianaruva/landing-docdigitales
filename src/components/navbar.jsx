@@ -1,6 +1,7 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
-import logo from "../img/home/DD_Logo.svg"
+import logo from "../img/home/DD_Logo.svg";
+import img1 from "../img/account.png";
 import "./css/navbar.css";
 
 const Navbar = () => {
@@ -16,7 +17,7 @@ const Navbar = () => {
 
     return (
         <>
-            <nav className={`navbar-container ${location.pathname === '/contacto' ? "whiteColor": ""}`}>
+            <nav className={`navbar-container ${location.pathname === '/contacto' ? "whiteColor" : ""}`}>
                 <div className="navbar-left">
                     <Link to="/">
                         <img src={logo} style={{ width: "260px", height: "51px" }} alt="DD_Logo" />
@@ -73,6 +74,7 @@ const Navbar = () => {
                     <Link to="/login">
                         <div className="navbar-item-btn">
                             <div className="btnLogin">
+                                <img src={img1}alt="Login" style={{marginRight: "5px" }}/>
                                 <p>Iniciar sesión</p>
                             </div>
                         </div>

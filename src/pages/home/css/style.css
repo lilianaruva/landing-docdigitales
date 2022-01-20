@@ -141,7 +141,7 @@
 @media (min-width: 1920px) {
     #backgroundAboutUs {
         background-image: url(../../../img/home/christin-hume-Hcfwew744z4-unsplash-3.svg), url(../../../img/home/christin-hume-Hcfwew744z4-unsplash.svg);
-        background-position: -200px 10%, -200px 10%;
+        background-position: -200px 10%, 1200px 10%;
     }
 }
 
@@ -178,5 +178,14 @@
         font-size: 18px;
         font-weight: regular;
         margin-bottom: 32.08px;
+    }
+}
+
+@media (max-width: 1024px){
+    .title-platform p {
+        font-size: 25px;
+        font-weight: regular;
+        margin-bottom: 20px;
+        width: 100% !important;
     }
 }

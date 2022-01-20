@@ -31,15 +31,33 @@ const Footer = () => {
                     </div>
                     <div className="ColumnFooter">
                         <div className="HeadingFooter">Secciones</div>
-                        <div className="FooterLink" href="/facturacion">Facturación en Linea</div>
-                        <div className="FooterLink" href="/">Pagos en línea</div>
-                        <div className="FooterLink" href="/">Contador en línea</div>
-                        <div className="FooterLink" href="/administracion-nomina">Administración de nómina</div>
-                        <div className="FooterLink" href="/api">API</div>
-                        <div className="FooterLink" href="/recursos">Blog</div>
-                        <div className="FooterLink" href="/planes">Planes</div>
-                        <div className="FooterLink" href="/registro">Registro</div>
-                        <div className="FooterLink" href="/login">Inicio Sesión</div>
+                        <Link to="/facturacion">
+                            <div className="FooterLink">Facturación en Linea</div>
+                        </Link>
+                        <Link to="/">
+                            <div className="FooterLink" >Pagos en línea</div>
+                        </Link>
+                        <Link to="/">
+                            <div className="FooterLink" >Contador en línea</div>
+                        </Link>
+                        <Link to="/administracion-nomina">
+                            <div className="FooterLink" >Administración de nómina</div>
+                        </Link>
+                        <Link to="/api">
+                            <div className="FooterLink" >API</div>
+                        </Link>
+                        <Link to="/recursos">
+                            <div className="FooterLink" >Blog</div>
+                        </Link>
+                        <Link to="/planes">
+                            <div className="FooterLink" >Planes</div>
+                        </Link>
+                        <Link to="/registro">
+                            <div className="FooterLink" >Registro</div>
+                        </Link>
+                        <Link to="/login">
+                            <div className="FooterLink" >Inicio Sesión</div>
+                        </Link>
                     </div>
                     <div className="ColumnFooter">
                         <div className="HeadingFooter">Socios</div>
@@ -53,7 +71,9 @@ const Footer = () => {
                         <div className="FooterLink" href="/">Política de Privacidad</div>
                         <div className="FooterLink" href="/">Acuerdo de Niveles de Servicio</div>
                         <div className="FooterLink" href="/">Política de Privacidad App Móvil</div>
-                        <div className="FooterLink" href="/contacto">Contacto</div>
+                        <Link to="/contacto">
+                            <div className="FooterLink">Contacto</div>
+                        </Link>
                     </div>
                     <div className="ColumnFooter">
                         <div className="HeadingFooter">Enlaces SAT</div>

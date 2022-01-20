@@ -39,3 +39,9 @@
         margin-top: 1rem;
     }
 }
+
+@media (max-width: 768px){
+    .newItem {
+        min-width: 320px;
+    }
+}

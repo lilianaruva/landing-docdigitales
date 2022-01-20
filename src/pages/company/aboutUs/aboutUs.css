@@ -6,7 +6,13 @@
     background-color: #F1F5FE;
 }
 
-@media (max-width: 1920px) {
+#pointBackgroundLeftBottomBlue {
+    background-image: url(../../../img/home/christin-hume-Hcfwew744z4-unsplash-2.svg);
+    background-position: -170px -10%;
+    background-repeat: no-repeat;
+}
+
+@media (min-width: 1920px) {
     #backgroundAbout {
         background-image: url(../../../img/company/christin-hume-Hcfwew744z4-unsplash-4.svg);
         background-position: 1085px 225px;
@@ -15,5 +21,11 @@
     }
     .titleResponsive{
         font-size: 55px;
+    }
+
+    #pointBackgroundLeftBottomBlue {
+        background-image: url(../../../img/home/christin-hume-Hcfwew744z4-unsplash-2.svg);
+        background-position: 3% 30%;
+        background-repeat: no-repeat;
     }
   }

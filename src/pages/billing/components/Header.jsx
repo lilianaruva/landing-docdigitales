@@ -4,15 +4,16 @@ import im1 from "../../../img/home/cutout1.png";
 import billing from "../../../img/home/billing-video.png";
 import { motion } from "framer-motion";
 import { photoAnim } from "../../../animation";
+import imPoint from "../../../img/pointAqua.png";
 
 const Header = () => {
   return (
     <>
-      <motion.div variants={photoAnim} className="Principal-main-Container whiteSpace" id="backgroundAboutUs" style={{background:'#F1F5FE'}}>
-        <div className="description-left" style={{marginRight: '20px' }}>
+      <motion.div variants={photoAnim} className="Principal-main-Container whiteSpace" id="backgroundAboutUs" style={{ background: '#F1F5FE' }}>
+        <div className="description-left" style={{ marginRight: '20px' }}>
           <div className="titleAboutUs">
             <p>El sistema de <b>facturación en línea</b> más fácil de usar en México</p>
-            <h3 style={{fontSize: '25px', marginTop: '20px' }}>Genera facturas, cotizaciones, lleva cuentas por cobrar y más. ¡Ideal para PyMEs, empresas de servicios y freelancers!</h3>
+            <h3 style={{ fontSize: '25px', marginTop: '20px' }}>Genera facturas, cotizaciones, lleva cuentas por cobrar y más. ¡Ideal para PyMEs, empresas de servicios y freelancers!</h3>
           </div>
           <div className="block lg:pt-[50px]">
             <Link to="/registro">
@@ -24,6 +25,7 @@ const Header = () => {
         </div>
         <div className="description-right">
           <img src={im1} alt="im1" style={{ width: "85%" }}></img>
+          <img src={imPoint} alt="pointAqua1" id="pointRightBottom"></img>
         </div>
       </motion.div>
       <div className="main-Container h-screen">

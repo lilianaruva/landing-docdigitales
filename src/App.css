@@ -123,4 +123,11 @@
     font-size: 16px !important;
   }
 
+  .description-left img{
+    width: 100% !important;
+  }
+
+  .description-right img{
+    width: 100% !important;
+  }
 }

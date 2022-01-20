@@ -9,6 +9,10 @@ import './aboutUs.css';
 //Animations
 import { motion } from "framer-motion";
 import { pageAnimation, photoAnim } from "../../../animation";
+//Points
+import p1 from "../../../img/pointAqua.png"
+import p2 from "../../../img/pointBlue.png"
+
 
 const AboutUs = () => {
     useEffect(() => {
@@ -28,6 +32,7 @@ const AboutUs = () => {
                 </div>
                 <div className="description-right">
                     <img src={im1} alt="im1" style={{ width: "85%" }}></img>
+                    <img src={p1} alt="pointAqua1" id="pointLeftBottom"></img>
                 </div>
             </motion.div>
             <div className="mainMedium-Container">
@@ -89,13 +94,15 @@ const AboutUs = () => {
                 <div className="description-right">
                     <div className="image">
                         <img src={call} alt="call"></img>
+                        <img src={p1} alt="pointBlue" id="pointLeft"></img>
                     </div>
                 </div>
             </div>
-            <div className="main-Container">
+            <div className="main-Container" id="pointBackgroundLeftBottomBlue">
                 <div className="description-left">
                     <div className="image">
                         <img src={hand} alt="hand"></img>
+                        <img src={p2} alt="pointAqua" id="pointRightBottom"></img>
                     </div>
                 </div>
                 <div className="description-right">

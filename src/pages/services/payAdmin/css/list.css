@@ -1,9 +1,11 @@
-.firstList ul{
+.firstList ul {
     list-style-image: url(./point.svg);
+    text-align: left;
 }
 
 .adminList ul {
     list-style-image: url(./check2.svg);
+    text-align: left;
 }
 
 .adminList ul li {
@@ -11,12 +13,7 @@
     padding-left: 22px;
 }
 
-.secondList ul{
+.secondList ul {
     list-style-image: url(./arrow.svg);
-}
-
-@media (max-width: 1300px) {
-    .adminList ul {
-        text-align: left;
-    }
+    text-align: left;
 }
