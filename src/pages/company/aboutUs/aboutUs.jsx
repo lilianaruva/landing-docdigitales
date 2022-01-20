@@ -55,7 +55,7 @@ const AboutUs = () => {
                     </div>
                 </div>
             </div>
-            <div className="mainMedium-Container" style={{ backgroundColor: '#F1F5FE' }}>
+            <div className="mainMedium-Container" style={{ backgroundColor: '#F8FAFE' }}>
                 <div className="title-platform">
                     <p style={{ fontWeight: '500' }}>Confiamos en nuestros compañeros, equipo y clientes</p>
                     <p style={{ fontSize: '25px' }}>Entendemos que simple es mejor. Damos confianza y recibimos confianza. Somos directos y nos comunicamos de manera honesta. Escuchamos y nos ponemos en los zapatos de nuestros compañeros y clientes. Somos empáticos. Trabajamos con pasión haciendo lo que nos gusta.</p>

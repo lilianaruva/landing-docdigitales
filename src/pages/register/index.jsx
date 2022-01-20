@@ -21,6 +21,9 @@ const ServiceTest = () => {
 						<div className="lg:text-[32px] lg:pt-[30px]">
 							<b>Regístrate e inicia tu prueba</b> para conocer la mejor plataforma de facturación, servicios contables y nomina en línea
 						</div>
+						<div className="lg:text-[25px] lg:pt-[25px]">
+							<p>Nos alegra que quieras formar parte de la experiencia DocDigitales, déjanos tus datos y uno de nuestros ejecutivos se pondrá en contacto contigo para comenzar a trabajar en tu negocio.</p>
+						</div>
 					</div>
 					<div>
 						<div className="grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 lg:mr-[60px]">

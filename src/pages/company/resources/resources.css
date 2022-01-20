@@ -116,7 +116,7 @@
     margin-bottom: 26px;
 }
 
-@media (max-width: 1920px) {
+@media (min-width: 1920px) {
     #backgroundResources {
         background-image: url(../../../img/resources/christin-hume-Hcfwew744z4-unsplash.svg);
         background-position: 1114px 220px;
