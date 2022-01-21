@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
-import im1 from "../../../img/company/cutout4.png"
-import call from "../../../img/company/business-man-working-at-home-home-office-2021-08-30-06-38-21-utc.png"
-import hand from "../../../img/company/pexels-sora-shimazaki-5673488.png"
-import team from "../../../img/company/pexels-fauxels-3183150.png"
+import im1 from "../../../img/company/main.png"
+import call from "../../../img/company/call.png"
+import hand from "../../../img/company/hands.png"
+import team from "../../../img/company/meet.png"
 import heart from "../../../img/company/5.svg"
 import logoDD from "../../../img/home/DD_Logo.svg"
 import './aboutUs.css';
@@ -10,8 +10,8 @@ import './aboutUs.css';
 import { motion } from "framer-motion";
 import { pageAnimation, photoAnim } from "../../../animation";
 //Points
-import p1 from "../../../img/pointAqua.png"
-import p2 from "../../../img/pointBlue.png"
+//import p1 from "../../../img/pointAqua.png"
+//import p2 from "../../../img/pointBlue.png"
 
 
 const AboutUs = () => {
@@ -19,12 +19,13 @@ const AboutUs = () => {
         window.scrollTo(0, 0)
     }, [])
 
+    //<motion.div variants={photoAnim} className="Principal-main-Container whiteSpace" id="backgroundAbout">
     return (
         <motion.div exit="exit"
             variants={pageAnimation}
             initial="hidden"
             animate="show">
-            <motion.div variants={photoAnim} className="Principal-main-Container whiteSpace" id="backgroundAbout">
+            <motion.div variants={photoAnim} className="Principal-main-Container whiteSpace" style={{ backgroundColor: "#F1F5FE" }}>
                 <div className="description-left" style={{ marginRight: '20px' }}>
                     <div className="titleAboutUs titleResponsive">
                         <p>Estamos listos para <b>solucionar tus problemas</b> contables y de administración</p>
@@ -32,7 +33,8 @@ const AboutUs = () => {
                 </div>
                 <div className="description-right">
                     <img src={im1} alt="im1" style={{ width: "85%" }}></img>
-                    <img src={p1} alt="pointAqua1" id="pointLeftBottom"></img>
+                    {//<img src={p1} alt="pointAqua1" id="pointLeftBottom"></img>
+                    }
                 </div>
             </motion.div>
             <div className="mainMedium-Container">
@@ -94,7 +96,8 @@ const AboutUs = () => {
                 <div className="description-right">
                     <div className="image">
                         <img src={call} alt="call"></img>
-                        <img src={p1} alt="pointBlue" id="pointLeft"></img>
+                        {//<img src={p1} alt="pointBlue" id="pointLeft"></img>
+                        }
                     </div>
                 </div>
             </div>
@@ -102,7 +105,8 @@ const AboutUs = () => {
                 <div className="description-left">
                     <div className="image">
                         <img src={hand} alt="hand"></img>
-                        <img src={p2} alt="pointAqua" id="pointRightBottom"></img>
+                        {// <img src={p2} alt="pointAqua" id="pointRightBottom"></img>
+                        }
                     </div>
                 </div>
                 <div className="description-right">
