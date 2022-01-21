@@ -12,6 +12,7 @@ import Numbers from "./components/numbers";
 import Comment from "./components/comment";
 import News from "./components/news";
 import Ready from "./components/ready";
+import Ask from "./components/ask";
 
 //react router
 import { Link } from 'react-router-dom';
@@ -116,6 +117,7 @@ const Home = () => {
             <Numbers />
             <Comment />
             <News />
+            <Ask />
             <Ready />
         </motion.div >
     )

@@ -198,3 +198,29 @@
         width: 15%;
     }
 }
+
+.AskContainer {
+    border-top: 1px solid #E1E1E1;
+    border-bottom: 1px solid #E1E1E1;
+    padding: 3rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.AskContainer button {
+    margin: none;
+    border: none;
+    background: none;
+}
+
+.Asks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.AskChild {
+    margin-top: 2rem;
+}

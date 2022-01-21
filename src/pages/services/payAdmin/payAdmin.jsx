@@ -29,7 +29,7 @@ const PayAdmin = () => {
                         <p>Calculamos y timbramos la <b>nómina de tu empresa</b></p>
                         <h3 style={{ fontSize: '25px', marginTop: '20px' }} className="titleResponsive">Somos la mejor plataforma para optimizar tu nomina y administrar a tu equipo. Cumplimos las leyes aplicables y normativas al 100%.</h3>
                     </div>
-                    <Link to="/registro">
+                    <Link to="/prueba-30-dias">
                         <button className="btnResourcesCeleste">Solicitar prueba</button>
                     </Link>
                 </div>
