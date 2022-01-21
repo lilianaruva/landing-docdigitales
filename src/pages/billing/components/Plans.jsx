@@ -1,13 +1,14 @@
 import React from 'react'
-import img from "../../../img/home/a-man-and-a-girl-sit-at-a-desk-in-the-office-and-do-business-analysis-office-work-teamwork-calculate_t20_knpE3r-1.png";
+//import img from "../../../img/home/a-man-and-a-girl-sit-at-a-desk-in-the-office-and-do-business-analysis-office-work-teamwork-calculate_t20_knpE3r-1.png";
+import img from "../../../img/services/bill/team.png";
 import { FiCheckCircle } from "react-icons/fi";
-import pointAqua from "../../../img/pointAqua.png";
+//import pointAqua from "../../../img/pointAqua.png";
 
-
+//<div className="h-screen content-center grid justify-center" id="pointBackgroundLeftBottomGreen">
 const Plans = () => {
   return (
     <>
-      <div className="h-screen content-center grid justify-center" id="pointBackgroundLeftBottomGreen">
+      <div className="h-screen content-center grid justify-center" >
         <div className="mx-auto flex">
           <div className="text-center lg:text-[35px] pb-16">
             Todos los <b>planes incluyen</b>
@@ -16,7 +17,8 @@ const Plans = () => {
         <div className="flex">
           <div className="lg:w-1/2 content-around grid justify-center">
             <img src={img} alt="billing" className="w-[28rem] h-[28rem] "></img>
-            <img src={pointAqua} alt="pointPurple" id="pointRightBottom" />
+            {//<img src={pointAqua} alt="pointPurple" id="pointRightBottom" />
+            }
           </div>
           <div className="lg:w-1/2 lg:mr-[100px]">
             <div className="lg:my-[20px]">

@@ -1,6 +1,6 @@
 import React from 'react'
-// import { Link } from "react-router-dom";
 import img from "../../../img/home/Screen Shot 2021-12-27 at 14.59.15@2x.png";
+//import img from "../../../img/services/bill/screen.png";
 
 const Functionalities = () => {
   return (

@@ -1,10 +1,10 @@
 import React from 'react'
 import { Link } from "react-router-dom";
-import im1 from "../../../img/home/cutout1.png";
+import im1 from "../../../img/services/bill/main.png";
 import billing from "../../../img/home/billing-video.png";
 import { motion } from "framer-motion";
 import { photoAnim } from "../../../animation";
-import imPoint from "../../../img/pointAqua.png";
+//import imPoint from "../../../img/pointAqua.png";
 import Easy from './Easy';
 import "../style.css";
 import ico1 from "../../../img/services/bill/Group 1471.svg";
@@ -30,7 +30,8 @@ const Header = () => {
         </div>
         <div className="description-right">
           <img src={im1} alt="im1" style={{ width: "85%" }}></img>
-          <img src={imPoint} alt="pointAqua1" id="pointRightBottom"></img>
+          {//<img src={imPoint} alt="pointAqua1" id="pointRightBottom"></img>
+          }
         </div>
       </motion.div>
       <Easy />
@@ -40,7 +41,7 @@ const Header = () => {
             <div className="lg:my-[20px]">
               <div className="flex">
                 <div className="lg:mx-[25px]">
-                  <img src={ico1} />
+                  <img alt="icon1" src={ico1} />
                 </div>
                 <div>
                   <p className="text-[30px]"><b>Facturación</b></p>
@@ -51,7 +52,7 @@ const Header = () => {
             <div className="lg:my-[20px]">
               <div className="flex">
                 <div className="lg:mx-[25px]" style={{ marginRight: '0' }}>
-                  <img src={ico2} style={{ width: '70%', margin: '0' }} />
+                  <img alt="icon2" src={ico2} style={{ width: '70%', margin: '0' }} />
                 </div>
                 <div>
                   <p className="text-[30px]"><b>Control de gastos</b></p>
@@ -62,7 +63,7 @@ const Header = () => {
             <div className="lg:my-[20px]">
               <div className="flex">
                 <div className="lg:mx-[25px]">
-                  <img src={ico3} />
+                  <img alt="icon3" src={ico3} />
                 </div>
                 <div>
                   <p className="text-[30px]"><b>Reportes</b></p>
