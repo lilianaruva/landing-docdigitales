@@ -14,7 +14,7 @@ const Footer = () => {
     if (
         location.pathname === '/login'
         || location.pathname === '/registro'
-        || location.pathname === '/registro'
+        || location.pathname === '/prueba-30-dias'
         || location.pathname === '/contacto'
     ) {
         return null;
