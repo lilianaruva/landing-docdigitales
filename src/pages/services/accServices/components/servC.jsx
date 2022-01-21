@@ -1,10 +1,10 @@
 import React from 'react';
-import im3 from "../../../../img/services/accServices/headshot-of-a-proffessional-man_t20_Xxkovl.png";
+import im3 from "../../../../img/services/accServices/glasses.png";
 import icon1 from "../../../../img/services/accServices/9713 - Documents Management.svg";
 import icon2 from "../../../../img/services/accServices/9716 - Working Time.svg";
 import icon3 from "../../../../img/services/accServices/cloud-service.png"
 import icon4 from "../../../../img/services/accServices/INSURANCE.svg";
-import pointBlue from "../../../../img/pointBlue.png";
+//import pointBlue from "../../../../img/pointBlue.png";
 
 const ServC = () => {
     return (
@@ -42,7 +42,8 @@ const ServC = () => {
                 <div className="description-right">
                     <div className="image">
                         <img src={im3} alt="im3"></img>
-                        <img src={pointBlue} alt="pointBlue" id="pointLeft"></img>
+                        {//<img src={pointBlue} alt="pointBlue" id="pointLeft"></img>
+                        }
                     </div>
                 </div>
             </div>

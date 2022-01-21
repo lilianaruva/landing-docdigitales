@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react';
-import im1 from "../../../img/services/accServices/cutout2-2.png";
+import im1 from "../../../img/services/accServices/main.png";
 import im2 from "../../../img/services/accServices/successful-entrepreneur-2021-09-01-07-24-53-utc.png";
 import "./services.css";
-import pointBlue from "../../../img/pointBlue.png";
+//import pointBlue from "../../../img/pointBlue.png";
 import Control from "./components/control";
 import CarouselS from './components/carouselS';
 import How from "./components/how";
@@ -36,7 +36,8 @@ const AccServices = () => {
                 </div>
                 <div className="description-right">
                     <img src={im1} alt="im1"></img>
-                    <img src={pointBlue} alt="pointBlue" id="pointRightBottom"></img>
+                    {//<img src={pointBlue} alt="pointBlue" id="pointRightBottom"></img>
+                    }
                 </div>
             </motion.div>
             <Control />
