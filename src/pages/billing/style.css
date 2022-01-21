@@ -7,6 +7,29 @@
     z-index: 2;
 }
 
+#backgroundPayImage{
+    background-image: url(../../img/services/payAdmin/Greensplash.svg) !important;
+    background-position: 100% 140% !important;
+    background-size: 30%;
+    background-repeat: no-repeat !important;
+    background-color: #F1F5FE;
+    z-index: 2;
+}
+
+#pointBackgroundLeftBottomGreen {
+    background-image: url(../../img/services/payAdmin/Greensplash.svg);
+    background-position: -170px -10%;
+    background-repeat: no-repeat;
+    background-size: 30%;
+}
+
+#pointBackgroundRightBottomGreen {
+    background-image: url(../../img/services/payAdmin/Greensplash.svg);
+    background-position: 95% 40%;
+    background-repeat: no-repeat;
+    background-size: 30%;
+}
+
 .cardEasy {
     background-color: white;
     width: 100%;
@@ -43,7 +66,7 @@
 @media (min-width: 1920px) {
     #backgroundPay {
         background-image: url(../../img/services/payAdmin/Greensplash.svg);
-        background-position: 1114px 0px;
+        background-position: 1114px 0px !important;
         background-size: 100%;
         background-repeat: no-repeat;
         background-color: #F1F5FE;
@@ -52,5 +75,18 @@
     .titleResponsive {
         width: 638px;
         font-size: 28px;
+    }
+
+    #pointBackgroundLeftBottomGreen {
+        background-image: url(../../img/services/payAdmin/Greensplash.svg);
+        background-position: 3% 30%;
+        background-repeat: no-repeat;
+    }
+
+    #pointBackgroundRightBottomGreen {
+        background-image: url(../../img/services/payAdmin/Greensplash.svg);
+        background-position: 90% 40%;
+        background-repeat: no-repeat;
+        background-size: 30%;
     }
 }

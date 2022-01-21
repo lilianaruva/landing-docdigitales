@@ -14,12 +14,12 @@ const Easy = () => {
                     </div>
                     <div className="cardEasyChild">
                         <img src={img2} />
-                        <p className="titleCardEasy"><b>Fácil de usar</b></p>
+                        <p className="titleCardEasy"><b>Sé más profesional</b></p>
                         <p>Personaliza tus facturas y cotizaciones con tu logo e imagen, y mejora tu presencia con los clientes.</p>
                     </div>
                     <div className="cardEasyChild">
                         <img src={img3} />
-                        <p className="titleCardEasy"><b>Fácil de usar</b></p>
+                        <p className="titleCardEasy"><b>Pagos directos</b></p>
                         <p>Genera tus facturas, envíalas a tus clientes y recibe el pago correspondiente, todo dentro de nuestra plataforma. ¡Fácil y seguro!</p>
                     </div>
                 </div>

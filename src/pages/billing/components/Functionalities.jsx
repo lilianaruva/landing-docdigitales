@@ -62,41 +62,43 @@ const Functionalities = () => {
             </div>
           </div>
         </div> */}
-        <div className="bg-white flex pb-14">
-          <nav className="tabs flex flex-col sm:flex-row mx-auto">
-            <button data-target="panel-1" className="tab text-gray-600 py-2 px-8 block hover:text-blue-500 focus:outline-none text-blue-500 border-b-2 font-medium border-green-500" style={{ borderBottom: "1px solid #2AEAA5", backgroundColor: "#F4FEFA" }}>
-              Facturación
-            </button>
-            <button data-target="panel-2" className="tab text-gray-600 py-2 px-8 block hover:text-blue-500 focus:outline-none" style={{ backgroundColor: "#FFFFFF" }}>
-              Pagos en línea
-            </button>
-            <button data-target="panel-3" className="tab text-gray-600 py-2 px-8 block hover:text-blue-500 focus:outline-none" style={{ backgroundColor: "#FFFFFF" }}>
-              Cotizaciones
-            </button>
-            <button data-target="panel-3" className="tab text-gray-600 py-2 px-8 block hover:text-blue-500 focus:outline-none" style={{ backgroundColor: "#FFFFFF" }}>
-              Descarga de CFDI
-            </button>
-            <button data-target="panel-3" className="tab text-gray-600 py-2 px-8 block hover:text-blue-500 focus:outline-none" style={{ backgroundColor: "#FFFFFF" }}>
-              Facturas
-            </button>
-            <button data-target="panel-3" className="tab text-gray-600 py-2 px-8 block hover:text-blue-500 focus:outline-none" style={{ backgroundColor: "#FFFFFF" }}>
-              Catálogo de productos
-            </button>
-            <button data-target="panel-3" className="tab text-gray-600 py-2 px-8 block hover:text-blue-500 focus:outline-none" style={{ backgroundColor: "#FFFFFF" }}>
-              Gastos
-            </button>
-            <button data-target="panel-3" className="tab text-gray-600 py-2 px-10 block hover:text-blue-500 focus:outline-none" style={{ backgroundColor: "#FFFFFF" }}>
-              Reportes
-            </button>
-          </nav>
-        </div>
-        <div className="flex items-center">
-          <div className="lg:w-1/2 content-center lg:mx-[80px]">
-            <b className="text-[35px]">Facturación</b>
-            <p className="text-[20px]">Realiza tu facturación electrónica fácil y rápidamente. Con docDigitales puedes generar, editar, copiar y guardar facturas para trabajar siempre a tu ritmo. Además, puedes usar la función de facturación recurrente para generar tus cuentas periódicas automáticamente.</p>
+        <div id="backgroundPayImage">
+          <div className="bg-white flex pb-14">
+            <nav className="tabs flex flex-col sm:flex-row mx-auto">
+              <button data-target="panel-1" className="tab text-gray-600 py-2 px-8 block hover:text-blue-500 focus:outline-none text-blue-500 border-b-2 font-medium border-green-500" style={{ borderBottom: "1px solid #2AEAA5", backgroundColor: "#F4FEFA" }}>
+                Facturación
+              </button>
+              <button data-target="panel-2" className="tab text-gray-600 py-2 px-8 block hover:text-blue-500 focus:outline-none" style={{ backgroundColor: "#FFFFFF" }}>
+                Pagos en línea
+              </button>
+              <button data-target="panel-3" className="tab text-gray-600 py-2 px-8 block hover:text-blue-500 focus:outline-none" style={{ backgroundColor: "#FFFFFF" }}>
+                Cotizaciones
+              </button>
+              <button data-target="panel-3" className="tab text-gray-600 py-2 px-8 block hover:text-blue-500 focus:outline-none" style={{ backgroundColor: "#FFFFFF" }}>
+                Descarga de CFDI
+              </button>
+              <button data-target="panel-3" className="tab text-gray-600 py-2 px-8 block hover:text-blue-500 focus:outline-none" style={{ backgroundColor: "#FFFFFF" }}>
+                Facturas
+              </button>
+              <button data-target="panel-3" className="tab text-gray-600 py-2 px-8 block hover:text-blue-500 focus:outline-none" style={{ backgroundColor: "#FFFFFF" }}>
+                Catálogo de productos
+              </button>
+              <button data-target="panel-3" className="tab text-gray-600 py-2 px-8 block hover:text-blue-500 focus:outline-none" style={{ backgroundColor: "#FFFFFF" }}>
+                Gastos
+              </button>
+              <button data-target="panel-3" className="tab text-gray-600 py-2 px-10 block hover:text-blue-500 focus:outline-none" style={{ backgroundColor: "#FFFFFF" }}>
+                Reportes
+              </button>
+            </nav>
           </div>
-          <div className="lg:w-1/2 content-center lg:mx-[80px]">
-            <img src={img} alt="img" className="w-max"></img>
+          <div className="flex items-center">
+            <div className="lg:w-1/2 content-center lg:mx-[80px]">
+              <b className="text-[35px]">Facturación</b>
+              <p className="text-[20px]">Realiza tu facturación electrónica fácil y rápidamente. Con docDigitales puedes generar, editar, copiar y guardar facturas para trabajar siempre a tu ritmo. Además, puedes usar la función de facturación recurrente para generar tus cuentas periódicas automáticamente.</p>
+            </div>
+            <div className="lg:w-1/2 content-center lg:mx-[80px]">
+              <img src={img} alt="img" className="w-max" ></img>
+            </div>
           </div>
         </div>
       </div>

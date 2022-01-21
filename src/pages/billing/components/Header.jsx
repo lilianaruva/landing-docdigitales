@@ -7,6 +7,9 @@ import { photoAnim } from "../../../animation";
 import imPoint from "../../../img/pointAqua.png";
 import Easy from './Easy';
 import "../style.css";
+import ico1 from "../../../img/services/bill/Group 1471.svg";
+import ico2 from "../../../img/services/bill/Group 1472.svg";
+import ico3 from "../../../img/services/bill/Group 1473.svg";
 
 const Header = () => {
   return (
@@ -31,14 +34,13 @@ const Header = () => {
         </div>
       </motion.div>
       <Easy />
-      <div className="main-Container h-screen">
+      <div className="main-Container h-screen" id="pointBackgroundRightBottomGreen">
         <div className="flex">
           <div className="lg:w-1/2 lg:mr-[100px]">
             <div className="lg:my-[20px]">
               <div className="flex">
                 <div className="lg:mx-[25px]">
-                  {/* //TODO:Icon */}
-                  Icon
+                  <img src={ico1} />
                 </div>
                 <div>
                   <p className="text-[30px]"><b>Facturación</b></p>
@@ -48,9 +50,8 @@ const Header = () => {
             </div>
             <div className="lg:my-[20px]">
               <div className="flex">
-                <div className="lg:mx-[25px]">
-                  {/* //TODO:Icon */}
-                  Icon
+                <div className="lg:mx-[25px]" style={{ marginRight: '0' }}>
+                  <img src={ico2} style={{ width: '70%', margin: '0' }} />
                 </div>
                 <div>
                   <p className="text-[30px]"><b>Control de gastos</b></p>
@@ -61,8 +62,7 @@ const Header = () => {
             <div className="lg:my-[20px]">
               <div className="flex">
                 <div className="lg:mx-[25px]">
-                  {/* //TODO:Icon */}
-                  Icon
+                  <img src={ico3} />
                 </div>
                 <div>
                   <p className="text-[30px]"><b>Reportes</b></p>
