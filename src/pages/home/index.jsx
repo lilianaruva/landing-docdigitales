@@ -1,8 +1,12 @@
 import React, { useEffect } from "react";
-import imglap from "../../img/home/african-american-woman-using-online-banking-close-2021-09-24-04-11-48-utc.png"
-import imgBusinessW from "../../img/home/young-business-woman-working-laptop-office (3).png"
-import imgLeader from "../../img/home/Leadership-Skills-Advance-Your-Career-Hospitality-Industry.png"
-import imgLentes from "../../img/home/man-glass.png"
+import imglap from "../../img/home/prueba/manos.png"
+import imgBusinessW from "../../img/home/prueba/llamada.png"
+import imgLeader from "../../img/home/prueba/junta.png"
+import imgLentes from "../../img/home/prueba/lap.png"
+//import imglap from "../../img/home/african-american-woman-using-online-banking-close-2021-09-24-04-11-48-utc.png"
+//import imgBusinessW from "../../img/home/young-business-woman-working-laptop-office (3).png"
+//import imgLeader from "../../img/home/Leadership-Skills-Advance-Your-Career-Hospitality-Industry.png"
+//import imgLentes from "../../img/home/man-glass.png"
 import "./css/style.css";
 import AboutUs from "./components/aboutUs";
 import Circle from "./components/circle";
@@ -60,7 +64,8 @@ const Home = () => {
                 <div className="description-right">
                     <div className="image">
                         <img src={imgLentes} alt="im1"></img>
-                        <img src={pointAqua} alt="pointAqua" id="pointRightCenter" />
+                        {//<img src={pointAqua} alt="pointAqua" id="pointRightCenter" />
+                        }
                     </div>
                 </div>
             </div>
@@ -68,7 +73,8 @@ const Home = () => {
                 <div className="description-left">
                     <div className="image">
                         <img src={imglap} alt="im1"></img>
-                        <img src={pointGreen} alt="pointAqua" id="pointRightTop" />
+                        {//<img src={pointGreen} alt="pointAqua" id="pointRightTop" />
+                        }
                     </div>
                 </div>
                 <div className="description-right">
@@ -92,7 +98,8 @@ const Home = () => {
                 <div className="description-right">
                     <div className="image">
                         <img src={imgBusinessW} alt="im2"></img>
-                        <img src={pointBlue} alt="pointBlue" id="pointRightCenter"></img>
+                        {//<img src={pointBlue} alt="pointBlue" id="pointRightCenter"></img>
+                        }
                     </div>
                 </div>
             </div>
@@ -100,7 +107,8 @@ const Home = () => {
                 <div className="description-left">
                     <div className="image">
                         <img src={imgLeader} alt="im3"></img>
-                        <img src={pointCeleste} alt="pointCeleste" id="pointRightTop" />
+                        {//<img src={pointCeleste} alt="pointCeleste" id="pointRightTop" />
+                        }
                     </div>
                 </div>
                 <div className="description-right">

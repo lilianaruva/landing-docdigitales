@@ -1,13 +1,14 @@
 import React from "react";
-import im1 from "../../../img/home/good-business-talk-2021-09-01-10-50-33-utc.png";
+//import im1 from "../../../img/home/good-business-talk-2021-09-01-10-50-33-utc.png";
+import im1 from "../../../img/home/prueba/main.png";
 import { motion } from "framer-motion";
 import { photoAnim } from "../../../animation";
 import pointBlue from "../../../img/pointBlue.png";
 import { Link } from "react-router-dom";
-
+//<img src={pointBlue} alt="pointBlue" id="pointLeftBottom"></img>
 const AboutUs = () => {
     return (
-        <>
+        <> 
             <motion.div variants={photoAnim} className="Principal-main-Container whiteSpace" id="backgroundAboutUs" >
                 <div className="description-left" style={{ marginRight: '20px' }}>
                     <div className="titleAboutUs">
@@ -20,7 +21,6 @@ const AboutUs = () => {
                 </div>
                 <div className="description-right">
                     <img src={im1} alt="im1" style={{ width: "85%" }}></img>
-                    <img src={pointBlue} alt="pointBlue" id="pointLeftBottom"></img>
                 </div>
             </motion.div>
         </>
