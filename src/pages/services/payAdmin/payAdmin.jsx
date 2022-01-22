@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
-import im1 from "../../../img/services/payAdmin/cutout3.png";
-import pointBlue from "../../../img/pointCeleste.png";
+import im1 from "../../../img/services/payAdmin/main.png";
+//import pointBlue from "../../../img/pointCeleste.png";
 import './payAdmin.css';
 import FirstList from './components/firstList';
 import SecondList from './components/secondList';
@@ -35,7 +35,8 @@ const PayAdmin = () => {
                 </div>
                 <div className="description-right">
                     <img src={im1} alt="im1"></img>
-                    <img src={pointBlue} alt="pointBlue" id="pointRightBottom"></img>
+                   {// <img src={pointBlue} alt="pointBlue" id="pointRightBottom"></img>
+                   }
                 </div>
             </motion.div>
             <FirstList />

@@ -1,6 +1,6 @@
 import React from 'react';
 import '../css/list.css';
-import im1 from "../../../../img/services/payAdmin/image1.png";
+import im1 from "../../../../img/services/payAdmin/team.png";
 
 const List = () => {
     return (
