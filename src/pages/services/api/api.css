@@ -6,6 +6,14 @@
     border-radius: 100px;
     font-size: 20px;
     margin-top: 87.8px;
+    transition: all .5s ease;
+    -webkit-transition: all .5s ease-out;
+    -moz-transition: all .5s ease-out;
+    -o-transition: all .5s ease-out;
+}
+
+.btnResourcesPurple:hover {
+    background-color: #8372e2 !important;
 }
 
 #backgroundApi {
@@ -63,6 +71,9 @@
     box-shadow: 0px 3px 20px #B9CCEF;
     background-color: white;
     transition: all 0.5 ease-out;
+    -webkit-transition: all .5s ease-out;
+    -moz-transition: all .5s ease-out;
+    -o-transition: all .5s ease-out;
 }
 
 
@@ -110,13 +121,18 @@
     width: 150px;
     opacity: 0.5;
     font-weight: bold;
+    transition: all 0.5 ease-out;
+    -webkit-transition: all .5s ease-out;
+    -moz-transition: all .5s ease-out;
+    -o-transition: all .5s ease-out;
 }
 
-.descriptionSelect button:focus {
+.descriptionSelect button:hover {
     opacity: 1;
     background-color: #6C56EB;
     box-shadow: 0px 0px 20px #6C56EB;
     color: #fff;
+
 }
 
 .SelectActive {
@@ -192,6 +208,6 @@
     }
 
     .stepCardContainer {
-       margin-bottom: 2rem;
+        margin-bottom: 2rem;
     }
 }

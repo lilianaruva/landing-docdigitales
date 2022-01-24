@@ -86,12 +86,15 @@
     padding: 2rem;
 }
 
-.cardColumSection2 p{
+.cardColumSection2 p {
     width: 100px !important;
 }
 
 .cardColumSection2:hover {
     transition: all 0.5s ease-out;
+    -webkit-transition: all .5s ease-out;
+    -moz-transition: all .5s ease-out;
+    -o-transition: all .5s ease-out;
     cursor: pointer;
     font-weight: 600;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -99,7 +102,7 @@
 
 
 
-.textColumnSection2 p{
+.textColumnSection2 p {
     width: 200px !important;
     position: relative;
     top: 32%;
@@ -119,7 +122,7 @@
     .main-ContainerSection2 {
         height: 1125px;
     }
-    
+
 
     .title-platformCircle {
         margin-bottom: 75.8px;
@@ -134,7 +137,7 @@
         background-size: 1612px 1024.29px;
     }
 
-    .textColumnSection2 p{
+    .textColumnSection2 p {
         width: 300px !important;
         position: relative;
         top: 400px;
@@ -197,11 +200,11 @@
         height: 100%;
         width: 100%;
     }
-    
+
     .descriptionHome-left img {
         width: 50% !important;
     }
-    
+
     .descriptionHome-right {
         z-index: 2;
         display: flex;
@@ -209,25 +212,25 @@
         width: 100% !important;
     }
 
-    .TextMidCicle{
+    .TextMidCicle {
         display: flex;
         justify-content: center;
         width: 100%;
     }
 
-    .cardMidCircle{
+    .cardMidCircle {
         margin-top: 2rem;
         display: flex;
         justify-content: space-evenly;
         width: 100%;
     }
 
-    .cardColumSection2 p{
+    .cardColumSection2 p {
         margin-top: 1rem;
         width: 100% !important;
     }
 
-    .TextMidCicle{
+    .TextMidCicle {
         margin-top: 2rem;
         margin-bottom: 2rem;
         font-size: 30px;

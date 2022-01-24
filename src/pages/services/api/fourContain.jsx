@@ -1,11 +1,11 @@
 import React from 'react';
-import imglap from "../../../img/services/api/clement-helardot-95YRwf6CNw8-unsplash.png"
+import imglap from "../../../img/services/api/lap.png"
 
-
+//<div className="main-Container" id="pointBackgroundLeftBottom4">
 const FourContain = () => {
     return (
         <>
-            <div className="main-Container" id="pointBackgroundLeftBottom4">
+            <div className="main-Container">
                 <div className="description-left">
                     <div className="simple-description">
                         <div className="title"><b>Un servicio contable hecho a la medida</b> del emprendedor</div>
@@ -33,8 +33,7 @@ const FourContain = () => {
                 </div>
                 <div className="description-right" >
                     <div className="image">
-                        
-                        <img src={imglap} alt="im3" style={{ width: '70%' }}></img>
+                        <img src={imglap} alt="im3" style={{ width: '80%' }}></img>
                     </div>
                 </div>
             </div>

@@ -33,6 +33,9 @@
 .FooterLink:hover {
   color: #0d66ce;
   transition: 200ms ease-in;
+  -webkit-transition: all .5s ease-out;
+  -moz-transition: all .5s ease-out;
+  -o-transition: all .5s ease-out;
   cursor: pointer;
 }
 

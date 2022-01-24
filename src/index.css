@@ -32,6 +32,9 @@
   align-items: center;
   justify-content: center;
   transition: all .5s ease;
+  -webkit-transition: all .5s ease-out;
+  -moz-transition: all .5s ease-out;
+  -o-transition: all .5s ease-out;
   cursor: pointer;
 }
 
@@ -67,6 +70,9 @@
   justify-content: center;
   cursor: pointer;
   transition: all .5s ease;
+  -webkit-transition: all .5s ease-out;
+  -moz-transition: all .5s ease-out;
+  -o-transition: all .5s ease-out;
   font-weight: 700;
   letter-spacing: 0px;
 }
@@ -88,6 +94,9 @@
   justify-content: center;
   cursor: pointer;
   transition: all .5s ease;
+  -webkit-transition: all .5s ease-out;
+  -moz-transition: all .5s ease-out;
+  -o-transition: all .5s ease-out;
   font-weight: 700;
   color: #0D66CE;
 }
