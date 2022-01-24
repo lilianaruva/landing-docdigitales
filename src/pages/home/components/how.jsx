@@ -1,17 +1,78 @@
 import React from "react";
-/*
-import imgScreen from "../../../img/home/Screen Shot 2021-10-08 at 5.17.18 PM.png";
-import imgLeft from "../../../img/home/[Downloader.la]-61ba510681cc0.png"
-import imgRight from "../../../img/home/shutterstock_404098204.png"
-*/
+import imgLeft from "../../../img/home/team/left.png"
+import imgRight from "../../../img/home/team/right.png"
+import imgCenter from "../../../img/home/team/center.png"
+import { FiCheckCircle } from "react-icons/fi";
 
 const How = () => {
     return (
         <>
-            <div className="mainHow-Container" style={{ backgroundColor: '#F1F5FE' }}>
+            <div className="mainHow-Container" style={{ backgroundColor: '#F1F5FE' }} id="backgroundHow">
                 <div className="title-platform">
                     <p>¿Cómo <b>nos integramos</b> a tu negocio?</p>
                     <p style={{ fontSize: '30px' }}>Trabajamos para ti, llevamos tu contabilidad y te brindamos las herramientas de administración en línea más fáciles de usar.</p>
+                </div>
+                <div className="howRow" style={{ marginBottom: "22px" }}>
+                    <div className="howRowItem">
+                        <img src={imgLeft} alt="imageLeft" />
+                    </div>
+                    <div className="howRowItem"></div>
+                    <div className="howRowItem">
+                        <img src={imgRight} alt="imageRight" />
+                    </div>
+                </div>
+                <div className="howTree" >
+                    <div className="howColumn">
+                        <div className="howRowTitle">
+                            <div className="howSpace"></div>
+                            <div className="howTitle" >docDigitales</div>
+                            <div className="howSpace" id="topHorizontal"></div>
+                        </div>
+                        <div className="lineH">
+                            <div className="line1" id="verticalR"></div>
+                        </div>
+                        <div className="howItem"><FiCheckCircle style={{ color: '#0D66CE' }} size={'16px'} className="mr-2" />Hacemos tu contabilidad</div>
+                        <div className="howItem"><FiCheckCircle style={{ color: '#0D66CE' }} size={'16px'} className="mr-2" />Calculamos tus impuestos</div>
+                        <div className="howItem"><FiCheckCircle style={{ color: '#0D66CE' }} size={'16px'} className="mr-2" />Presentamos tus declaraciones</div>
+                        <div className="howItem" style={{ marginBottom: '0' }}><FiCheckCircle style={{ color: '#0D66CE' }} size={'16px'} className="mr-2" />Te brindamos asesoría fiscal ante SAT</div>
+                        <div className="lineH">
+                            <div className="line1"></div>
+                            <div className="line2" id="bottomLeft"></div>
+                        </div>
+                    </div>
+                    <div className="howColumn">
+                        <div className="lineV" style={{ maxHeight: '52px' }}>
+                            <div className="line1" >
+                                <div className="howSpaceTop" id="topRightCenter" style={{ minHeight: '26px' }}></div>
+                                <div className="howSpaceTop" id="verticalR"></div>
+                            </div>
+                            <div className="line2">
+                                <div className="howSpaceTop" id="topRightCenter" style={{ minHeight: '26px' }}></div>
+                            </div>
+                        </div>
+                        <img src={imgCenter} alt="imageCenter" />
+                        <div className="lineV">
+                            <div className="line1" id="bottomLeftCenter"></div>
+                            <div className="line2" id="bottomRightCenter"></div>
+                        </div>
+                    </div>
+                    <div className="howColumn">
+                        <div className="howRowTitle">
+                            <div className="howSpace" id="topHorizontal"></div>
+                            <div className="howTitle" >Nuestros Clientes</div>
+                            <div className="howSpace"></div>
+                        </div>
+                        <div className="lineH">
+                            <div className="line1" id="verticalR"></div>
+                        </div>
+                        <div className="howItem"><FiCheckCircle style={{ color: '#0D66CE' }} size={'16px'} className="mr-2" />Facturas, cotizaciones y cuentas por cobrar</div>
+                        <div className="howItem"><FiCheckCircle style={{ color: '#0D66CE' }} size={'16px'} className="mr-2" />Revisa información clave de tu negocio</div>
+                        <div className="howItem"><FiCheckCircle style={{ color: '#0D66CE' }} size={'16px'} className="mr-2" />Declaraciones mensuales y anuales</div>
+                        <div className="howItem" style={{ marginBottom: '0' }}><FiCheckCircle style={{ color: '#0D66CE' }} size={'16px'} className="mr-2" />Lleva el control de tu negocio</div>
+                        <div className="lineH">
+                            <div className="line1" id="bottomRight"></div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </>
