@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import im1 from '../../../img/services/api/main.png';
-import pointPurple from "../../../img/pointPurple.svg";
+//import pointPurple from "../../../img/pointPurple.svg";
 import './api.css';
 import imgTeam from "../../../img/services/api/team.png"
 import imgDev from "../../../img/services/api/dev.png"
