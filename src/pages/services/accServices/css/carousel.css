@@ -14,8 +14,9 @@
 .Carousel-content{
     display: flex;
     flex-direction: column;
+    padding-left: 20px;
     font-weight: 500;
-    font-size: 22px;
+    font-size: 18px;
     text-align: left;
     justify-content: center;
 }

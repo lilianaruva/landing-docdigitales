@@ -57,7 +57,8 @@ const AccServices = () => {
             <div style={{ display: 'flex', justifyContent: 'center', width: '100%', fontSize: '40px', marginBottom: '3rem' }}>
                 <p>Tu contabilidad<b> más fácil que nunca</b></p>
             </div>
-            <CarouselS />
+            <CarouselS style={{ height:'80vh'}} />
+            <div style={{ paddingBottom:'100px' }}></div>
             <How />
             <ServC />
             <Plans />

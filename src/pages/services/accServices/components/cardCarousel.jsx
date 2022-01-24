@@ -4,9 +4,9 @@ const CardCarousel = ({ image, title, subtitle }) => {
     return (
         <>
             <div className="CarouselCard-Container">
-                <img src={image} alt={title} style={{ width: '60%'}}/>
+                <img src={image} alt={title} style={{ width: '60%', margin:'0px 20px 0px 20px'}}/>
                 <div className="Carousel-content">
-                    <p style={{ fontSize: '24px', width: '450px'}}><b>{title}</b></p>
+                    <p style={{ fontSize: '24px', width: 'auto'}}><b>{title}</b></p>
                     <p>{subtitle}</p>
                 </div>
             </div>
