@@ -52,8 +52,8 @@ const Code = () => {
 
     return (
         <>
-            <div className="main-Container" style={{ backgroundColor: '#F1F0FD' }}>
-                <div className="description-left" >
+            <div className="main-Container flex" style={{ backgroundColor: '#F1F0FD' }}>
+                <div className="description-left lg:w-2/5" >
                     <div className="simple-description">
                         <div className="title"><b>Ideal para:</b></div>
                         <div className="description sistemList">
@@ -68,7 +68,7 @@ const Code = () => {
                         </div>
                     </div>
                 </div>
-                <div className="description-right">
+                <div className=" lg:w-3/5">
                     <div className="descriptionSelect">
                         <button onClick={() => setIndex(0)} className={`${index === 0 ? "SelectActive" : ""}`}>C#</button>
                         <button onClick={() => setIndex(1)} className={`${index === 1 ? "SelectActive" : ""}`}>Java</button>

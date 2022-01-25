@@ -90,11 +90,13 @@
 
 .sistemList ul {
     list-style-image: url(./check.svg);
+    font-size: 20px;
 }
 
 .sistemList ul li {
-    margin-bottom: 30px;
-    padding-left: 22px;
+    margin-bottom: 10px;
+    padding-left: 12px;
+    font-size:30px;
 }
 
 .codeList ul {
@@ -118,8 +120,9 @@
     color: #A3A3A3;
     border-radius: 10px;
     height: 60px;
-    width: 150px;
+    width: 180px;
     opacity: 0.5;
+    font-size: 22px;
     font-weight: bold;
     transition: all 0.5 ease-out;
     -webkit-transition: all .5s ease-out;
@@ -131,6 +134,7 @@
     opacity: 1;
     background-color: #6C56EB;
     box-shadow: 0px 0px 20px #6C56EB;
+    font-weight: bold;
     color: #fff;
 
 }
