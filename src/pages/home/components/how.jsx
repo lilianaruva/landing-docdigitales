@@ -1,7 +1,7 @@
 import React from "react";
 import imgLeft from "../../../img/home/team/left.png"
 import imgRight from "../../../img/home/team/right.png"
-import imgCenter from "../../../img/home/team/center.png"
+import imgCenter from "../../../img/home/team/LaptopCenter2.png"
 import { FiCheckCircle } from "react-icons/fi";
 
 const How = () => {
@@ -40,18 +40,25 @@ const How = () => {
                             <div className="line2" id="bottomLeft"></div>
                         </div>
                     </div>
-                    <div className="howColumn">
-                        <div className="lineV" style={{ maxHeight: '52px' }}>
+                    <div className="howColumn" >
+                        <div className="lineV" style={{ maxHeight: '24%' }}>
                             <div className="line1" >
-                                <div className="howSpaceTop" id="topRightCenter" style={{ minHeight: '26px' }}></div>
+                                <div className="howSpaceTop" style={{ minHeight: '26px' }}>
+                                    <div className="howSpaceTop" id="topRightCenter"></div>
+                                    <div className="howSpaceTop" id="verticalR"></div>
+                                </div>
                                 <div className="howSpaceTop" id="verticalR"></div>
                             </div>
                             <div className="line2">
-                                <div className="howSpaceTop" id="topRightCenter" style={{ minHeight: '26px' }}></div>
+                                <div className="howSpaceTop"  style={{ minHeight: '26px' }}>
+                                    <div className="howSpaceTop" id="topRightCenter"></div>
+                                </div>
                             </div>
                         </div>
-                        <img src={imgCenter} alt="imageCenter" />
-                        <div className="lineV">
+                        <div className="lineV" style={{ maxHeight: '59%' }}>
+                            <img src={imgCenter} alt="imageCenter" />
+                        </div>
+                        <div className="lineV" style={{ maxHeight: '21%' }}>
                             <div className="line1" id="bottomLeftCenter"></div>
                             <div className="line2" id="bottomRightCenter"></div>
                         </div>

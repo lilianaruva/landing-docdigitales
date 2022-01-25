@@ -19,6 +19,7 @@
     width: 100%;
     height: 100%;
     display: flex;
+    justify-content: center;
 }
 
 .line1 {
@@ -46,6 +47,10 @@
     width: 33.33%;
     display: flex;
     justify-content: center;
+}
+
+.howRowItem img{
+    width: 20%;
 }
 
 .howRowTitle {
@@ -115,10 +120,28 @@ justify-content: space-around;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 33.33%;
+}
+
+.howColumn img{
+    width: 100%;
+    height: 100%;
 }
 
 .howItem {
     display: flex;
+    padding-left: 3rem;
+    text-align: left;
+    align-items: center;
+    width: 80%;
+    height: 62px;
+    background-color: #fff;
+    box-shadow: 0px 3px 30px #DDE6F699;
+    border-radius: 40px;
+    margin-bottom: 20px;
+}
+/*
+display: flex;
     padding-left: 3rem;
     text-align: left;
     align-items: center;
@@ -128,8 +151,7 @@ justify-content: space-around;
     box-shadow: 0px 3px 30px #DDE6F699;
     border-radius: 40px;
     margin-bottom: 20px;
-}
-
+*/
 .howTitle {
     background-color: #DDE6F6;
     border: 2px solid #FCFDFF;
@@ -140,6 +162,7 @@ justify-content: space-around;
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 #backgroundHow {
@@ -171,10 +194,12 @@ justify-content: space-around;
         padding-left: 1rem;
         text-align: left;
         align-items: center;
-        width: 310px;
-        height: 62px;
-        background-color: #fff;
-        border-radius: 40px;
-        margin-bottom: 20px;
+        height: 100%;
+        width: 100%;
+    }
+
+    .howColumn img{
+        width: 50%;
+        height: 40%;
     }
 }
