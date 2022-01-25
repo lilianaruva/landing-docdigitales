@@ -31,10 +31,10 @@ const How = () => {
                         <div className="lineH">
                             <div className="line1" id="verticalR"></div>
                         </div>
-                        <div className="howItem"><FiCheckCircle style={{ color: '#0D66CE' }} size={'16px'} className="mr-2" />Hacemos tu contabilidad</div>
-                        <div className="howItem"><FiCheckCircle style={{ color: '#0D66CE' }} size={'16px'} className="mr-2" />Calculamos tus impuestos</div>
-                        <div className="howItem"><FiCheckCircle style={{ color: '#0D66CE' }} size={'16px'} className="mr-2" />Presentamos tus declaraciones</div>
-                        <div className="howItem" style={{ marginBottom: '0' }}><FiCheckCircle style={{ color: '#0D66CE' }} size={'16px'} className="mr-2" />Te brindamos asesoría fiscal ante SAT</div>
+                        <div className="howItem"><FiCheckCircle style={{ color: '#0D66CE' }} size={'16px'} className="mr-1" /><p>Hacemos tu contabilidad</p></div>
+                        <div className="howItem"><FiCheckCircle style={{ color: '#0D66CE' }} size={'16px'} className="mr-1" /><p>Calculamos tus impuestos</p></div>
+                        <div className="howItem"><FiCheckCircle style={{ color: '#0D66CE' }} size={'16px'} className="mr-1" /><p>Presentamos tus declaraciones</p></div>
+                        <div className="howItem" style={{ marginBottom: '0' }}><FiCheckCircle style={{ color: '#0D66CE' }} size={'16px'} className="mr-2" /><p>Te brindamos asesoría fiscal ante SAT</p></div>
                         <div className="lineH">
                             <div className="line1"></div>
                             <div className="line2" id="bottomLeft"></div>
@@ -72,10 +72,10 @@ const How = () => {
                         <div className="lineH">
                             <div className="line1" id="verticalR"></div>
                         </div>
-                        <div className="howItem"><FiCheckCircle style={{ color: '#0D66CE' }} size={'16px'} className="mr-2" />Facturas, cotizaciones y cuentas por cobrar</div>
-                        <div className="howItem"><FiCheckCircle style={{ color: '#0D66CE' }} size={'16px'} className="mr-2" />Revisa información clave de tu negocio</div>
-                        <div className="howItem"><FiCheckCircle style={{ color: '#0D66CE' }} size={'16px'} className="mr-2" />Declaraciones mensuales y anuales</div>
-                        <div className="howItem" style={{ marginBottom: '0' }}><FiCheckCircle style={{ color: '#0D66CE' }} size={'16px'} className="mr-2" />Lleva el control de tu negocio</div>
+                        <div className="howItem"><FiCheckCircle style={{ color: '#0D66CE' }} size={'16px'} className="mr-1" /><p>Facturas, cotizaciones y cuentas por cobrar</p></div>
+                        <div className="howItem"><FiCheckCircle style={{ color: '#0D66CE' }} size={'16px'} className="mr-1" /><p>Revisa información clave de tu negocio</p></div>
+                        <div className="howItem"><FiCheckCircle style={{ color: '#0D66CE' }} size={'16px'} className="mr-1" /><p>Declaraciones mensuales y anuales</p></div>
+                        <div className="howItem" style={{ marginBottom: '0' }}><FiCheckCircle style={{ color: '#0D66CE' }} size={'16px'} className="mr-2" /><p>Lleva el control de tu negocio</p></div>
                         <div className="lineH">
                             <div className="line1" id="bottomRight"></div>
                         </div>
