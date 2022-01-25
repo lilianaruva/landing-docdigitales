@@ -12,6 +12,14 @@
     background-repeat: no-repeat;
 }
 
+.imageValores{
+    width: 110px;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 @media (min-width: 1920px) {
     #backgroundAbout {
         background-image: url(../../../img/company/christin-hume-Hcfwew744z4-unsplash-4.svg);

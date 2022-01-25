@@ -3,7 +3,11 @@ import im1 from "../../../img/company/main.png"
 import call from "../../../img/company/call.png"
 import hand from "../../../img/company/hands.png"
 import team from "../../../img/company/meet.png"
-import heart from "../../../img/company/5.svg"
+import simpleza from "../../../img/company/Simpleza_Icon.svg";
+import pasion from "../../../img/company/Pasion_Icon.svg";
+import empatia from "../../../img/company/Empatia_Icon.svg";
+import honestidad from "../../../img/company/Honestidad_Icon.svg";
+import confianza from "../../../img/company/Confianza_Icon.svg"
 import logoDD from "../../../img/home/DD_Logo.svg"
 import './aboutUs.css';
 //Animations
@@ -15,6 +19,7 @@ import { pageAnimation, photoAnim } from "../../../animation";
 
 
 const AboutUs = () => {
+
     useEffect(() => {
         window.scrollTo(0, 0)
     }, [])
@@ -59,28 +64,38 @@ const AboutUs = () => {
             </div>
             <div className="mainMedium-Container" style={{ backgroundColor: '#F8FAFE' }}>
                 <div className="title-platform">
-                    <p style={{ fontWeight: '500' }}>Confiamos en nuestros compañeros, equipo y clientes</p>
+                    <p style={{ fontWeight: '600' }}>Confiamos en nuestros compañeros, equipo y clientes</p>
                     <p style={{ fontSize: '25px' }}>Entendemos que simple es mejor. Damos confianza y recibimos confianza. Somos directos y nos comunicamos de manera honesta. Escuchamos y nos ponemos en los zapatos de nuestros compañeros y clientes. Somos empáticos. Trabajamos con pasión haciendo lo que nos gusta.</p>
                 </div>
                 <div className="sectionNumbersContainer">
                     <div className="sectionNumbersChild">
-                        <img src={heart} alt="iconNumbers1" />
+                        <div className="imageValores">
+                            <img src={simpleza} alt="iconNumbers1" />
+                        </div>
                         <p className="numberSubtitle"><b>SIMPLEZA</b></p>
                     </div>
                     <div className="sectionNumbersChild">
-                        <img src={heart} alt="iconNumbers2" />
+                        <div className="imageValores">
+                            <img src={confianza} alt="iconNumbers2" />
+                        </div>
                         <p className="numberSubtitle"><b>CONFIANZA</b></p>
                     </div>
                     <div className="sectionNumbersChild">
-                        <img src={heart} alt="iconNumbers3" />
+                        <div className="imageValores">
+                            <img src={honestidad} alt="iconNumbers3" />
+                        </div>
                         <p className="numberSubtitle"><b>HONESTIDAD</b></p>
                     </div>
                     <div className="sectionNumbersChild">
-                        <img src={heart} alt="iconNumbers4" />
+                        <div className="imageValores">
+                            <img src={empatia} alt="iconNumbers4" />
+                        </div>
                         <p className="numberSubtitle"><b>EMPATÍA</b></p>
                     </div>
                     <div className="sectionNumbersChild">
-                        <img src={heart} alt="iconNumbers4" />
+                        <div className="imageValores">
+                            <img src={pasion} alt="iconNumbers4" />
+                        </div>
                         <p className="numberSubtitle"><b>PASIÓN</b></p>
                     </div>
                 </div>
