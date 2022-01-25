@@ -4,7 +4,7 @@ import im1 from "../../../../img/services/payAdmin/Screen Shot 2021-12-29 at 13.
 const SecondList = () => {
     return (
         <>
-            <div className="main-Container" style={{ backgroundColor: "#E7F9FA" }}>
+            <div className="flex lg:columns-2 h-screen items-center" style={{ backgroundColor: "#E7F9FA" }}>
                 <div className="description-left">
                     <div className="simple-description">
                         <div className="title">Conoce nuestro servicio de <b>cálculo y timbrado de nómina</b></div>
@@ -22,8 +22,8 @@ const SecondList = () => {
                         </div>
                     </div>
                 </div>
-                <div className="description-right">
-                    <div className="image">
+                <div className="description-right w-1/2">
+                    <div className="image justify-end">
                         <img src={im1} alt="im12"></img>
                     </div>
                 </div>
