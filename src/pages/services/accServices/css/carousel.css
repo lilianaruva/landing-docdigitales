@@ -7,11 +7,11 @@
     background-color: #F2F5FE;
 }
 
-.CarouselCard-Container{
+.CarouselCard-Container {
     display: flex;
 }
 
-.Carousel-content{
+.Carousel-content {
     display: flex;
     flex-direction: column;
     padding-left: 20px;
@@ -21,17 +21,35 @@
     justify-content: center;
 }
 
-.CarouselCard-Container img{
+.CarouselCard-Container img {
     width: 80%;
 }
 
 
+.arrowStyles {
+    position: absolute;
+    z-index: 2;
+    top: calc(85% - 15px);
+    width: 47px;
+    height: 47px;
+    cursor: pointer;
+}
+
+.ArrowLeft {
+    left: 15%;
+}
+
+.ArrowRight {
+    right: 15%;
+}
+
+
 @media (max-width: 1300px) {
-    .CarouselCard-Container{
+    .CarouselCard-Container {
         flex-direction: column;
     }
 
-    .CarouselContainer{
+    .CarouselContainer {
         justify-content: center;
     }
 }
