@@ -10,7 +10,7 @@ const How = () => {
             <div className="mainHow-Container" style={{ backgroundColor: '#F1F5FE' }} id="backgroundHow">
                 <div className="title-platform">
                     <p>¿Cómo <b>nos integramos</b> a tu negocio?</p>
-                    <p style={{ fontSize: '30px' }}>Trabajamos para ti, llevamos tu contabilidad y te brindamos las herramientas de administración en línea más fáciles de usar.</p>
+                    <p style={{ fontSize: '30px', width: '70%' }}>Trabajamos para ti, llevamos tu contabilidad y te brindamos las herramientas de administración en línea más fáciles de usar.</p>
                 </div>
                 <div className="howRow" style={{ marginBottom: "22px" }}>
                     <div className="howRowItem">
@@ -50,7 +50,7 @@ const How = () => {
                                 <div className="howSpaceTop" id="verticalR"></div>
                             </div>
                             <div className="line2">
-                                <div className="howSpaceTop"  style={{ minHeight: '26px' }}>
+                                <div className="howSpaceTop" style={{ minHeight: '26px' }}>
                                     <div className="howSpaceTop" id="topRightCenter"></div>
                                 </div>
                             </div>
