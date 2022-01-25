@@ -59,7 +59,7 @@ const Circle = () => {
 
 
     useEffect(() => {
-        var delayInMilliseconds = 5000;
+        var delayInMilliseconds = 3000;
 
 
         if (animation)

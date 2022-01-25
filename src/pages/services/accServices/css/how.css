@@ -7,28 +7,46 @@
     left: 20%;
 }
 
-@media (min-width: 1920px) {
-    #pointer {
-        border-top: 5px dotted #B9CCEF;
-        width: 1200px;
-        height: 10px;
-        top: 3730px;
-        left: 20%;
-    }
+.rowHow {
+    display: flex;
+    width: 85%;
+    margin-top: 50px;
 }
 
-@media (min-width: 2000px) {
-    #pointer {
-        border-top: 5px dotted #B9CCEF;
-        width: 1200px;
-        height: 10px;
-        top: 3860px;
-        left: 20%;
-    }
+.rowHItem {
+    display: flex;
+    justify-content: center;
+    width: 14.28%;
+    padding: 1rem;
 }
 
-@media (max-width: 1300px) {
-    #pointer {
-       display: none;
+.sectionHowItem {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    padding: 1rem;
+    align-items: center;
+}
+
+.rowLineItem {
+    width: 100%;
+    height: 50%;
+    border-bottom: 5px dotted #B9CCEF;
+}
+
+.howContainer {
+    display: flex;
+    width: 100%;
+    font-size: 25px;
+    text-align: center;
+}
+
+
+@media (max-width: 768px) {
+    .howContainer {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
     }
 }

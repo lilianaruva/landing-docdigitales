@@ -10,47 +10,211 @@
 .howTree {
     display: flex;
     width: 100%;
+    justify-content: center;
 }
 
-.howTree p{
+/*padding: 5rem 0 5rem 0;*/
+
+.lineV {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.line1 {
+    width: 50%;
+    height: 100%;
+}
+
+.line2 {
+    width: 50%;
+    height: 100%;
+}
+
+.lineH {
+    display: flex;
+    width: 100%;
+    height: 2rem;
+}
+
+.howRow {
+    display: flex;
+    width: 100%;
+}
+
+.howRowItem{
+    width: 33.33%;
+    display: flex;
+    justify-content: center;
+}
+
+.howRowItem img{
+    width: 20%;
+}
+
+.howRowTitle {
+    display: flex;
+    width: 100%;
+}
+
+.howSpace {
+    height: 50%;
+    width: 30%;
+}
+
+.howSpaceTop {
+    height: 50%;
+    width: 100%;
+}
+
+#bottomLeft {
+    border-left: 5px dotted #FCFDFF;
+    border-bottom: 5px dotted #FCFDFF;
+}
+
+#bottomLeftCenter {
+    border-right: 5px dotted #FCFDFF;
+    border-bottom: 5px dotted #FCFDFF;
+}
+
+#bottomRightCenter {
+    border-bottom: 5px dotted #FCFDFF;
+}
+
+#bottomRight {
+    border-right: 5px dotted #FCFDFF;
+    border-bottom: 5px dotted #FCFDFF;
+}
+
+#verticalR {
+    border-right: 5px dotted #FCFDFF;
+}
+
+#topHorizontal {
+    border-bottom: 5px dotted #FCFDFF;
+}
+
+
+#topRightCenter {
+    border-bottom: 5px dotted #FCFDFF;
+}
+
+
+/*
+
+.howTree img{
+    margin-bottom: 25px;
+    width: 30%;
+}
+
+justify-content: space-around;
+*/
+.howTree p {
     font-size: 30px;
     margin: 12px auto 43px auto;
 }
 
-.howLeft {
+.howColumn {
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
+    justify-content: center;
+    width: 33.33%;
 }
 
-.howCenter {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.howCenter img{
-     margin: 3rem;
-}
-
-.howRight {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+.howColumn img{
+    width: 100%;
+    height: 100%;
 }
 
 .howItem {
     display: flex;
-    justify-content: center;
+    padding-left: 1.5rem;
+    padding-right: 2rem;
+    text-align: left;
     align-items: center;
-    width: 420px;
-    height: 52px;
+    width: 80%;
+    height: 62px;
     background-color: #fff;
     box-shadow: 0px 3px 30px #DDE6F699;
-    border-radius: 10px;
+    border-radius: 40px;
     margin-bottom: 20px;
 }
 
+.howItem p{
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+    width: 90%;
+    padding-left: 0.5rem;
+}
+
+.mr-1 svg{
+    width: 16px !important;
+    height: 16px !important;
+    display: flex;
+}
+/*
+display: flex;
+    padding-left: 3rem;
+    text-align: left;
+    align-items: center;
+    width: 410px;
+    height: 52px;
+    background-color: #fff;
+    box-shadow: 0px 3px 30px #DDE6F699;
+    border-radius: 40px;
+    margin-bottom: 20px;
+*/
+.howTitle {
+    background-color: #DDE6F6;
+    border: 2px solid #FCFDFF;
+    border-radius: 100px;
+    height: 52px;
+    width: 224px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#backgroundHow {
+    background-image: url(../../../img/home/team/background.png);
+    background-position: 0 120px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #F1F5FE;
+}
+
+#backgroundHowLap {
+    background-image: url(../../../img/home/team/lap.png);
+    background-position: 50% 50%;
+    background-size: 50%;
+    background-repeat: no-repeat;
+}
+
+@media (min-width: 1920px) {
+    .lineH {
+        display: flex;
+        width: 100%;
+        height: 4rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .howItem {
+        display: flex;
+        padding-left: 1rem;
+        text-align: left;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+    }
+
+    .howColumn img{
+        width: 50%;
+        height: 40%;
+    }
+}

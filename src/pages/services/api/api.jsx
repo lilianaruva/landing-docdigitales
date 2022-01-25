@@ -1,10 +1,10 @@
 import React, { useEffect } from 'react';
-import im1 from '../../../img/resources/Laptop 04.png';
-import pointPurple from "../../../img/pointPurple.svg";
+import im1 from '../../../img/services/api/main.png';
+//import pointPurple from "../../../img/pointPurple.svg";
 import './api.css';
-import imgTeam from "../../../img/services/api/writing-codes-and-typing-data-code-technology-programmer-cooperating-working-on-web-site-project-in-a_t20_pRVd2Y.png"
-import imgDev from "../../../img/services/api/developer-checking-programming-code-2021-08-29-14-43-20-utc.png"
-import imgQA from "../../../img/services/api/pexels-yan-krukov-8867434.png"
+import imgTeam from "../../../img/services/api/team.png"
+import imgDev from "../../../img/services/api/dev.png"
+import imgQA from "../../../img/services/api/qa.png"
 import FourContain from './fourContain';
 import Steps from './steps';
 import Code from './code';
@@ -38,7 +38,8 @@ const Api = () => {
                 </div>
                 <div className="description-right">
                     <img src={im1} alt="im1"></img>
-                    <img src={pointPurple} alt="pointPurple" id="pointRightBottom"></img>
+                    {//<img src={pointPurple} alt="pointPurple" id="pointRightBottom"></img>
+                    }
                 </div>
             </motion.div>
             <div className="title-platform" style={{ marginTop: '135px' }} >
@@ -49,7 +50,8 @@ const Api = () => {
                 <div className="description-left">
                     <div className="image">
                         <img src={imgTeam} alt="im1"></img>
-                        <img src={pointPurple} alt="pointPurple" id="pointRightBottom" />
+                        {//<img src={pointPurple} alt="pointPurple" id="pointRightBottom" />
+                        }
                     </div>
                 </div>
                 <div className="description-right">
@@ -69,7 +71,8 @@ const Api = () => {
                 <div className="description-right">
                     <div className="image">
                         <img src={imgDev} alt="im2"></img>
-                        <img src={pointPurple} alt="pointPurple" id="pointLeft"></img>
+                        {//<img src={pointPurple} alt="pointPurple" id="pointLeft"></img>
+                        }
                     </div>
                 </div>
             </div>
@@ -77,7 +80,8 @@ const Api = () => {
                 <div className="description-left" >
                     <div className="image" >
                         <img src={imgQA} alt="im1"></img>
-                        <img src={pointPurple} alt="pointPurple" id="pointRightBottom" />
+                        {//<img src={pointPurple} alt="pointPurple" id="pointRightBottom" />
+                        }
                     </div>
                 </div>
                 <div className="description-right">
